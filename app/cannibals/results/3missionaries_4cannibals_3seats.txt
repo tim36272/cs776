@@ -1,0 +1,2 @@
+3missionaries_4cannibals_3seats.txt
+There was no solution to this problem

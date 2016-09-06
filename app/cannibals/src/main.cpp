@@ -319,7 +319,7 @@ int main(int argc, char* argv[])
 		LOGERROR("There was no solution to this problem");
 	} else
 	{
-		fout << "Format: <missionaries,...,cannibals,...,boat> where 0=origin, 1=destination" << std::endl;
+		fout << "Format: <missionaries><cannibals><boat> where 0=origin, 1=destination" << std::endl;
 		//print the path to the goal
 		//Note that this function actually searches for the path again. I did
 		//it this way so that I could show how the tree is traversed above, but
