@@ -38,3 +38,4 @@
 *.enc
 .suo
 *.db
+*.opendb
