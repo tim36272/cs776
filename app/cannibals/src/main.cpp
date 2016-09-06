@@ -315,6 +315,8 @@ int main(int argc, char* argv[])
 		//there is a bug, or the problem isn't possible (for example the
 		//cannibals outnumber the missionaries). Just let the user know.
 		fout << "There was no solution to this problem";
+		//print it to the log file as well
+		LOGERROR("There was no solution to this problem");
 	} else
 	{
 		fout << "Format: <missionaries,...,cannibals,...,boat> where 0=origin, 1=destination" << std::endl;

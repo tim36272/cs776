@@ -1,0 +1,10 @@
+3missionaries_3cannibals_3seats.txt
+Format: <missionaries,...,cannibals,...,boat> where 0=origin, 1=destination
+<0,0,0><0,0,0><0>
+<0,0,0><1,1,0><1>
+<0,0,0><0,1,0><0>
+<1,1,0><1,1,0><1>
+<0,1,0><0,1,0><0>
+<1,1,1><1,1,0><1>
+<1,1,1><0,1,0><0>
+<1,1,1><1,1,1><1>
