@@ -10,30 +10,62 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "cannibals-win", "..\..\app\
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ionlib", "..\..\..\ion\common\ionlib\prj\ionlib-win\ionlib.vcxproj", "{473E809F-98A8-4A92-A204-8A40775C3875}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "hill-climber-win", "..\..\app\hill-climber\prj\hill-climber-win\hill-climber-win.vcxproj", "{A731A13F-5296-4B21-A4A0-1063528A885B}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "hill-climber-linux", "..\..\app\hill-climber\prj\hill-climber-linux\hill-climber-linux.vcxproj", "{EA77C898-5EC5-418C-AD1F-06EC30D2663C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|ARM = Debug|ARM
 		Debug|x64 = Debug|x64
 		Debug|x86 = Debug|x86
+		Release|ARM = Release|ARM
 		Release|x64 = Release|x64
 		Release|x86 = Release|x86
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{21C7F04D-BA7B-44B3-A4D4-E321CF56327C}.Debug|ARM.ActiveCfg = Debug|Win32
 		{21C7F04D-BA7B-44B3-A4D4-E321CF56327C}.Debug|x64.ActiveCfg = Debug|x64
 		{21C7F04D-BA7B-44B3-A4D4-E321CF56327C}.Debug|x64.Build.0 = Debug|x64
 		{21C7F04D-BA7B-44B3-A4D4-E321CF56327C}.Debug|x86.ActiveCfg = Debug|Win32
 		{21C7F04D-BA7B-44B3-A4D4-E321CF56327C}.Debug|x86.Build.0 = Debug|Win32
+		{21C7F04D-BA7B-44B3-A4D4-E321CF56327C}.Release|ARM.ActiveCfg = Release|Win32
 		{21C7F04D-BA7B-44B3-A4D4-E321CF56327C}.Release|x64.ActiveCfg = Release|x64
 		{21C7F04D-BA7B-44B3-A4D4-E321CF56327C}.Release|x64.Build.0 = Release|x64
 		{21C7F04D-BA7B-44B3-A4D4-E321CF56327C}.Release|x86.ActiveCfg = Release|Win32
 		{21C7F04D-BA7B-44B3-A4D4-E321CF56327C}.Release|x86.Build.0 = Release|Win32
+		{473E809F-98A8-4A92-A204-8A40775C3875}.Debug|ARM.ActiveCfg = Debug|Win32
 		{473E809F-98A8-4A92-A204-8A40775C3875}.Debug|x64.ActiveCfg = Debug|x64
 		{473E809F-98A8-4A92-A204-8A40775C3875}.Debug|x64.Build.0 = Debug|x64
 		{473E809F-98A8-4A92-A204-8A40775C3875}.Debug|x86.ActiveCfg = Debug|Win32
 		{473E809F-98A8-4A92-A204-8A40775C3875}.Debug|x86.Build.0 = Debug|Win32
+		{473E809F-98A8-4A92-A204-8A40775C3875}.Release|ARM.ActiveCfg = Release|Win32
 		{473E809F-98A8-4A92-A204-8A40775C3875}.Release|x64.ActiveCfg = Release|x64
 		{473E809F-98A8-4A92-A204-8A40775C3875}.Release|x64.Build.0 = Release|x64
 		{473E809F-98A8-4A92-A204-8A40775C3875}.Release|x86.ActiveCfg = Release|Win32
 		{473E809F-98A8-4A92-A204-8A40775C3875}.Release|x86.Build.0 = Release|Win32
+		{A731A13F-5296-4B21-A4A0-1063528A885B}.Debug|ARM.ActiveCfg = Debug|Win32
+		{A731A13F-5296-4B21-A4A0-1063528A885B}.Debug|x64.ActiveCfg = Debug|x64
+		{A731A13F-5296-4B21-A4A0-1063528A885B}.Debug|x64.Build.0 = Debug|x64
+		{A731A13F-5296-4B21-A4A0-1063528A885B}.Debug|x86.ActiveCfg = Debug|Win32
+		{A731A13F-5296-4B21-A4A0-1063528A885B}.Debug|x86.Build.0 = Debug|Win32
+		{A731A13F-5296-4B21-A4A0-1063528A885B}.Release|ARM.ActiveCfg = Release|Win32
+		{A731A13F-5296-4B21-A4A0-1063528A885B}.Release|x64.ActiveCfg = Release|x64
+		{A731A13F-5296-4B21-A4A0-1063528A885B}.Release|x64.Build.0 = Release|x64
+		{A731A13F-5296-4B21-A4A0-1063528A885B}.Release|x86.ActiveCfg = Release|Win32
+		{A731A13F-5296-4B21-A4A0-1063528A885B}.Release|x86.Build.0 = Release|Win32
+		{EA77C898-5EC5-418C-AD1F-06EC30D2663C}.Debug|ARM.ActiveCfg = Debug|ARM
+		{EA77C898-5EC5-418C-AD1F-06EC30D2663C}.Debug|ARM.Build.0 = Debug|ARM
+		{EA77C898-5EC5-418C-AD1F-06EC30D2663C}.Debug|x64.ActiveCfg = Debug|x64
+		{EA77C898-5EC5-418C-AD1F-06EC30D2663C}.Debug|x64.Build.0 = Debug|x64
+		{EA77C898-5EC5-418C-AD1F-06EC30D2663C}.Debug|x86.ActiveCfg = Debug|x86
+		{EA77C898-5EC5-418C-AD1F-06EC30D2663C}.Debug|x86.Build.0 = Debug|x86
+		{EA77C898-5EC5-418C-AD1F-06EC30D2663C}.Release|ARM.ActiveCfg = Release|ARM
+		{EA77C898-5EC5-418C-AD1F-06EC30D2663C}.Release|ARM.Build.0 = Release|ARM
+		{EA77C898-5EC5-418C-AD1F-06EC30D2663C}.Release|x64.ActiveCfg = Release|x64
+		{EA77C898-5EC5-418C-AD1F-06EC30D2663C}.Release|x64.Build.0 = Release|x64
+		{EA77C898-5EC5-418C-AD1F-06EC30D2663C}.Release|x86.ActiveCfg = Release|x86
+		{EA77C898-5EC5-418C-AD1F-06EC30D2663C}.Release|x86.Build.0 = Release|x86
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
