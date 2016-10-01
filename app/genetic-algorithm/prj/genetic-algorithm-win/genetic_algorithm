@@ -1,0 +1,284 @@
+main.cpp:34 INFO: Generation 0, Min fitness: 0.380000, Max fitness: 0.620000, Mean fitness: 0.507900
+genetic_algorithm.h:53 WARN: Check if this is really the behavior I want since it can technical crossover several times
+main.cpp:34 INFO: Generation 1, Min fitness: 0.390000, Max fitness: 0.660000, Mean fitness: 0.515900
+genetic_algorithm.h:53 WARN: Check if this is really the behavior I want since it can technical crossover several times
+main.cpp:34 INFO: Generation 2, Min fitness: 0.420000, Max fitness: 0.630000, Mean fitness: 0.524800
+genetic_algorithm.h:53 WARN: Check if this is really the behavior I want since it can technical crossover several times
+main.cpp:34 INFO: Generation 3, Min fitness: 0.440000, Max fitness: 0.630000, Mean fitness: 0.531300
+genetic_algorithm.h:53 WARN: Check if this is really the behavior I want since it can technical crossover several times
+main.cpp:34 INFO: Generation 4, Min fitness: 0.430000, Max fitness: 0.630000, Mean fitness: 0.530800
+genetic_algorithm.h:53 WARN: Check if this is really the behavior I want since it can technical crossover several times
+main.cpp:34 INFO: Generation 5, Min fitness: 0.370000, Max fitness: 0.650000, Mean fitness: 0.533000
+genetic_algorithm.h:53 WARN: Check if this is really the behavior I want since it can technical crossover several times
+main.cpp:34 INFO: Generation 6, Min fitness: 0.440000, Max fitness: 0.640000, Mean fitness: 0.538100
+genetic_algorithm.h:53 WARN: Check if this is really the behavior I want since it can technical crossover several times
+main.cpp:34 INFO: Generation 7, Min fitness: 0.460000, Max fitness: 0.670000, Mean fitness: 0.545600
+genetic_algorithm.h:53 WARN: Check if this is really the behavior I want since it can technical crossover several times
+main.cpp:34 INFO: Generation 8, Min fitness: 0.430000, Max fitness: 0.690000, Mean fitness: 0.546000
+genetic_algorithm.h:53 WARN: Check if this is really the behavior I want since it can technical crossover several times
+main.cpp:34 INFO: Generation 9, Min fitness: 0.460000, Max fitness: 0.680000, Mean fitness: 0.551700
+genetic_algorithm.h:53 WARN: Check if this is really the behavior I want since it can technical crossover several times
+main.cpp:34 INFO: Generation 10, Min fitness: 0.420000, Max fitness: 0.680000, Mean fitness: 0.554700
+genetic_algorithm.h:53 WARN: Check if this is really the behavior I want since it can technical crossover several times
+main.cpp:34 INFO: Generation 11, Min fitness: 0.420000, Max fitness: 0.700000, Mean fitness: 0.565300
+genetic_algorithm.h:53 WARN: Check if this is really the behavior I want since it can technical crossover several times
+main.cpp:34 INFO: Generation 12, Min fitness: 0.360000, Max fitness: 0.690000, Mean fitness: 0.561800
+genetic_algorithm.h:53 WARN: Check if this is really the behavior I want since it can technical crossover several times
+main.cpp:34 INFO: Generation 13, Min fitness: 0.430000, Max fitness: 0.670000, Mean fitness: 0.569300
+genetic_algorithm.h:53 WARN: Check if this is really the behavior I want since it can technical crossover several times
+main.cpp:34 INFO: Generation 14, Min fitness: 0.470000, Max fitness: 0.680000, Mean fitness: 0.579800
+genetic_algorithm.h:53 WARN: Check if this is really the behavior I want since it can technical crossover several times
+main.cpp:34 INFO: Generation 15, Min fitness: 0.450000, Max fitness: 0.720000, Mean fitness: 0.589500
+genetic_algorithm.h:53 WARN: Check if this is really the behavior I want since it can technical crossover several times
+main.cpp:34 INFO: Generation 16, Min fitness: 0.460000, Max fitness: 0.690000, Mean fitness: 0.592600
+genetic_algorithm.h:53 WARN: Check if this is really the behavior I want since it can technical crossover several times
+main.cpp:34 INFO: Generation 17, Min fitness: 0.500000, Max fitness: 0.700000, Mean fitness: 0.596500
+genetic_algorithm.h:53 WARN: Check if this is really the behavior I want since it can technical crossover several times
+main.cpp:34 INFO: Generation 18, Min fitness: 0.470000, Max fitness: 0.730000, Mean fitness: 0.592600
+genetic_algorithm.h:53 WARN: Check if this is really the behavior I want since it can technical crossover several times
+main.cpp:34 INFO: Generation 19, Min fitness: 0.490000, Max fitness: 0.670000, Mean fitness: 0.593900
+genetic_algorithm.h:53 WARN: Check if this is really the behavior I want since it can technical crossover several times
+main.cpp:34 INFO: Generation 20, Min fitness: 0.490000, Max fitness: 0.710000, Mean fitness: 0.593500
+genetic_algorithm.h:53 WARN: Check if this is really the behavior I want since it can technical crossover several times
+main.cpp:34 INFO: Generation 21, Min fitness: 0.510000, Max fitness: 0.680000, Mean fitness: 0.603000
+genetic_algorithm.h:53 WARN: Check if this is really the behavior I want since it can technical crossover several times
+main.cpp:34 INFO: Generation 22, Min fitness: 0.510000, Max fitness: 0.690000, Mean fitness: 0.613000
+genetic_algorithm.h:53 WARN: Check if this is really the behavior I want since it can technical crossover several times
+main.cpp:34 INFO: Generation 23, Min fitness: 0.500000, Max fitness: 0.740000, Mean fitness: 0.616600
+genetic_algorithm.h:53 WARN: Check if this is really the behavior I want since it can technical crossover several times
+main.cpp:34 INFO: Generation 24, Min fitness: 0.520000, Max fitness: 0.720000, Mean fitness: 0.617300
+genetic_algorithm.h:53 WARN: Check if this is really the behavior I want since it can technical crossover several times
+main.cpp:34 INFO: Generation 25, Min fitness: 0.500000, Max fitness: 0.730000, Mean fitness: 0.620200
+genetic_algorithm.h:53 WARN: Check if this is really the behavior I want since it can technical crossover several times
+main.cpp:34 INFO: Generation 26, Min fitness: 0.490000, Max fitness: 0.720000, Mean fitness: 0.620800
+genetic_algorithm.h:53 WARN: Check if this is really the behavior I want since it can technical crossover several times
+main.cpp:34 INFO: Generation 27, Min fitness: 0.510000, Max fitness: 0.740000, Mean fitness: 0.626100
+genetic_algorithm.h:53 WARN: Check if this is really the behavior I want since it can technical crossover several times
+main.cpp:34 INFO: Generation 28, Min fitness: 0.510000, Max fitness: 0.730000, Mean fitness: 0.618600
+genetic_algorithm.h:53 WARN: Check if this is really the behavior I want since it can technical crossover several times
+main.cpp:34 INFO: Generation 29, Min fitness: 0.540000, Max fitness: 0.710000, Mean fitness: 0.624700
+genetic_algorithm.h:53 WARN: Check if this is really the behavior I want since it can technical crossover several times
+main.cpp:34 INFO: Generation 30, Min fitness: 0.530000, Max fitness: 0.720000, Mean fitness: 0.625400
+genetic_algorithm.h:53 WARN: Check if this is really the behavior I want since it can technical crossover several times
+main.cpp:34 INFO: Generation 31, Min fitness: 0.550000, Max fitness: 0.720000, Mean fitness: 0.630500
+genetic_algorithm.h:53 WARN: Check if this is really the behavior I want since it can technical crossover several times
+main.cpp:34 INFO: Generation 32, Min fitness: 0.540000, Max fitness: 0.720000, Mean fitness: 0.629100
+genetic_algorithm.h:53 WARN: Check if this is really the behavior I want since it can technical crossover several times
+main.cpp:34 INFO: Generation 33, Min fitness: 0.530000, Max fitness: 0.730000, Mean fitness: 0.626600
+genetic_algorithm.h:53 WARN: Check if this is really the behavior I want since it can technical crossover several times
+main.cpp:34 INFO: Generation 34, Min fitness: 0.550000, Max fitness: 0.710000, Mean fitness: 0.629200
+genetic_algorithm.h:53 WARN: Check if this is really the behavior I want since it can technical crossover several times
+main.cpp:34 INFO: Generation 35, Min fitness: 0.550000, Max fitness: 0.720000, Mean fitness: 0.630900
+genetic_algorithm.h:53 WARN: Check if this is really the behavior I want since it can technical crossover several times
+main.cpp:34 INFO: Generation 36, Min fitness: 0.540000, Max fitness: 0.720000, Mean fitness: 0.630800
+genetic_algorithm.h:53 WARN: Check if this is really the behavior I want since it can technical crossover several times
+main.cpp:34 INFO: Generation 37, Min fitness: 0.540000, Max fitness: 0.730000, Mean fitness: 0.623600
+genetic_algorithm.h:53 WARN: Check if this is really the behavior I want since it can technical crossover several times
+main.cpp:34 INFO: Generation 38, Min fitness: 0.520000, Max fitness: 0.730000, Mean fitness: 0.621200
+genetic_algorithm.h:53 WARN: Check if this is really the behavior I want since it can technical crossover several times
+main.cpp:34 INFO: Generation 39, Min fitness: 0.530000, Max fitness: 0.730000, Mean fitness: 0.629200
+genetic_algorithm.h:53 WARN: Check if this is really the behavior I want since it can technical crossover several times
+main.cpp:34 INFO: Generation 40, Min fitness: 0.540000, Max fitness: 0.730000, Mean fitness: 0.629300
+genetic_algorithm.h:53 WARN: Check if this is really the behavior I want since it can technical crossover several times
+main.cpp:34 INFO: Generation 41, Min fitness: 0.550000, Max fitness: 0.730000, Mean fitness: 0.628900
+genetic_algorithm.h:53 WARN: Check if this is really the behavior I want since it can technical crossover several times
+main.cpp:34 INFO: Generation 42, Min fitness: 0.530000, Max fitness: 0.740000, Mean fitness: 0.631500
+genetic_algorithm.h:53 WARN: Check if this is really the behavior I want since it can technical crossover several times
+main.cpp:34 INFO: Generation 43, Min fitness: 0.540000, Max fitness: 0.740000, Mean fitness: 0.637600
+genetic_algorithm.h:53 WARN: Check if this is really the behavior I want since it can technical crossover several times
+main.cpp:34 INFO: Generation 44, Min fitness: 0.560000, Max fitness: 0.740000, Mean fitness: 0.644300
+genetic_algorithm.h:53 WARN: Check if this is really the behavior I want since it can technical crossover several times
+main.cpp:34 INFO: Generation 45, Min fitness: 0.550000, Max fitness: 0.730000, Mean fitness: 0.646400
+genetic_algorithm.h:53 WARN: Check if this is really the behavior I want since it can technical crossover several times
+main.cpp:34 INFO: Generation 46, Min fitness: 0.560000, Max fitness: 0.730000, Mean fitness: 0.650600
+genetic_algorithm.h:53 WARN: Check if this is really the behavior I want since it can technical crossover several times
+main.cpp:34 INFO: Generation 47, Min fitness: 0.560000, Max fitness: 0.740000, Mean fitness: 0.657600
+genetic_algorithm.h:53 WARN: Check if this is really the behavior I want since it can technical crossover several times
+main.cpp:34 INFO: Generation 48, Min fitness: 0.560000, Max fitness: 0.750000, Mean fitness: 0.657600
+genetic_algorithm.h:53 WARN: Check if this is really the behavior I want since it can technical crossover several times
+main.cpp:34 INFO: Generation 49, Min fitness: 0.580000, Max fitness: 0.710000, Mean fitness: 0.660500
+genetic_algorithm.h:53 WARN: Check if this is really the behavior I want since it can technical crossover several times
+main.cpp:34 INFO: Generation 50, Min fitness: 0.580000, Max fitness: 0.750000, Mean fitness: 0.658700
+genetic_algorithm.h:53 WARN: Check if this is really the behavior I want since it can technical crossover several times
+main.cpp:34 INFO: Generation 51, Min fitness: 0.580000, Max fitness: 0.750000, Mean fitness: 0.660200
+genetic_algorithm.h:53 WARN: Check if this is really the behavior I want since it can technical crossover several times
+main.cpp:34 INFO: Generation 52, Min fitness: 0.560000, Max fitness: 0.750000, Mean fitness: 0.660600
+genetic_algorithm.h:53 WARN: Check if this is really the behavior I want since it can technical crossover several times
+main.cpp:34 INFO: Generation 53, Min fitness: 0.560000, Max fitness: 0.770000, Mean fitness: 0.667400
+genetic_algorithm.h:53 WARN: Check if this is really the behavior I want since it can technical crossover several times
+main.cpp:34 INFO: Generation 54, Min fitness: 0.570000, Max fitness: 0.770000, Mean fitness: 0.670300
+genetic_algorithm.h:53 WARN: Check if this is really the behavior I want since it can technical crossover several times
+main.cpp:34 INFO: Generation 55, Min fitness: 0.590000, Max fitness: 0.780000, Mean fitness: 0.679000
+genetic_algorithm.h:53 WARN: Check if this is really the behavior I want since it can technical crossover several times
+main.cpp:34 INFO: Generation 56, Min fitness: 0.600000, Max fitness: 0.770000, Mean fitness: 0.679000
+genetic_algorithm.h:53 WARN: Check if this is really the behavior I want since it can technical crossover several times
+main.cpp:34 INFO: Generation 57, Min fitness: 0.590000, Max fitness: 0.780000, Mean fitness: 0.679900
+genetic_algorithm.h:53 WARN: Check if this is really the behavior I want since it can technical crossover several times
+main.cpp:34 INFO: Generation 58, Min fitness: 0.620000, Max fitness: 0.780000, Mean fitness: 0.683300
+genetic_algorithm.h:53 WARN: Check if this is really the behavior I want since it can technical crossover several times
+main.cpp:34 INFO: Generation 59, Min fitness: 0.600000, Max fitness: 0.760000, Mean fitness: 0.690100
+genetic_algorithm.h:53 WARN: Check if this is really the behavior I want since it can technical crossover several times
+main.cpp:34 INFO: Generation 60, Min fitness: 0.600000, Max fitness: 0.790000, Mean fitness: 0.694000
+genetic_algorithm.h:53 WARN: Check if this is really the behavior I want since it can technical crossover several times
+main.cpp:34 INFO: Generation 61, Min fitness: 0.620000, Max fitness: 0.770000, Mean fitness: 0.692000
+genetic_algorithm.h:53 WARN: Check if this is really the behavior I want since it can technical crossover several times
+main.cpp:34 INFO: Generation 62, Min fitness: 0.610000, Max fitness: 0.780000, Mean fitness: 0.697900
+genetic_algorithm.h:53 WARN: Check if this is really the behavior I want since it can technical crossover several times
+main.cpp:34 INFO: Generation 63, Min fitness: 0.610000, Max fitness: 0.790000, Mean fitness: 0.700900
+genetic_algorithm.h:53 WARN: Check if this is really the behavior I want since it can technical crossover several times
+main.cpp:34 INFO: Generation 64, Min fitness: 0.600000, Max fitness: 0.800000, Mean fitness: 0.703000
+genetic_algorithm.h:53 WARN: Check if this is really the behavior I want since it can technical crossover several times
+main.cpp:34 INFO: Generation 65, Min fitness: 0.620000, Max fitness: 0.780000, Mean fitness: 0.711500
+genetic_algorithm.h:53 WARN: Check if this is really the behavior I want since it can technical crossover several times
+main.cpp:34 INFO: Generation 66, Min fitness: 0.620000, Max fitness: 0.790000, Mean fitness: 0.710300
+genetic_algorithm.h:53 WARN: Check if this is really the behavior I want since it can technical crossover several times
+main.cpp:34 INFO: Generation 67, Min fitness: 0.620000, Max fitness: 0.800000, Mean fitness: 0.719100
+genetic_algorithm.h:53 WARN: Check if this is really the behavior I want since it can technical crossover several times
+main.cpp:34 INFO: Generation 68, Min fitness: 0.620000, Max fitness: 0.790000, Mean fitness: 0.717700
+genetic_algorithm.h:53 WARN: Check if this is really the behavior I want since it can technical crossover several times
+main.cpp:34 INFO: Generation 69, Min fitness: 0.640000, Max fitness: 0.800000, Mean fitness: 0.724300
+genetic_algorithm.h:53 WARN: Check if this is really the behavior I want since it can technical crossover several times
+main.cpp:34 INFO: Generation 70, Min fitness: 0.620000, Max fitness: 0.790000, Mean fitness: 0.723500
+genetic_algorithm.h:53 WARN: Check if this is really the behavior I want since it can technical crossover several times
+main.cpp:34 INFO: Generation 71, Min fitness: 0.620000, Max fitness: 0.800000, Mean fitness: 0.724300
+genetic_algorithm.h:53 WARN: Check if this is really the behavior I want since it can technical crossover several times
+main.cpp:34 INFO: Generation 72, Min fitness: 0.620000, Max fitness: 0.810000, Mean fitness: 0.726300
+genetic_algorithm.h:53 WARN: Check if this is really the behavior I want since it can technical crossover several times
+main.cpp:34 INFO: Generation 73, Min fitness: 0.650000, Max fitness: 0.810000, Mean fitness: 0.721800
+genetic_algorithm.h:53 WARN: Check if this is really the behavior I want since it can technical crossover several times
+main.cpp:34 INFO: Generation 74, Min fitness: 0.650000, Max fitness: 0.800000, Mean fitness: 0.726900
+genetic_algorithm.h:53 WARN: Check if this is really the behavior I want since it can technical crossover several times
+main.cpp:34 INFO: Generation 75, Min fitness: 0.640000, Max fitness: 0.800000, Mean fitness: 0.732300
+genetic_algorithm.h:53 WARN: Check if this is really the behavior I want since it can technical crossover several times
+main.cpp:34 INFO: Generation 76, Min fitness: 0.650000, Max fitness: 0.810000, Mean fitness: 0.740100
+genetic_algorithm.h:53 WARN: Check if this is really the behavior I want since it can technical crossover several times
+main.cpp:34 INFO: Generation 77, Min fitness: 0.660000, Max fitness: 0.800000, Mean fitness: 0.737300
+genetic_algorithm.h:53 WARN: Check if this is really the behavior I want since it can technical crossover several times
+main.cpp:34 INFO: Generation 78, Min fitness: 0.650000, Max fitness: 0.810000, Mean fitness: 0.734300
+genetic_algorithm.h:53 WARN: Check if this is really the behavior I want since it can technical crossover several times
+main.cpp:34 INFO: Generation 79, Min fitness: 0.640000, Max fitness: 0.810000, Mean fitness: 0.733000
+genetic_algorithm.h:53 WARN: Check if this is really the behavior I want since it can technical crossover several times
+main.cpp:34 INFO: Generation 80, Min fitness: 0.670000, Max fitness: 0.820000, Mean fitness: 0.732800
+genetic_algorithm.h:53 WARN: Check if this is really the behavior I want since it can technical crossover several times
+main.cpp:34 INFO: Generation 81, Min fitness: 0.670000, Max fitness: 0.800000, Mean fitness: 0.736800
+genetic_algorithm.h:53 WARN: Check if this is really the behavior I want since it can technical crossover several times
+main.cpp:34 INFO: Generation 82, Min fitness: 0.670000, Max fitness: 0.800000, Mean fitness: 0.736500
+genetic_algorithm.h:53 WARN: Check if this is really the behavior I want since it can technical crossover several times
+main.cpp:34 INFO: Generation 83, Min fitness: 0.650000, Max fitness: 0.790000, Mean fitness: 0.739300
+genetic_algorithm.h:53 WARN: Check if this is really the behavior I want since it can technical crossover several times
+main.cpp:34 INFO: Generation 84, Min fitness: 0.670000, Max fitness: 0.790000, Mean fitness: 0.741200
+genetic_algorithm.h:53 WARN: Check if this is really the behavior I want since it can technical crossover several times
+main.cpp:34 INFO: Generation 85, Min fitness: 0.680000, Max fitness: 0.810000, Mean fitness: 0.744800
+genetic_algorithm.h:53 WARN: Check if this is really the behavior I want since it can technical crossover several times
+main.cpp:34 INFO: Generation 86, Min fitness: 0.660000, Max fitness: 0.810000, Mean fitness: 0.742800
+genetic_algorithm.h:53 WARN: Check if this is really the behavior I want since it can technical crossover several times
+main.cpp:34 INFO: Generation 87, Min fitness: 0.660000, Max fitness: 0.820000, Mean fitness: 0.750200
+genetic_algorithm.h:53 WARN: Check if this is really the behavior I want since it can technical crossover several times
+main.cpp:34 INFO: Generation 88, Min fitness: 0.670000, Max fitness: 0.830000, Mean fitness: 0.756200
+genetic_algorithm.h:53 WARN: Check if this is really the behavior I want since it can technical crossover several times
+main.cpp:34 INFO: Generation 89, Min fitness: 0.680000, Max fitness: 0.830000, Mean fitness: 0.764900
+genetic_algorithm.h:53 WARN: Check if this is really the behavior I want since it can technical crossover several times
+main.cpp:34 INFO: Generation 90, Min fitness: 0.690000, Max fitness: 0.830000, Mean fitness: 0.762600
+genetic_algorithm.h:53 WARN: Check if this is really the behavior I want since it can technical crossover several times
+main.cpp:34 INFO: Generation 91, Min fitness: 0.660000, Max fitness: 0.850000, Mean fitness: 0.762600
+genetic_algorithm.h:53 WARN: Check if this is really the behavior I want since it can technical crossover several times
+main.cpp:34 INFO: Generation 92, Min fitness: 0.710000, Max fitness: 0.850000, Mean fitness: 0.772800
+genetic_algorithm.h:53 WARN: Check if this is really the behavior I want since it can technical crossover several times
+main.cpp:34 INFO: Generation 93, Min fitness: 0.710000, Max fitness: 0.850000, Mean fitness: 0.773700
+genetic_algorithm.h:53 WARN: Check if this is really the behavior I want since it can technical crossover several times
+main.cpp:34 INFO: Generation 94, Min fitness: 0.710000, Max fitness: 0.850000, Mean fitness: 0.776900
+genetic_algorithm.h:53 WARN: Check if this is really the behavior I want since it can technical crossover several times
+main.cpp:34 INFO: Generation 95, Min fitness: 0.710000, Max fitness: 0.850000, Mean fitness: 0.775700
+genetic_algorithm.h:53 WARN: Check if this is really the behavior I want since it can technical crossover several times
+main.cpp:34 INFO: Generation 96, Min fitness: 0.700000, Max fitness: 0.850000, Mean fitness: 0.778100
+genetic_algorithm.h:53 WARN: Check if this is really the behavior I want since it can technical crossover several times
+main.cpp:34 INFO: Generation 97, Min fitness: 0.710000, Max fitness: 0.840000, Mean fitness: 0.776000
+genetic_algorithm.h:53 WARN: Check if this is really the behavior I want since it can technical crossover several times
+main.cpp:34 INFO: Generation 98, Min fitness: 0.700000, Max fitness: 0.850000, Mean fitness: 0.774400
+genetic_algorithm.h:53 WARN: Check if this is really the behavior I want since it can technical crossover several times
+main.cpp:34 INFO: Generation 99, Min fitness: 0.720000, Max fitness: 0.850000, Mean fitness: 0.778600
+genetic_algorithm.h:53 WARN: Check if this is really the behavior I want since it can technical crossover several times
+main.cpp:34 INFO: Generation 100, Min fitness: 0.720000, Max fitness: 0.840000, Mean fitness: 0.782400
+genetic_algorithm.h:53 WARN: Check if this is really the behavior I want since it can technical crossover several times
+main.cpp:34 INFO: Generation 101, Min fitness: 0.730000, Max fitness: 0.840000, Mean fitness: 0.784400
+genetic_algorithm.h:53 WARN: Check if this is really the behavior I want since it can technical crossover several times
+main.cpp:34 INFO: Generation 102, Min fitness: 0.690000, Max fitness: 0.840000, Mean fitness: 0.780000
+genetic_algorithm.h:53 WARN: Check if this is really the behavior I want since it can technical crossover several times
+main.cpp:34 INFO: Generation 103, Min fitness: 0.680000, Max fitness: 0.840000, Mean fitness: 0.777000
+genetic_algorithm.h:53 WARN: Check if this is really the behavior I want since it can technical crossover several times
+main.cpp:34 INFO: Generation 104, Min fitness: 0.710000, Max fitness: 0.840000, Mean fitness: 0.778200
+genetic_algorithm.h:53 WARN: Check if this is really the behavior I want since it can technical crossover several times
+main.cpp:34 INFO: Generation 105, Min fitness: 0.730000, Max fitness: 0.850000, Mean fitness: 0.785900
+genetic_algorithm.h:53 WARN: Check if this is really the behavior I want since it can technical crossover several times
+main.cpp:34 INFO: Generation 106, Min fitness: 0.720000, Max fitness: 0.840000, Mean fitness: 0.786200
+genetic_algorithm.h:53 WARN: Check if this is really the behavior I want since it can technical crossover several times
+main.cpp:34 INFO: Generation 107, Min fitness: 0.720000, Max fitness: 0.850000, Mean fitness: 0.783900
+genetic_algorithm.h:53 WARN: Check if this is really the behavior I want since it can technical crossover several times
+main.cpp:34 INFO: Generation 108, Min fitness: 0.720000, Max fitness: 0.850000, Mean fitness: 0.786500
+genetic_algorithm.h:53 WARN: Check if this is really the behavior I want since it can technical crossover several times
+main.cpp:34 INFO: Generation 109, Min fitness: 0.730000, Max fitness: 0.840000, Mean fitness: 0.784300
+genetic_algorithm.h:53 WARN: Check if this is really the behavior I want since it can technical crossover several times
+main.cpp:34 INFO: Generation 110, Min fitness: 0.730000, Max fitness: 0.840000, Mean fitness: 0.782700
+genetic_algorithm.h:53 WARN: Check if this is really the behavior I want since it can technical crossover several times
+main.cpp:34 INFO: Generation 111, Min fitness: 0.720000, Max fitness: 0.850000, Mean fitness: 0.785500
+genetic_algorithm.h:53 WARN: Check if this is really the behavior I want since it can technical crossover several times
+main.cpp:34 INFO: Generation 112, Min fitness: 0.720000, Max fitness: 0.850000, Mean fitness: 0.784800
+genetic_algorithm.h:53 WARN: Check if this is really the behavior I want since it can technical crossover several times
+main.cpp:34 INFO: Generation 113, Min fitness: 0.720000, Max fitness: 0.850000, Mean fitness: 0.790800
+genetic_algorithm.h:53 WARN: Check if this is really the behavior I want since it can technical crossover several times
+main.cpp:34 INFO: Generation 114, Min fitness: 0.740000, Max fitness: 0.850000, Mean fitness: 0.792100
+genetic_algorithm.h:53 WARN: Check if this is really the behavior I want since it can technical crossover several times
+main.cpp:34 INFO: Generation 115, Min fitness: 0.730000, Max fitness: 0.850000, Mean fitness: 0.788500
+genetic_algorithm.h:53 WARN: Check if this is really the behavior I want since it can technical crossover several times
+main.cpp:34 INFO: Generation 116, Min fitness: 0.710000, Max fitness: 0.860000, Mean fitness: 0.786800
+genetic_algorithm.h:53 WARN: Check if this is really the behavior I want since it can technical crossover several times
+main.cpp:34 INFO: Generation 117, Min fitness: 0.710000, Max fitness: 0.850000, Mean fitness: 0.789600
+genetic_algorithm.h:53 WARN: Check if this is really the behavior I want since it can technical crossover several times
+main.cpp:34 INFO: Generation 118, Min fitness: 0.690000, Max fitness: 0.850000, Mean fitness: 0.790500
+genetic_algorithm.h:53 WARN: Check if this is really the behavior I want since it can technical crossover several times
+main.cpp:34 INFO: Generation 119, Min fitness: 0.700000, Max fitness: 0.850000, Mean fitness: 0.788900
+genetic_algorithm.h:53 WARN: Check if this is really the behavior I want since it can technical crossover several times
+main.cpp:34 INFO: Generation 120, Min fitness: 0.710000, Max fitness: 0.840000, Mean fitness: 0.787100
+genetic_algorithm.h:53 WARN: Check if this is really the behavior I want since it can technical crossover several times
+main.cpp:34 INFO: Generation 121, Min fitness: 0.740000, Max fitness: 0.840000, Mean fitness: 0.788700
+genetic_algorithm.h:53 WARN: Check if this is really the behavior I want since it can technical crossover several times
+main.cpp:34 INFO: Generation 122, Min fitness: 0.720000, Max fitness: 0.860000, Mean fitness: 0.790200
+genetic_algorithm.h:53 WARN: Check if this is really the behavior I want since it can technical crossover several times
+main.cpp:34 INFO: Generation 123, Min fitness: 0.710000, Max fitness: 0.870000, Mean fitness: 0.793400
+genetic_algorithm.h:53 WARN: Check if this is really the behavior I want since it can technical crossover several times
+main.cpp:34 INFO: Generation 124, Min fitness: 0.730000, Max fitness: 0.860000, Mean fitness: 0.800200
+genetic_algorithm.h:53 WARN: Check if this is really the behavior I want since it can technical crossover several times
+main.cpp:34 INFO: Generation 125, Min fitness: 0.730000, Max fitness: 0.870000, Mean fitness: 0.798600
+genetic_algorithm.h:53 WARN: Check if this is really the behavior I want since it can technical crossover several times
+main.cpp:34 INFO: Generation 126, Min fitness: 0.730000, Max fitness: 0.870000, Mean fitness: 0.797000
+genetic_algorithm.h:53 WARN: Check if this is really the behavior I want since it can technical crossover several times
+main.cpp:34 INFO: Generation 127, Min fitness: 0.730000, Max fitness: 0.870000, Mean fitness: 0.796400
+genetic_algorithm.h:53 WARN: Check if this is really the behavior I want since it can technical crossover several times
+main.cpp:34 INFO: Generation 128, Min fitness: 0.740000, Max fitness: 0.870000, Mean fitness: 0.797700
+genetic_algorithm.h:53 WARN: Check if this is really the behavior I want since it can technical crossover several times
+main.cpp:34 INFO: Generation 129, Min fitness: 0.710000, Max fitness: 0.880000, Mean fitness: 0.801900
+genetic_algorithm.h:53 WARN: Check if this is really the behavior I want since it can technical crossover several times
+main.cpp:34 INFO: Generation 130, Min fitness: 0.740000, Max fitness: 0.870000, Mean fitness: 0.804800
+genetic_algorithm.h:53 WARN: Check if this is really the behavior I want since it can technical crossover several times
+main.cpp:34 INFO: Generation 131, Min fitness: 0.750000, Max fitness: 0.870000, Mean fitness: 0.807200
+genetic_algorithm.h:53 WARN: Check if this is really the behavior I want since it can technical crossover several times
+main.cpp:34 INFO: Generation 132, Min fitness: 0.730000, Max fitness: 0.880000, Mean fitness: 0.807100
+genetic_algorithm.h:53 WARN: Check if this is really the behavior I want since it can technical crossover several times
+main.cpp:34 INFO: Generation 133, Min fitness: 0.730000, Max fitness: 0.880000, Mean fitness: 0.807200
+genetic_algorithm.h:53 WARN: Check if this is really the behavior I want since it can technical crossover several times
+main.cpp:34 INFO: Generation 134, Min fitness: 0.740000, Max fitness: 0.870000, Mean fitness: 0.810400
+genetic_algorithm.h:53 WARN: Check if this is really the behavior I want since it can technical crossover several times
+main.cpp:34 INFO: Generation 135, Min fitness: 0.750000, Max fitness: 0.870000, Mean fitness: 0.811800
+genetic_algorithm.h:53 WARN: Check if this is really the behavior I want since it can technical crossover several times
+main.cpp:34 INFO: Generation 136, Min fitness: 0.750000, Max fitness: 0.870000, Mean fitness: 0.812400
+genetic_algorithm.h:53 WARN: Check if this is really the behavior I want since it can technical crossover several times
+main.cpp:34 INFO: Generation 137, Min fitness: 0.750000, Max fitness: 0.870000, Mean fitness: 0.814800
+genetic_algorithm.h:53 WARN: Check if this is really the behavior I want since it can technical crossover several times
+main.cpp:34 INFO: Generation 138, Min fitness: 0.750000, Max fitness: 0.870000, Mean fitness: 0.812100
+genetic_algorithm.h:53 WARN: Check if this is really the behavior I want since it can technical crossover several times
+main.cpp:34 INFO: Generation 139, Min fitness: 0.760000, Max fitness: 0.870000, Mean fitness: 0.811600
+genetic_algorithm.h:53 WARN: Check if this is really the behavior I want since it can technical crossover several times
+main.cpp:34 INFO: Generation 140, Min fitness: 0.740000, Max fitness: 0.870000, Mean fitness: 0.810900
+genetic_algorithm.h:53 WARN: Check if this is really the behavior I want since it can technical crossover several times
+main.cpp:34 INFO: Generation 141, Min fitness: 0.740000, Max fitness: 0.870000, Mean fitness: 0.812000
+genetic_algorithm.h:53 WARN: Check if this is really the behavior I want since it can technical crossover several times
