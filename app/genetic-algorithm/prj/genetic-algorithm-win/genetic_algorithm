@@ -1,284 +1,576 @@
-main.cpp:34 INFO: Generation 0, Min fitness: 0.380000, Max fitness: 0.620000, Mean fitness: 0.507900
-genetic_algorithm.h:53 WARN: Check if this is really the behavior I want since it can technical crossover several times
-main.cpp:34 INFO: Generation 1, Min fitness: 0.390000, Max fitness: 0.660000, Mean fitness: 0.515900
-genetic_algorithm.h:53 WARN: Check if this is really the behavior I want since it can technical crossover several times
-main.cpp:34 INFO: Generation 2, Min fitness: 0.420000, Max fitness: 0.630000, Mean fitness: 0.524800
-genetic_algorithm.h:53 WARN: Check if this is really the behavior I want since it can technical crossover several times
-main.cpp:34 INFO: Generation 3, Min fitness: 0.440000, Max fitness: 0.630000, Mean fitness: 0.531300
-genetic_algorithm.h:53 WARN: Check if this is really the behavior I want since it can technical crossover several times
-main.cpp:34 INFO: Generation 4, Min fitness: 0.430000, Max fitness: 0.630000, Mean fitness: 0.530800
-genetic_algorithm.h:53 WARN: Check if this is really the behavior I want since it can technical crossover several times
-main.cpp:34 INFO: Generation 5, Min fitness: 0.370000, Max fitness: 0.650000, Mean fitness: 0.533000
-genetic_algorithm.h:53 WARN: Check if this is really the behavior I want since it can technical crossover several times
-main.cpp:34 INFO: Generation 6, Min fitness: 0.440000, Max fitness: 0.640000, Mean fitness: 0.538100
-genetic_algorithm.h:53 WARN: Check if this is really the behavior I want since it can technical crossover several times
-main.cpp:34 INFO: Generation 7, Min fitness: 0.460000, Max fitness: 0.670000, Mean fitness: 0.545600
-genetic_algorithm.h:53 WARN: Check if this is really the behavior I want since it can technical crossover several times
-main.cpp:34 INFO: Generation 8, Min fitness: 0.430000, Max fitness: 0.690000, Mean fitness: 0.546000
-genetic_algorithm.h:53 WARN: Check if this is really the behavior I want since it can technical crossover several times
-main.cpp:34 INFO: Generation 9, Min fitness: 0.460000, Max fitness: 0.680000, Mean fitness: 0.551700
-genetic_algorithm.h:53 WARN: Check if this is really the behavior I want since it can technical crossover several times
-main.cpp:34 INFO: Generation 10, Min fitness: 0.420000, Max fitness: 0.680000, Mean fitness: 0.554700
-genetic_algorithm.h:53 WARN: Check if this is really the behavior I want since it can technical crossover several times
-main.cpp:34 INFO: Generation 11, Min fitness: 0.420000, Max fitness: 0.700000, Mean fitness: 0.565300
-genetic_algorithm.h:53 WARN: Check if this is really the behavior I want since it can technical crossover several times
-main.cpp:34 INFO: Generation 12, Min fitness: 0.360000, Max fitness: 0.690000, Mean fitness: 0.561800
-genetic_algorithm.h:53 WARN: Check if this is really the behavior I want since it can technical crossover several times
-main.cpp:34 INFO: Generation 13, Min fitness: 0.430000, Max fitness: 0.670000, Mean fitness: 0.569300
-genetic_algorithm.h:53 WARN: Check if this is really the behavior I want since it can technical crossover several times
-main.cpp:34 INFO: Generation 14, Min fitness: 0.470000, Max fitness: 0.680000, Mean fitness: 0.579800
-genetic_algorithm.h:53 WARN: Check if this is really the behavior I want since it can technical crossover several times
-main.cpp:34 INFO: Generation 15, Min fitness: 0.450000, Max fitness: 0.720000, Mean fitness: 0.589500
-genetic_algorithm.h:53 WARN: Check if this is really the behavior I want since it can technical crossover several times
-main.cpp:34 INFO: Generation 16, Min fitness: 0.460000, Max fitness: 0.690000, Mean fitness: 0.592600
-genetic_algorithm.h:53 WARN: Check if this is really the behavior I want since it can technical crossover several times
-main.cpp:34 INFO: Generation 17, Min fitness: 0.500000, Max fitness: 0.700000, Mean fitness: 0.596500
-genetic_algorithm.h:53 WARN: Check if this is really the behavior I want since it can technical crossover several times
-main.cpp:34 INFO: Generation 18, Min fitness: 0.470000, Max fitness: 0.730000, Mean fitness: 0.592600
-genetic_algorithm.h:53 WARN: Check if this is really the behavior I want since it can technical crossover several times
-main.cpp:34 INFO: Generation 19, Min fitness: 0.490000, Max fitness: 0.670000, Mean fitness: 0.593900
-genetic_algorithm.h:53 WARN: Check if this is really the behavior I want since it can technical crossover several times
-main.cpp:34 INFO: Generation 20, Min fitness: 0.490000, Max fitness: 0.710000, Mean fitness: 0.593500
-genetic_algorithm.h:53 WARN: Check if this is really the behavior I want since it can technical crossover several times
-main.cpp:34 INFO: Generation 21, Min fitness: 0.510000, Max fitness: 0.680000, Mean fitness: 0.603000
-genetic_algorithm.h:53 WARN: Check if this is really the behavior I want since it can technical crossover several times
-main.cpp:34 INFO: Generation 22, Min fitness: 0.510000, Max fitness: 0.690000, Mean fitness: 0.613000
-genetic_algorithm.h:53 WARN: Check if this is really the behavior I want since it can technical crossover several times
-main.cpp:34 INFO: Generation 23, Min fitness: 0.500000, Max fitness: 0.740000, Mean fitness: 0.616600
-genetic_algorithm.h:53 WARN: Check if this is really the behavior I want since it can technical crossover several times
-main.cpp:34 INFO: Generation 24, Min fitness: 0.520000, Max fitness: 0.720000, Mean fitness: 0.617300
-genetic_algorithm.h:53 WARN: Check if this is really the behavior I want since it can technical crossover several times
-main.cpp:34 INFO: Generation 25, Min fitness: 0.500000, Max fitness: 0.730000, Mean fitness: 0.620200
-genetic_algorithm.h:53 WARN: Check if this is really the behavior I want since it can technical crossover several times
-main.cpp:34 INFO: Generation 26, Min fitness: 0.490000, Max fitness: 0.720000, Mean fitness: 0.620800
-genetic_algorithm.h:53 WARN: Check if this is really the behavior I want since it can technical crossover several times
-main.cpp:34 INFO: Generation 27, Min fitness: 0.510000, Max fitness: 0.740000, Mean fitness: 0.626100
-genetic_algorithm.h:53 WARN: Check if this is really the behavior I want since it can technical crossover several times
-main.cpp:34 INFO: Generation 28, Min fitness: 0.510000, Max fitness: 0.730000, Mean fitness: 0.618600
-genetic_algorithm.h:53 WARN: Check if this is really the behavior I want since it can technical crossover several times
-main.cpp:34 INFO: Generation 29, Min fitness: 0.540000, Max fitness: 0.710000, Mean fitness: 0.624700
-genetic_algorithm.h:53 WARN: Check if this is really the behavior I want since it can technical crossover several times
-main.cpp:34 INFO: Generation 30, Min fitness: 0.530000, Max fitness: 0.720000, Mean fitness: 0.625400
-genetic_algorithm.h:53 WARN: Check if this is really the behavior I want since it can technical crossover several times
-main.cpp:34 INFO: Generation 31, Min fitness: 0.550000, Max fitness: 0.720000, Mean fitness: 0.630500
-genetic_algorithm.h:53 WARN: Check if this is really the behavior I want since it can technical crossover several times
-main.cpp:34 INFO: Generation 32, Min fitness: 0.540000, Max fitness: 0.720000, Mean fitness: 0.629100
-genetic_algorithm.h:53 WARN: Check if this is really the behavior I want since it can technical crossover several times
-main.cpp:34 INFO: Generation 33, Min fitness: 0.530000, Max fitness: 0.730000, Mean fitness: 0.626600
-genetic_algorithm.h:53 WARN: Check if this is really the behavior I want since it can technical crossover several times
-main.cpp:34 INFO: Generation 34, Min fitness: 0.550000, Max fitness: 0.710000, Mean fitness: 0.629200
-genetic_algorithm.h:53 WARN: Check if this is really the behavior I want since it can technical crossover several times
-main.cpp:34 INFO: Generation 35, Min fitness: 0.550000, Max fitness: 0.720000, Mean fitness: 0.630900
-genetic_algorithm.h:53 WARN: Check if this is really the behavior I want since it can technical crossover several times
-main.cpp:34 INFO: Generation 36, Min fitness: 0.540000, Max fitness: 0.720000, Mean fitness: 0.630800
-genetic_algorithm.h:53 WARN: Check if this is really the behavior I want since it can technical crossover several times
-main.cpp:34 INFO: Generation 37, Min fitness: 0.540000, Max fitness: 0.730000, Mean fitness: 0.623600
-genetic_algorithm.h:53 WARN: Check if this is really the behavior I want since it can technical crossover several times
-main.cpp:34 INFO: Generation 38, Min fitness: 0.520000, Max fitness: 0.730000, Mean fitness: 0.621200
-genetic_algorithm.h:53 WARN: Check if this is really the behavior I want since it can technical crossover several times
-main.cpp:34 INFO: Generation 39, Min fitness: 0.530000, Max fitness: 0.730000, Mean fitness: 0.629200
-genetic_algorithm.h:53 WARN: Check if this is really the behavior I want since it can technical crossover several times
-main.cpp:34 INFO: Generation 40, Min fitness: 0.540000, Max fitness: 0.730000, Mean fitness: 0.629300
-genetic_algorithm.h:53 WARN: Check if this is really the behavior I want since it can technical crossover several times
-main.cpp:34 INFO: Generation 41, Min fitness: 0.550000, Max fitness: 0.730000, Mean fitness: 0.628900
-genetic_algorithm.h:53 WARN: Check if this is really the behavior I want since it can technical crossover several times
-main.cpp:34 INFO: Generation 42, Min fitness: 0.530000, Max fitness: 0.740000, Mean fitness: 0.631500
-genetic_algorithm.h:53 WARN: Check if this is really the behavior I want since it can technical crossover several times
-main.cpp:34 INFO: Generation 43, Min fitness: 0.540000, Max fitness: 0.740000, Mean fitness: 0.637600
-genetic_algorithm.h:53 WARN: Check if this is really the behavior I want since it can technical crossover several times
-main.cpp:34 INFO: Generation 44, Min fitness: 0.560000, Max fitness: 0.740000, Mean fitness: 0.644300
-genetic_algorithm.h:53 WARN: Check if this is really the behavior I want since it can technical crossover several times
-main.cpp:34 INFO: Generation 45, Min fitness: 0.550000, Max fitness: 0.730000, Mean fitness: 0.646400
-genetic_algorithm.h:53 WARN: Check if this is really the behavior I want since it can technical crossover several times
-main.cpp:34 INFO: Generation 46, Min fitness: 0.560000, Max fitness: 0.730000, Mean fitness: 0.650600
-genetic_algorithm.h:53 WARN: Check if this is really the behavior I want since it can technical crossover several times
-main.cpp:34 INFO: Generation 47, Min fitness: 0.560000, Max fitness: 0.740000, Mean fitness: 0.657600
-genetic_algorithm.h:53 WARN: Check if this is really the behavior I want since it can technical crossover several times
-main.cpp:34 INFO: Generation 48, Min fitness: 0.560000, Max fitness: 0.750000, Mean fitness: 0.657600
-genetic_algorithm.h:53 WARN: Check if this is really the behavior I want since it can technical crossover several times
-main.cpp:34 INFO: Generation 49, Min fitness: 0.580000, Max fitness: 0.710000, Mean fitness: 0.660500
-genetic_algorithm.h:53 WARN: Check if this is really the behavior I want since it can technical crossover several times
-main.cpp:34 INFO: Generation 50, Min fitness: 0.580000, Max fitness: 0.750000, Mean fitness: 0.658700
-genetic_algorithm.h:53 WARN: Check if this is really the behavior I want since it can technical crossover several times
-main.cpp:34 INFO: Generation 51, Min fitness: 0.580000, Max fitness: 0.750000, Mean fitness: 0.660200
-genetic_algorithm.h:53 WARN: Check if this is really the behavior I want since it can technical crossover several times
-main.cpp:34 INFO: Generation 52, Min fitness: 0.560000, Max fitness: 0.750000, Mean fitness: 0.660600
-genetic_algorithm.h:53 WARN: Check if this is really the behavior I want since it can technical crossover several times
-main.cpp:34 INFO: Generation 53, Min fitness: 0.560000, Max fitness: 0.770000, Mean fitness: 0.667400
-genetic_algorithm.h:53 WARN: Check if this is really the behavior I want since it can technical crossover several times
-main.cpp:34 INFO: Generation 54, Min fitness: 0.570000, Max fitness: 0.770000, Mean fitness: 0.670300
-genetic_algorithm.h:53 WARN: Check if this is really the behavior I want since it can technical crossover several times
-main.cpp:34 INFO: Generation 55, Min fitness: 0.590000, Max fitness: 0.780000, Mean fitness: 0.679000
-genetic_algorithm.h:53 WARN: Check if this is really the behavior I want since it can technical crossover several times
-main.cpp:34 INFO: Generation 56, Min fitness: 0.600000, Max fitness: 0.770000, Mean fitness: 0.679000
-genetic_algorithm.h:53 WARN: Check if this is really the behavior I want since it can technical crossover several times
-main.cpp:34 INFO: Generation 57, Min fitness: 0.590000, Max fitness: 0.780000, Mean fitness: 0.679900
-genetic_algorithm.h:53 WARN: Check if this is really the behavior I want since it can technical crossover several times
-main.cpp:34 INFO: Generation 58, Min fitness: 0.620000, Max fitness: 0.780000, Mean fitness: 0.683300
-genetic_algorithm.h:53 WARN: Check if this is really the behavior I want since it can technical crossover several times
-main.cpp:34 INFO: Generation 59, Min fitness: 0.600000, Max fitness: 0.760000, Mean fitness: 0.690100
-genetic_algorithm.h:53 WARN: Check if this is really the behavior I want since it can technical crossover several times
-main.cpp:34 INFO: Generation 60, Min fitness: 0.600000, Max fitness: 0.790000, Mean fitness: 0.694000
-genetic_algorithm.h:53 WARN: Check if this is really the behavior I want since it can technical crossover several times
-main.cpp:34 INFO: Generation 61, Min fitness: 0.620000, Max fitness: 0.770000, Mean fitness: 0.692000
-genetic_algorithm.h:53 WARN: Check if this is really the behavior I want since it can technical crossover several times
-main.cpp:34 INFO: Generation 62, Min fitness: 0.610000, Max fitness: 0.780000, Mean fitness: 0.697900
-genetic_algorithm.h:53 WARN: Check if this is really the behavior I want since it can technical crossover several times
-main.cpp:34 INFO: Generation 63, Min fitness: 0.610000, Max fitness: 0.790000, Mean fitness: 0.700900
-genetic_algorithm.h:53 WARN: Check if this is really the behavior I want since it can technical crossover several times
-main.cpp:34 INFO: Generation 64, Min fitness: 0.600000, Max fitness: 0.800000, Mean fitness: 0.703000
-genetic_algorithm.h:53 WARN: Check if this is really the behavior I want since it can technical crossover several times
-main.cpp:34 INFO: Generation 65, Min fitness: 0.620000, Max fitness: 0.780000, Mean fitness: 0.711500
-genetic_algorithm.h:53 WARN: Check if this is really the behavior I want since it can technical crossover several times
-main.cpp:34 INFO: Generation 66, Min fitness: 0.620000, Max fitness: 0.790000, Mean fitness: 0.710300
-genetic_algorithm.h:53 WARN: Check if this is really the behavior I want since it can technical crossover several times
-main.cpp:34 INFO: Generation 67, Min fitness: 0.620000, Max fitness: 0.800000, Mean fitness: 0.719100
-genetic_algorithm.h:53 WARN: Check if this is really the behavior I want since it can technical crossover several times
-main.cpp:34 INFO: Generation 68, Min fitness: 0.620000, Max fitness: 0.790000, Mean fitness: 0.717700
-genetic_algorithm.h:53 WARN: Check if this is really the behavior I want since it can technical crossover several times
-main.cpp:34 INFO: Generation 69, Min fitness: 0.640000, Max fitness: 0.800000, Mean fitness: 0.724300
-genetic_algorithm.h:53 WARN: Check if this is really the behavior I want since it can technical crossover several times
-main.cpp:34 INFO: Generation 70, Min fitness: 0.620000, Max fitness: 0.790000, Mean fitness: 0.723500
-genetic_algorithm.h:53 WARN: Check if this is really the behavior I want since it can technical crossover several times
-main.cpp:34 INFO: Generation 71, Min fitness: 0.620000, Max fitness: 0.800000, Mean fitness: 0.724300
-genetic_algorithm.h:53 WARN: Check if this is really the behavior I want since it can technical crossover several times
-main.cpp:34 INFO: Generation 72, Min fitness: 0.620000, Max fitness: 0.810000, Mean fitness: 0.726300
-genetic_algorithm.h:53 WARN: Check if this is really the behavior I want since it can technical crossover several times
-main.cpp:34 INFO: Generation 73, Min fitness: 0.650000, Max fitness: 0.810000, Mean fitness: 0.721800
-genetic_algorithm.h:53 WARN: Check if this is really the behavior I want since it can technical crossover several times
-main.cpp:34 INFO: Generation 74, Min fitness: 0.650000, Max fitness: 0.800000, Mean fitness: 0.726900
-genetic_algorithm.h:53 WARN: Check if this is really the behavior I want since it can technical crossover several times
-main.cpp:34 INFO: Generation 75, Min fitness: 0.640000, Max fitness: 0.800000, Mean fitness: 0.732300
-genetic_algorithm.h:53 WARN: Check if this is really the behavior I want since it can technical crossover several times
-main.cpp:34 INFO: Generation 76, Min fitness: 0.650000, Max fitness: 0.810000, Mean fitness: 0.740100
-genetic_algorithm.h:53 WARN: Check if this is really the behavior I want since it can technical crossover several times
-main.cpp:34 INFO: Generation 77, Min fitness: 0.660000, Max fitness: 0.800000, Mean fitness: 0.737300
-genetic_algorithm.h:53 WARN: Check if this is really the behavior I want since it can technical crossover several times
-main.cpp:34 INFO: Generation 78, Min fitness: 0.650000, Max fitness: 0.810000, Mean fitness: 0.734300
-genetic_algorithm.h:53 WARN: Check if this is really the behavior I want since it can technical crossover several times
-main.cpp:34 INFO: Generation 79, Min fitness: 0.640000, Max fitness: 0.810000, Mean fitness: 0.733000
-genetic_algorithm.h:53 WARN: Check if this is really the behavior I want since it can technical crossover several times
-main.cpp:34 INFO: Generation 80, Min fitness: 0.670000, Max fitness: 0.820000, Mean fitness: 0.732800
-genetic_algorithm.h:53 WARN: Check if this is really the behavior I want since it can technical crossover several times
-main.cpp:34 INFO: Generation 81, Min fitness: 0.670000, Max fitness: 0.800000, Mean fitness: 0.736800
-genetic_algorithm.h:53 WARN: Check if this is really the behavior I want since it can technical crossover several times
-main.cpp:34 INFO: Generation 82, Min fitness: 0.670000, Max fitness: 0.800000, Mean fitness: 0.736500
-genetic_algorithm.h:53 WARN: Check if this is really the behavior I want since it can technical crossover several times
-main.cpp:34 INFO: Generation 83, Min fitness: 0.650000, Max fitness: 0.790000, Mean fitness: 0.739300
-genetic_algorithm.h:53 WARN: Check if this is really the behavior I want since it can technical crossover several times
-main.cpp:34 INFO: Generation 84, Min fitness: 0.670000, Max fitness: 0.790000, Mean fitness: 0.741200
-genetic_algorithm.h:53 WARN: Check if this is really the behavior I want since it can technical crossover several times
-main.cpp:34 INFO: Generation 85, Min fitness: 0.680000, Max fitness: 0.810000, Mean fitness: 0.744800
-genetic_algorithm.h:53 WARN: Check if this is really the behavior I want since it can technical crossover several times
-main.cpp:34 INFO: Generation 86, Min fitness: 0.660000, Max fitness: 0.810000, Mean fitness: 0.742800
-genetic_algorithm.h:53 WARN: Check if this is really the behavior I want since it can technical crossover several times
-main.cpp:34 INFO: Generation 87, Min fitness: 0.660000, Max fitness: 0.820000, Mean fitness: 0.750200
-genetic_algorithm.h:53 WARN: Check if this is really the behavior I want since it can technical crossover several times
-main.cpp:34 INFO: Generation 88, Min fitness: 0.670000, Max fitness: 0.830000, Mean fitness: 0.756200
-genetic_algorithm.h:53 WARN: Check if this is really the behavior I want since it can technical crossover several times
-main.cpp:34 INFO: Generation 89, Min fitness: 0.680000, Max fitness: 0.830000, Mean fitness: 0.764900
-genetic_algorithm.h:53 WARN: Check if this is really the behavior I want since it can technical crossover several times
-main.cpp:34 INFO: Generation 90, Min fitness: 0.690000, Max fitness: 0.830000, Mean fitness: 0.762600
-genetic_algorithm.h:53 WARN: Check if this is really the behavior I want since it can technical crossover several times
-main.cpp:34 INFO: Generation 91, Min fitness: 0.660000, Max fitness: 0.850000, Mean fitness: 0.762600
-genetic_algorithm.h:53 WARN: Check if this is really the behavior I want since it can technical crossover several times
-main.cpp:34 INFO: Generation 92, Min fitness: 0.710000, Max fitness: 0.850000, Mean fitness: 0.772800
-genetic_algorithm.h:53 WARN: Check if this is really the behavior I want since it can technical crossover several times
-main.cpp:34 INFO: Generation 93, Min fitness: 0.710000, Max fitness: 0.850000, Mean fitness: 0.773700
-genetic_algorithm.h:53 WARN: Check if this is really the behavior I want since it can technical crossover several times
-main.cpp:34 INFO: Generation 94, Min fitness: 0.710000, Max fitness: 0.850000, Mean fitness: 0.776900
-genetic_algorithm.h:53 WARN: Check if this is really the behavior I want since it can technical crossover several times
-main.cpp:34 INFO: Generation 95, Min fitness: 0.710000, Max fitness: 0.850000, Mean fitness: 0.775700
-genetic_algorithm.h:53 WARN: Check if this is really the behavior I want since it can technical crossover several times
-main.cpp:34 INFO: Generation 96, Min fitness: 0.700000, Max fitness: 0.850000, Mean fitness: 0.778100
-genetic_algorithm.h:53 WARN: Check if this is really the behavior I want since it can technical crossover several times
-main.cpp:34 INFO: Generation 97, Min fitness: 0.710000, Max fitness: 0.840000, Mean fitness: 0.776000
-genetic_algorithm.h:53 WARN: Check if this is really the behavior I want since it can technical crossover several times
-main.cpp:34 INFO: Generation 98, Min fitness: 0.700000, Max fitness: 0.850000, Mean fitness: 0.774400
-genetic_algorithm.h:53 WARN: Check if this is really the behavior I want since it can technical crossover several times
-main.cpp:34 INFO: Generation 99, Min fitness: 0.720000, Max fitness: 0.850000, Mean fitness: 0.778600
-genetic_algorithm.h:53 WARN: Check if this is really the behavior I want since it can technical crossover several times
-main.cpp:34 INFO: Generation 100, Min fitness: 0.720000, Max fitness: 0.840000, Mean fitness: 0.782400
-genetic_algorithm.h:53 WARN: Check if this is really the behavior I want since it can technical crossover several times
-main.cpp:34 INFO: Generation 101, Min fitness: 0.730000, Max fitness: 0.840000, Mean fitness: 0.784400
-genetic_algorithm.h:53 WARN: Check if this is really the behavior I want since it can technical crossover several times
-main.cpp:34 INFO: Generation 102, Min fitness: 0.690000, Max fitness: 0.840000, Mean fitness: 0.780000
-genetic_algorithm.h:53 WARN: Check if this is really the behavior I want since it can technical crossover several times
-main.cpp:34 INFO: Generation 103, Min fitness: 0.680000, Max fitness: 0.840000, Mean fitness: 0.777000
-genetic_algorithm.h:53 WARN: Check if this is really the behavior I want since it can technical crossover several times
-main.cpp:34 INFO: Generation 104, Min fitness: 0.710000, Max fitness: 0.840000, Mean fitness: 0.778200
-genetic_algorithm.h:53 WARN: Check if this is really the behavior I want since it can technical crossover several times
-main.cpp:34 INFO: Generation 105, Min fitness: 0.730000, Max fitness: 0.850000, Mean fitness: 0.785900
-genetic_algorithm.h:53 WARN: Check if this is really the behavior I want since it can technical crossover several times
-main.cpp:34 INFO: Generation 106, Min fitness: 0.720000, Max fitness: 0.840000, Mean fitness: 0.786200
-genetic_algorithm.h:53 WARN: Check if this is really the behavior I want since it can technical crossover several times
-main.cpp:34 INFO: Generation 107, Min fitness: 0.720000, Max fitness: 0.850000, Mean fitness: 0.783900
-genetic_algorithm.h:53 WARN: Check if this is really the behavior I want since it can technical crossover several times
-main.cpp:34 INFO: Generation 108, Min fitness: 0.720000, Max fitness: 0.850000, Mean fitness: 0.786500
-genetic_algorithm.h:53 WARN: Check if this is really the behavior I want since it can technical crossover several times
-main.cpp:34 INFO: Generation 109, Min fitness: 0.730000, Max fitness: 0.840000, Mean fitness: 0.784300
-genetic_algorithm.h:53 WARN: Check if this is really the behavior I want since it can technical crossover several times
-main.cpp:34 INFO: Generation 110, Min fitness: 0.730000, Max fitness: 0.840000, Mean fitness: 0.782700
-genetic_algorithm.h:53 WARN: Check if this is really the behavior I want since it can technical crossover several times
-main.cpp:34 INFO: Generation 111, Min fitness: 0.720000, Max fitness: 0.850000, Mean fitness: 0.785500
-genetic_algorithm.h:53 WARN: Check if this is really the behavior I want since it can technical crossover several times
-main.cpp:34 INFO: Generation 112, Min fitness: 0.720000, Max fitness: 0.850000, Mean fitness: 0.784800
-genetic_algorithm.h:53 WARN: Check if this is really the behavior I want since it can technical crossover several times
-main.cpp:34 INFO: Generation 113, Min fitness: 0.720000, Max fitness: 0.850000, Mean fitness: 0.790800
-genetic_algorithm.h:53 WARN: Check if this is really the behavior I want since it can technical crossover several times
-main.cpp:34 INFO: Generation 114, Min fitness: 0.740000, Max fitness: 0.850000, Mean fitness: 0.792100
-genetic_algorithm.h:53 WARN: Check if this is really the behavior I want since it can technical crossover several times
-main.cpp:34 INFO: Generation 115, Min fitness: 0.730000, Max fitness: 0.850000, Mean fitness: 0.788500
-genetic_algorithm.h:53 WARN: Check if this is really the behavior I want since it can technical crossover several times
-main.cpp:34 INFO: Generation 116, Min fitness: 0.710000, Max fitness: 0.860000, Mean fitness: 0.786800
-genetic_algorithm.h:53 WARN: Check if this is really the behavior I want since it can technical crossover several times
-main.cpp:34 INFO: Generation 117, Min fitness: 0.710000, Max fitness: 0.850000, Mean fitness: 0.789600
-genetic_algorithm.h:53 WARN: Check if this is really the behavior I want since it can technical crossover several times
-main.cpp:34 INFO: Generation 118, Min fitness: 0.690000, Max fitness: 0.850000, Mean fitness: 0.790500
-genetic_algorithm.h:53 WARN: Check if this is really the behavior I want since it can technical crossover several times
-main.cpp:34 INFO: Generation 119, Min fitness: 0.700000, Max fitness: 0.850000, Mean fitness: 0.788900
-genetic_algorithm.h:53 WARN: Check if this is really the behavior I want since it can technical crossover several times
-main.cpp:34 INFO: Generation 120, Min fitness: 0.710000, Max fitness: 0.840000, Mean fitness: 0.787100
-genetic_algorithm.h:53 WARN: Check if this is really the behavior I want since it can technical crossover several times
-main.cpp:34 INFO: Generation 121, Min fitness: 0.740000, Max fitness: 0.840000, Mean fitness: 0.788700
-genetic_algorithm.h:53 WARN: Check if this is really the behavior I want since it can technical crossover several times
-main.cpp:34 INFO: Generation 122, Min fitness: 0.720000, Max fitness: 0.860000, Mean fitness: 0.790200
-genetic_algorithm.h:53 WARN: Check if this is really the behavior I want since it can technical crossover several times
-main.cpp:34 INFO: Generation 123, Min fitness: 0.710000, Max fitness: 0.870000, Mean fitness: 0.793400
-genetic_algorithm.h:53 WARN: Check if this is really the behavior I want since it can technical crossover several times
-main.cpp:34 INFO: Generation 124, Min fitness: 0.730000, Max fitness: 0.860000, Mean fitness: 0.800200
-genetic_algorithm.h:53 WARN: Check if this is really the behavior I want since it can technical crossover several times
-main.cpp:34 INFO: Generation 125, Min fitness: 0.730000, Max fitness: 0.870000, Mean fitness: 0.798600
-genetic_algorithm.h:53 WARN: Check if this is really the behavior I want since it can technical crossover several times
-main.cpp:34 INFO: Generation 126, Min fitness: 0.730000, Max fitness: 0.870000, Mean fitness: 0.797000
-genetic_algorithm.h:53 WARN: Check if this is really the behavior I want since it can technical crossover several times
-main.cpp:34 INFO: Generation 127, Min fitness: 0.730000, Max fitness: 0.870000, Mean fitness: 0.796400
-genetic_algorithm.h:53 WARN: Check if this is really the behavior I want since it can technical crossover several times
-main.cpp:34 INFO: Generation 128, Min fitness: 0.740000, Max fitness: 0.870000, Mean fitness: 0.797700
-genetic_algorithm.h:53 WARN: Check if this is really the behavior I want since it can technical crossover several times
-main.cpp:34 INFO: Generation 129, Min fitness: 0.710000, Max fitness: 0.880000, Mean fitness: 0.801900
-genetic_algorithm.h:53 WARN: Check if this is really the behavior I want since it can technical crossover several times
-main.cpp:34 INFO: Generation 130, Min fitness: 0.740000, Max fitness: 0.870000, Mean fitness: 0.804800
-genetic_algorithm.h:53 WARN: Check if this is really the behavior I want since it can technical crossover several times
-main.cpp:34 INFO: Generation 131, Min fitness: 0.750000, Max fitness: 0.870000, Mean fitness: 0.807200
-genetic_algorithm.h:53 WARN: Check if this is really the behavior I want since it can technical crossover several times
-main.cpp:34 INFO: Generation 132, Min fitness: 0.730000, Max fitness: 0.880000, Mean fitness: 0.807100
-genetic_algorithm.h:53 WARN: Check if this is really the behavior I want since it can technical crossover several times
-main.cpp:34 INFO: Generation 133, Min fitness: 0.730000, Max fitness: 0.880000, Mean fitness: 0.807200
-genetic_algorithm.h:53 WARN: Check if this is really the behavior I want since it can technical crossover several times
-main.cpp:34 INFO: Generation 134, Min fitness: 0.740000, Max fitness: 0.870000, Mean fitness: 0.810400
-genetic_algorithm.h:53 WARN: Check if this is really the behavior I want since it can technical crossover several times
-main.cpp:34 INFO: Generation 135, Min fitness: 0.750000, Max fitness: 0.870000, Mean fitness: 0.811800
-genetic_algorithm.h:53 WARN: Check if this is really the behavior I want since it can technical crossover several times
-main.cpp:34 INFO: Generation 136, Min fitness: 0.750000, Max fitness: 0.870000, Mean fitness: 0.812400
-genetic_algorithm.h:53 WARN: Check if this is really the behavior I want since it can technical crossover several times
-main.cpp:34 INFO: Generation 137, Min fitness: 0.750000, Max fitness: 0.870000, Mean fitness: 0.814800
-genetic_algorithm.h:53 WARN: Check if this is really the behavior I want since it can technical crossover several times
-main.cpp:34 INFO: Generation 138, Min fitness: 0.750000, Max fitness: 0.870000, Mean fitness: 0.812100
-genetic_algorithm.h:53 WARN: Check if this is really the behavior I want since it can technical crossover several times
-main.cpp:34 INFO: Generation 139, Min fitness: 0.760000, Max fitness: 0.870000, Mean fitness: 0.811600
-genetic_algorithm.h:53 WARN: Check if this is really the behavior I want since it can technical crossover several times
-main.cpp:34 INFO: Generation 140, Min fitness: 0.740000, Max fitness: 0.870000, Mean fitness: 0.810900
-genetic_algorithm.h:53 WARN: Check if this is really the behavior I want since it can technical crossover several times
-main.cpp:34 INFO: Generation 141, Min fitness: 0.740000, Max fitness: 0.870000, Mean fitness: 0.812000
-genetic_algorithm.h:53 WARN: Check if this is really the behavior I want since it can technical crossover several times
+main.cpp:35 INFO: Generation 0, Min fitness: 0.380000, Max fitness: 0.620000, Mean fitness: 0.507900
+main.cpp:35 INFO: Generation 1, Min fitness: 0.400000, Max fitness: 0.620000, Mean fitness: 0.515800
+main.cpp:35 INFO: Generation 2, Min fitness: 0.400000, Max fitness: 0.620000, Mean fitness: 0.520800
+main.cpp:35 INFO: Generation 3, Min fitness: 0.440000, Max fitness: 0.620000, Mean fitness: 0.524100
+main.cpp:35 INFO: Generation 4, Min fitness: 0.440000, Max fitness: 0.620000, Mean fitness: 0.528700
+main.cpp:35 INFO: Generation 5, Min fitness: 0.440000, Max fitness: 0.620000, Mean fitness: 0.532600
+main.cpp:35 INFO: Generation 6, Min fitness: 0.430000, Max fitness: 0.620000, Mean fitness: 0.539100
+main.cpp:35 INFO: Generation 7, Min fitness: 0.440000, Max fitness: 0.630000, Mean fitness: 0.555800
+main.cpp:35 INFO: Generation 8, Min fitness: 0.440000, Max fitness: 0.640000, Mean fitness: 0.563400
+main.cpp:35 INFO: Generation 9, Min fitness: 0.460000, Max fitness: 0.640000, Mean fitness: 0.573400
+main.cpp:35 INFO: Generation 10, Min fitness: 0.460000, Max fitness: 0.640000, Mean fitness: 0.578300
+main.cpp:35 INFO: Generation 11, Min fitness: 0.460000, Max fitness: 0.640000, Mean fitness: 0.581300
+main.cpp:35 INFO: Generation 12, Min fitness: 0.460000, Max fitness: 0.640000, Mean fitness: 0.584400
+main.cpp:35 INFO: Generation 13, Min fitness: 0.450000, Max fitness: 0.650000, Mean fitness: 0.589100
+main.cpp:35 INFO: Generation 14, Min fitness: 0.450000, Max fitness: 0.650000, Mean fitness: 0.591600
+main.cpp:35 INFO: Generation 15, Min fitness: 0.470000, Max fitness: 0.650000, Mean fitness: 0.596300
+main.cpp:35 INFO: Generation 16, Min fitness: 0.470000, Max fitness: 0.650000, Mean fitness: 0.594900
+main.cpp:35 INFO: Generation 17, Min fitness: 0.520000, Max fitness: 0.660000, Mean fitness: 0.598900
+main.cpp:35 INFO: Generation 18, Min fitness: 0.510000, Max fitness: 0.660000, Mean fitness: 0.600800
+main.cpp:35 INFO: Generation 19, Min fitness: 0.530000, Max fitness: 0.660000, Mean fitness: 0.605600
+main.cpp:35 INFO: Generation 20, Min fitness: 0.530000, Max fitness: 0.670000, Mean fitness: 0.602200
+main.cpp:35 INFO: Generation 21, Min fitness: 0.530000, Max fitness: 0.670000, Mean fitness: 0.611300
+main.cpp:35 INFO: Generation 22, Min fitness: 0.520000, Max fitness: 0.670000, Mean fitness: 0.615700
+main.cpp:35 INFO: Generation 23, Min fitness: 0.520000, Max fitness: 0.670000, Mean fitness: 0.619900
+main.cpp:35 INFO: Generation 24, Min fitness: 0.530000, Max fitness: 0.670000, Mean fitness: 0.622500
+main.cpp:35 INFO: Generation 25, Min fitness: 0.550000, Max fitness: 0.680000, Mean fitness: 0.624100
+main.cpp:35 INFO: Generation 26, Min fitness: 0.560000, Max fitness: 0.680000, Mean fitness: 0.624500
+main.cpp:35 INFO: Generation 27, Min fitness: 0.560000, Max fitness: 0.680000, Mean fitness: 0.625200
+main.cpp:35 INFO: Generation 28, Min fitness: 0.570000, Max fitness: 0.690000, Mean fitness: 0.629800
+main.cpp:35 INFO: Generation 29, Min fitness: 0.570000, Max fitness: 0.690000, Mean fitness: 0.632300
+main.cpp:35 INFO: Generation 30, Min fitness: 0.570000, Max fitness: 0.690000, Mean fitness: 0.636400
+main.cpp:35 INFO: Generation 31, Min fitness: 0.570000, Max fitness: 0.690000, Mean fitness: 0.638100
+main.cpp:35 INFO: Generation 32, Min fitness: 0.570000, Max fitness: 0.690000, Mean fitness: 0.637700
+main.cpp:35 INFO: Generation 33, Min fitness: 0.560000, Max fitness: 0.690000, Mean fitness: 0.635300
+main.cpp:35 INFO: Generation 34, Min fitness: 0.560000, Max fitness: 0.690000, Mean fitness: 0.633800
+main.cpp:35 INFO: Generation 35, Min fitness: 0.560000, Max fitness: 0.700000, Mean fitness: 0.637300
+main.cpp:35 INFO: Generation 36, Min fitness: 0.550000, Max fitness: 0.700000, Mean fitness: 0.640700
+main.cpp:35 INFO: Generation 37, Min fitness: 0.560000, Max fitness: 0.700000, Mean fitness: 0.646200
+main.cpp:35 INFO: Generation 38, Min fitness: 0.570000, Max fitness: 0.700000, Mean fitness: 0.648600
+main.cpp:35 INFO: Generation 39, Min fitness: 0.570000, Max fitness: 0.700000, Mean fitness: 0.645300
+main.cpp:35 INFO: Generation 40, Min fitness: 0.570000, Max fitness: 0.700000, Mean fitness: 0.645200
+main.cpp:35 INFO: Generation 41, Min fitness: 0.570000, Max fitness: 0.700000, Mean fitness: 0.643100
+main.cpp:35 INFO: Generation 42, Min fitness: 0.570000, Max fitness: 0.700000, Mean fitness: 0.646100
+main.cpp:35 INFO: Generation 43, Min fitness: 0.570000, Max fitness: 0.710000, Mean fitness: 0.648100
+main.cpp:35 INFO: Generation 44, Min fitness: 0.570000, Max fitness: 0.710000, Mean fitness: 0.645600
+main.cpp:35 INFO: Generation 45, Min fitness: 0.570000, Max fitness: 0.710000, Mean fitness: 0.646800
+main.cpp:35 INFO: Generation 46, Min fitness: 0.570000, Max fitness: 0.710000, Mean fitness: 0.648800
+main.cpp:35 INFO: Generation 47, Min fitness: 0.590000, Max fitness: 0.710000, Mean fitness: 0.649600
+main.cpp:35 INFO: Generation 48, Min fitness: 0.600000, Max fitness: 0.710000, Mean fitness: 0.656600
+main.cpp:35 INFO: Generation 49, Min fitness: 0.600000, Max fitness: 0.710000, Mean fitness: 0.655500
+main.cpp:35 INFO: Generation 50, Min fitness: 0.580000, Max fitness: 0.720000, Mean fitness: 0.661000
+main.cpp:35 INFO: Generation 51, Min fitness: 0.580000, Max fitness: 0.720000, Mean fitness: 0.662600
+main.cpp:35 INFO: Generation 52, Min fitness: 0.580000, Max fitness: 0.720000, Mean fitness: 0.667600
+main.cpp:35 INFO: Generation 53, Min fitness: 0.580000, Max fitness: 0.720000, Mean fitness: 0.672800
+main.cpp:35 INFO: Generation 54, Min fitness: 0.570000, Max fitness: 0.730000, Mean fitness: 0.672800
+main.cpp:35 INFO: Generation 55, Min fitness: 0.560000, Max fitness: 0.730000, Mean fitness: 0.675700
+main.cpp:35 INFO: Generation 56, Min fitness: 0.620000, Max fitness: 0.730000, Mean fitness: 0.674300
+main.cpp:35 INFO: Generation 57, Min fitness: 0.620000, Max fitness: 0.730000, Mean fitness: 0.678400
+main.cpp:35 INFO: Generation 58, Min fitness: 0.630000, Max fitness: 0.740000, Mean fitness: 0.676400
+main.cpp:35 INFO: Generation 59, Min fitness: 0.630000, Max fitness: 0.730000, Mean fitness: 0.679900
+main.cpp:35 INFO: Generation 60, Min fitness: 0.630000, Max fitness: 0.730000, Mean fitness: 0.684500
+main.cpp:35 INFO: Generation 61, Min fitness: 0.630000, Max fitness: 0.730000, Mean fitness: 0.683500
+main.cpp:35 INFO: Generation 62, Min fitness: 0.630000, Max fitness: 0.730000, Mean fitness: 0.682400
+main.cpp:35 INFO: Generation 63, Min fitness: 0.630000, Max fitness: 0.730000, Mean fitness: 0.685500
+main.cpp:35 INFO: Generation 64, Min fitness: 0.630000, Max fitness: 0.740000, Mean fitness: 0.682400
+main.cpp:35 INFO: Generation 65, Min fitness: 0.630000, Max fitness: 0.740000, Mean fitness: 0.685600
+main.cpp:35 INFO: Generation 66, Min fitness: 0.630000, Max fitness: 0.740000, Mean fitness: 0.685200
+main.cpp:35 INFO: Generation 67, Min fitness: 0.630000, Max fitness: 0.740000, Mean fitness: 0.682100
+main.cpp:35 INFO: Generation 68, Min fitness: 0.620000, Max fitness: 0.750000, Mean fitness: 0.678800
+main.cpp:35 INFO: Generation 69, Min fitness: 0.630000, Max fitness: 0.750000, Mean fitness: 0.673300
+main.cpp:35 INFO: Generation 70, Min fitness: 0.630000, Max fitness: 0.750000, Mean fitness: 0.672400
+main.cpp:35 INFO: Generation 71, Min fitness: 0.620000, Max fitness: 0.750000, Mean fitness: 0.668900
+main.cpp:35 INFO: Generation 72, Min fitness: 0.630000, Max fitness: 0.750000, Mean fitness: 0.671700
+main.cpp:35 INFO: Generation 73, Min fitness: 0.630000, Max fitness: 0.750000, Mean fitness: 0.677100
+main.cpp:35 INFO: Generation 74, Min fitness: 0.630000, Max fitness: 0.760000, Mean fitness: 0.679600
+main.cpp:35 INFO: Generation 75, Min fitness: 0.630000, Max fitness: 0.760000, Mean fitness: 0.676700
+main.cpp:35 INFO: Generation 76, Min fitness: 0.630000, Max fitness: 0.760000, Mean fitness: 0.674200
+main.cpp:35 INFO: Generation 77, Min fitness: 0.630000, Max fitness: 0.760000, Mean fitness: 0.674100
+main.cpp:35 INFO: Generation 78, Min fitness: 0.630000, Max fitness: 0.760000, Mean fitness: 0.674800
+main.cpp:35 INFO: Generation 79, Min fitness: 0.630000, Max fitness: 0.760000, Mean fitness: 0.678100
+main.cpp:35 INFO: Generation 80, Min fitness: 0.630000, Max fitness: 0.760000, Mean fitness: 0.678900
+main.cpp:35 INFO: Generation 81, Min fitness: 0.630000, Max fitness: 0.760000, Mean fitness: 0.679400
+main.cpp:35 INFO: Generation 82, Min fitness: 0.630000, Max fitness: 0.760000, Mean fitness: 0.681200
+main.cpp:35 INFO: Generation 83, Min fitness: 0.630000, Max fitness: 0.760000, Mean fitness: 0.687600
+main.cpp:35 INFO: Generation 84, Min fitness: 0.630000, Max fitness: 0.760000, Mean fitness: 0.685600
+main.cpp:35 INFO: Generation 85, Min fitness: 0.630000, Max fitness: 0.760000, Mean fitness: 0.687000
+main.cpp:35 INFO: Generation 86, Min fitness: 0.620000, Max fitness: 0.760000, Mean fitness: 0.685600
+main.cpp:35 INFO: Generation 87, Min fitness: 0.620000, Max fitness: 0.760000, Mean fitness: 0.689900
+main.cpp:35 INFO: Generation 88, Min fitness: 0.610000, Max fitness: 0.760000, Mean fitness: 0.687700
+main.cpp:35 INFO: Generation 89, Min fitness: 0.610000, Max fitness: 0.770000, Mean fitness: 0.693800
+main.cpp:35 INFO: Generation 90, Min fitness: 0.600000, Max fitness: 0.770000, Mean fitness: 0.695800
+main.cpp:35 INFO: Generation 91, Min fitness: 0.620000, Max fitness: 0.770000, Mean fitness: 0.703100
+main.cpp:35 INFO: Generation 92, Min fitness: 0.620000, Max fitness: 0.770000, Mean fitness: 0.708000
+main.cpp:35 INFO: Generation 93, Min fitness: 0.620000, Max fitness: 0.770000, Mean fitness: 0.716500
+main.cpp:35 INFO: Generation 94, Min fitness: 0.620000, Max fitness: 0.770000, Mean fitness: 0.721600
+main.cpp:35 INFO: Generation 95, Min fitness: 0.620000, Max fitness: 0.770000, Mean fitness: 0.726900
+main.cpp:35 INFO: Generation 96, Min fitness: 0.620000, Max fitness: 0.780000, Mean fitness: 0.733500
+main.cpp:35 INFO: Generation 97, Min fitness: 0.620000, Max fitness: 0.780000, Mean fitness: 0.736000
+main.cpp:35 INFO: Generation 98, Min fitness: 0.650000, Max fitness: 0.780000, Mean fitness: 0.735900
+main.cpp:35 INFO: Generation 99, Min fitness: 0.650000, Max fitness: 0.780000, Mean fitness: 0.737700
+main.cpp:35 INFO: Generation 100, Min fitness: 0.660000, Max fitness: 0.780000, Mean fitness: 0.740200
+main.cpp:35 INFO: Generation 101, Min fitness: 0.650000, Max fitness: 0.780000, Mean fitness: 0.741000
+main.cpp:35 INFO: Generation 102, Min fitness: 0.660000, Max fitness: 0.780000, Mean fitness: 0.737200
+main.cpp:35 INFO: Generation 103, Min fitness: 0.660000, Max fitness: 0.790000, Mean fitness: 0.739500
+main.cpp:35 INFO: Generation 104, Min fitness: 0.670000, Max fitness: 0.790000, Mean fitness: 0.740500
+main.cpp:35 INFO: Generation 105, Min fitness: 0.670000, Max fitness: 0.790000, Mean fitness: 0.740900
+main.cpp:35 INFO: Generation 106, Min fitness: 0.660000, Max fitness: 0.790000, Mean fitness: 0.738500
+main.cpp:35 INFO: Generation 107, Min fitness: 0.660000, Max fitness: 0.790000, Mean fitness: 0.737100
+main.cpp:35 INFO: Generation 108, Min fitness: 0.660000, Max fitness: 0.790000, Mean fitness: 0.741800
+main.cpp:35 INFO: Generation 109, Min fitness: 0.660000, Max fitness: 0.790000, Mean fitness: 0.745000
+main.cpp:35 INFO: Generation 110, Min fitness: 0.660000, Max fitness: 0.790000, Mean fitness: 0.743600
+main.cpp:35 INFO: Generation 111, Min fitness: 0.660000, Max fitness: 0.790000, Mean fitness: 0.746100
+main.cpp:35 INFO: Generation 112, Min fitness: 0.660000, Max fitness: 0.790000, Mean fitness: 0.753600
+main.cpp:35 INFO: Generation 113, Min fitness: 0.660000, Max fitness: 0.790000, Mean fitness: 0.757000
+main.cpp:35 INFO: Generation 114, Min fitness: 0.650000, Max fitness: 0.790000, Mean fitness: 0.757700
+main.cpp:35 INFO: Generation 115, Min fitness: 0.650000, Max fitness: 0.790000, Mean fitness: 0.755700
+main.cpp:35 INFO: Generation 116, Min fitness: 0.660000, Max fitness: 0.790000, Mean fitness: 0.757600
+main.cpp:35 INFO: Generation 117, Min fitness: 0.660000, Max fitness: 0.790000, Mean fitness: 0.761300
+main.cpp:35 INFO: Generation 118, Min fitness: 0.650000, Max fitness: 0.800000, Mean fitness: 0.760100
+main.cpp:35 INFO: Generation 119, Min fitness: 0.650000, Max fitness: 0.800000, Mean fitness: 0.759600
+main.cpp:35 INFO: Generation 120, Min fitness: 0.650000, Max fitness: 0.810000, Mean fitness: 0.760500
+main.cpp:35 INFO: Generation 121, Min fitness: 0.650000, Max fitness: 0.810000, Mean fitness: 0.759900
+main.cpp:35 INFO: Generation 122, Min fitness: 0.660000, Max fitness: 0.810000, Mean fitness: 0.762200
+main.cpp:35 INFO: Generation 123, Min fitness: 0.660000, Max fitness: 0.820000, Mean fitness: 0.762000
+main.cpp:35 INFO: Generation 124, Min fitness: 0.660000, Max fitness: 0.830000, Mean fitness: 0.767200
+main.cpp:35 INFO: Generation 125, Min fitness: 0.660000, Max fitness: 0.830000, Mean fitness: 0.774000
+main.cpp:35 INFO: Generation 126, Min fitness: 0.720000, Max fitness: 0.830000, Mean fitness: 0.778800
+main.cpp:35 INFO: Generation 127, Min fitness: 0.720000, Max fitness: 0.830000, Mean fitness: 0.777400
+main.cpp:35 INFO: Generation 128, Min fitness: 0.720000, Max fitness: 0.830000, Mean fitness: 0.776400
+main.cpp:35 INFO: Generation 129, Min fitness: 0.720000, Max fitness: 0.830000, Mean fitness: 0.778000
+main.cpp:35 INFO: Generation 130, Min fitness: 0.720000, Max fitness: 0.830000, Mean fitness: 0.778600
+main.cpp:35 INFO: Generation 131, Min fitness: 0.720000, Max fitness: 0.830000, Mean fitness: 0.777900
+main.cpp:35 INFO: Generation 132, Min fitness: 0.710000, Max fitness: 0.830000, Mean fitness: 0.776200
+main.cpp:35 INFO: Generation 133, Min fitness: 0.710000, Max fitness: 0.830000, Mean fitness: 0.777400
+main.cpp:35 INFO: Generation 134, Min fitness: 0.710000, Max fitness: 0.830000, Mean fitness: 0.775900
+main.cpp:35 INFO: Generation 135, Min fitness: 0.710000, Max fitness: 0.830000, Mean fitness: 0.778500
+main.cpp:35 INFO: Generation 136, Min fitness: 0.710000, Max fitness: 0.830000, Mean fitness: 0.777700
+main.cpp:35 INFO: Generation 137, Min fitness: 0.720000, Max fitness: 0.830000, Mean fitness: 0.776400
+main.cpp:35 INFO: Generation 138, Min fitness: 0.730000, Max fitness: 0.840000, Mean fitness: 0.777000
+main.cpp:35 INFO: Generation 139, Min fitness: 0.720000, Max fitness: 0.840000, Mean fitness: 0.779700
+main.cpp:35 INFO: Generation 140, Min fitness: 0.720000, Max fitness: 0.840000, Mean fitness: 0.779900
+main.cpp:35 INFO: Generation 141, Min fitness: 0.740000, Max fitness: 0.840000, Mean fitness: 0.781300
+main.cpp:35 INFO: Generation 142, Min fitness: 0.740000, Max fitness: 0.840000, Mean fitness: 0.785100
+main.cpp:35 INFO: Generation 143, Min fitness: 0.740000, Max fitness: 0.840000, Mean fitness: 0.788700
+main.cpp:35 INFO: Generation 144, Min fitness: 0.740000, Max fitness: 0.840000, Mean fitness: 0.788500
+main.cpp:35 INFO: Generation 145, Min fitness: 0.730000, Max fitness: 0.850000, Mean fitness: 0.787700
+main.cpp:35 INFO: Generation 146, Min fitness: 0.730000, Max fitness: 0.850000, Mean fitness: 0.789400
+main.cpp:35 INFO: Generation 147, Min fitness: 0.730000, Max fitness: 0.850000, Mean fitness: 0.795200
+main.cpp:35 INFO: Generation 148, Min fitness: 0.720000, Max fitness: 0.850000, Mean fitness: 0.800700
+main.cpp:35 INFO: Generation 149, Min fitness: 0.720000, Max fitness: 0.850000, Mean fitness: 0.806400
+main.cpp:35 INFO: Generation 150, Min fitness: 0.720000, Max fitness: 0.850000, Mean fitness: 0.806700
+main.cpp:35 INFO: Generation 151, Min fitness: 0.720000, Max fitness: 0.860000, Mean fitness: 0.810700
+main.cpp:35 INFO: Generation 152, Min fitness: 0.720000, Max fitness: 0.860000, Mean fitness: 0.810200
+main.cpp:35 INFO: Generation 153, Min fitness: 0.720000, Max fitness: 0.860000, Mean fitness: 0.812600
+main.cpp:35 INFO: Generation 154, Min fitness: 0.740000, Max fitness: 0.860000, Mean fitness: 0.817800
+main.cpp:35 INFO: Generation 155, Min fitness: 0.770000, Max fitness: 0.860000, Mean fitness: 0.819600
+main.cpp:35 INFO: Generation 156, Min fitness: 0.770000, Max fitness: 0.860000, Mean fitness: 0.821000
+main.cpp:35 INFO: Generation 157, Min fitness: 0.770000, Max fitness: 0.860000, Mean fitness: 0.817800
+main.cpp:35 INFO: Generation 158, Min fitness: 0.760000, Max fitness: 0.860000, Mean fitness: 0.818900
+main.cpp:35 INFO: Generation 159, Min fitness: 0.760000, Max fitness: 0.860000, Mean fitness: 0.818700
+main.cpp:35 INFO: Generation 160, Min fitness: 0.750000, Max fitness: 0.860000, Mean fitness: 0.824300
+main.cpp:35 INFO: Generation 161, Min fitness: 0.760000, Max fitness: 0.860000, Mean fitness: 0.825500
+main.cpp:35 INFO: Generation 162, Min fitness: 0.760000, Max fitness: 0.870000, Mean fitness: 0.825100
+main.cpp:35 INFO: Generation 163, Min fitness: 0.760000, Max fitness: 0.870000, Mean fitness: 0.821100
+main.cpp:35 INFO: Generation 164, Min fitness: 0.750000, Max fitness: 0.870000, Mean fitness: 0.816600
+main.cpp:35 INFO: Generation 165, Min fitness: 0.750000, Max fitness: 0.870000, Mean fitness: 0.818100
+main.cpp:35 INFO: Generation 166, Min fitness: 0.760000, Max fitness: 0.870000, Mean fitness: 0.818800
+main.cpp:35 INFO: Generation 167, Min fitness: 0.760000, Max fitness: 0.870000, Mean fitness: 0.820000
+main.cpp:35 INFO: Generation 168, Min fitness: 0.760000, Max fitness: 0.870000, Mean fitness: 0.821300
+main.cpp:35 INFO: Generation 169, Min fitness: 0.760000, Max fitness: 0.870000, Mean fitness: 0.819300
+main.cpp:35 INFO: Generation 170, Min fitness: 0.750000, Max fitness: 0.870000, Mean fitness: 0.818900
+main.cpp:35 INFO: Generation 171, Min fitness: 0.770000, Max fitness: 0.870000, Mean fitness: 0.820700
+main.cpp:35 INFO: Generation 172, Min fitness: 0.770000, Max fitness: 0.870000, Mean fitness: 0.824300
+main.cpp:35 INFO: Generation 173, Min fitness: 0.770000, Max fitness: 0.870000, Mean fitness: 0.818900
+main.cpp:35 INFO: Generation 174, Min fitness: 0.770000, Max fitness: 0.870000, Mean fitness: 0.819500
+main.cpp:35 INFO: Generation 175, Min fitness: 0.770000, Max fitness: 0.870000, Mean fitness: 0.814200
+main.cpp:35 INFO: Generation 176, Min fitness: 0.770000, Max fitness: 0.870000, Mean fitness: 0.812900
+main.cpp:35 INFO: Generation 177, Min fitness: 0.770000, Max fitness: 0.870000, Mean fitness: 0.810900
+main.cpp:35 INFO: Generation 178, Min fitness: 0.770000, Max fitness: 0.870000, Mean fitness: 0.808300
+main.cpp:35 INFO: Generation 179, Min fitness: 0.770000, Max fitness: 0.870000, Mean fitness: 0.808700
+main.cpp:35 INFO: Generation 180, Min fitness: 0.760000, Max fitness: 0.870000, Mean fitness: 0.807900
+main.cpp:35 INFO: Generation 181, Min fitness: 0.770000, Max fitness: 0.870000, Mean fitness: 0.810100
+main.cpp:35 INFO: Generation 182, Min fitness: 0.760000, Max fitness: 0.870000, Mean fitness: 0.808800
+main.cpp:35 INFO: Generation 183, Min fitness: 0.760000, Max fitness: 0.870000, Mean fitness: 0.807100
+main.cpp:35 INFO: Generation 184, Min fitness: 0.770000, Max fitness: 0.880000, Mean fitness: 0.813200
+main.cpp:35 INFO: Generation 185, Min fitness: 0.770000, Max fitness: 0.880000, Mean fitness: 0.814000
+main.cpp:35 INFO: Generation 186, Min fitness: 0.770000, Max fitness: 0.880000, Mean fitness: 0.812300
+main.cpp:35 INFO: Generation 187, Min fitness: 0.760000, Max fitness: 0.880000, Mean fitness: 0.813400
+main.cpp:35 INFO: Generation 188, Min fitness: 0.760000, Max fitness: 0.880000, Mean fitness: 0.822900
+main.cpp:35 INFO: Generation 189, Min fitness: 0.760000, Max fitness: 0.880000, Mean fitness: 0.827100
+main.cpp:35 INFO: Generation 190, Min fitness: 0.750000, Max fitness: 0.880000, Mean fitness: 0.832000
+main.cpp:35 INFO: Generation 191, Min fitness: 0.750000, Max fitness: 0.880000, Mean fitness: 0.831100
+main.cpp:35 INFO: Generation 192, Min fitness: 0.750000, Max fitness: 0.880000, Mean fitness: 0.832200
+main.cpp:35 INFO: Generation 193, Min fitness: 0.750000, Max fitness: 0.880000, Mean fitness: 0.833600
+main.cpp:35 INFO: Generation 194, Min fitness: 0.750000, Max fitness: 0.880000, Mean fitness: 0.838900
+main.cpp:35 INFO: Generation 195, Min fitness: 0.740000, Max fitness: 0.880000, Mean fitness: 0.842300
+main.cpp:35 INFO: Generation 196, Min fitness: 0.750000, Max fitness: 0.880000, Mean fitness: 0.844600
+main.cpp:35 INFO: Generation 197, Min fitness: 0.750000, Max fitness: 0.880000, Mean fitness: 0.844300
+main.cpp:35 INFO: Generation 198, Min fitness: 0.750000, Max fitness: 0.880000, Mean fitness: 0.847100
+main.cpp:35 INFO: Generation 199, Min fitness: 0.750000, Max fitness: 0.880000, Mean fitness: 0.847200
+main.cpp:35 INFO: Generation 200, Min fitness: 0.750000, Max fitness: 0.880000, Mean fitness: 0.845400
+main.cpp:35 INFO: Generation 201, Min fitness: 0.750000, Max fitness: 0.880000, Mean fitness: 0.850100
+main.cpp:35 INFO: Generation 202, Min fitness: 0.740000, Max fitness: 0.880000, Mean fitness: 0.850000
+main.cpp:35 INFO: Generation 203, Min fitness: 0.740000, Max fitness: 0.890000, Mean fitness: 0.850000
+main.cpp:35 INFO: Generation 204, Min fitness: 0.740000, Max fitness: 0.890000, Mean fitness: 0.849800
+main.cpp:35 INFO: Generation 205, Min fitness: 0.740000, Max fitness: 0.890000, Mean fitness: 0.845800
+main.cpp:35 INFO: Generation 206, Min fitness: 0.740000, Max fitness: 0.900000, Mean fitness: 0.846600
+main.cpp:35 INFO: Generation 207, Min fitness: 0.750000, Max fitness: 0.900000, Mean fitness: 0.846200
+main.cpp:35 INFO: Generation 208, Min fitness: 0.750000, Max fitness: 0.900000, Mean fitness: 0.846800
+main.cpp:35 INFO: Generation 209, Min fitness: 0.750000, Max fitness: 0.900000, Mean fitness: 0.844000
+main.cpp:35 INFO: Generation 210, Min fitness: 0.740000, Max fitness: 0.900000, Mean fitness: 0.840900
+main.cpp:35 INFO: Generation 211, Min fitness: 0.740000, Max fitness: 0.900000, Mean fitness: 0.848500
+main.cpp:35 INFO: Generation 212, Min fitness: 0.740000, Max fitness: 0.900000, Mean fitness: 0.848900
+main.cpp:35 INFO: Generation 213, Min fitness: 0.750000, Max fitness: 0.900000, Mean fitness: 0.853800
+main.cpp:35 INFO: Generation 214, Min fitness: 0.750000, Max fitness: 0.900000, Mean fitness: 0.860300
+main.cpp:35 INFO: Generation 215, Min fitness: 0.750000, Max fitness: 0.900000, Mean fitness: 0.862700
+main.cpp:35 INFO: Generation 216, Min fitness: 0.750000, Max fitness: 0.900000, Mean fitness: 0.864900
+main.cpp:35 INFO: Generation 217, Min fitness: 0.810000, Max fitness: 0.900000, Mean fitness: 0.863600
+main.cpp:35 INFO: Generation 218, Min fitness: 0.800000, Max fitness: 0.900000, Mean fitness: 0.862800
+main.cpp:35 INFO: Generation 219, Min fitness: 0.810000, Max fitness: 0.910000, Mean fitness: 0.865600
+main.cpp:35 INFO: Generation 220, Min fitness: 0.810000, Max fitness: 0.910000, Mean fitness: 0.866400
+main.cpp:35 INFO: Generation 221, Min fitness: 0.810000, Max fitness: 0.910000, Mean fitness: 0.866700
+main.cpp:35 INFO: Generation 222, Min fitness: 0.810000, Max fitness: 0.910000, Mean fitness: 0.862900
+main.cpp:35 INFO: Generation 223, Min fitness: 0.810000, Max fitness: 0.910000, Mean fitness: 0.864700
+main.cpp:35 INFO: Generation 224, Min fitness: 0.810000, Max fitness: 0.910000, Mean fitness: 0.864400
+main.cpp:35 INFO: Generation 225, Min fitness: 0.810000, Max fitness: 0.910000, Mean fitness: 0.864600
+main.cpp:35 INFO: Generation 226, Min fitness: 0.820000, Max fitness: 0.910000, Mean fitness: 0.864900
+main.cpp:35 INFO: Generation 227, Min fitness: 0.820000, Max fitness: 0.920000, Mean fitness: 0.867600
+main.cpp:35 INFO: Generation 228, Min fitness: 0.820000, Max fitness: 0.920000, Mean fitness: 0.867600
+main.cpp:35 INFO: Generation 229, Min fitness: 0.820000, Max fitness: 0.920000, Mean fitness: 0.871000
+main.cpp:35 INFO: Generation 230, Min fitness: 0.840000, Max fitness: 0.920000, Mean fitness: 0.877800
+main.cpp:35 INFO: Generation 231, Min fitness: 0.830000, Max fitness: 0.920000, Mean fitness: 0.876600
+main.cpp:35 INFO: Generation 232, Min fitness: 0.830000, Max fitness: 0.920000, Mean fitness: 0.879300
+main.cpp:35 INFO: Generation 233, Min fitness: 0.830000, Max fitness: 0.930000, Mean fitness: 0.880200
+main.cpp:35 INFO: Generation 234, Min fitness: 0.830000, Max fitness: 0.920000, Mean fitness: 0.877400
+main.cpp:35 INFO: Generation 235, Min fitness: 0.830000, Max fitness: 0.920000, Mean fitness: 0.880500
+main.cpp:35 INFO: Generation 236, Min fitness: 0.820000, Max fitness: 0.920000, Mean fitness: 0.883900
+main.cpp:35 INFO: Generation 237, Min fitness: 0.820000, Max fitness: 0.920000, Mean fitness: 0.887100
+main.cpp:35 INFO: Generation 238, Min fitness: 0.830000, Max fitness: 0.920000, Mean fitness: 0.887800
+main.cpp:35 INFO: Generation 239, Min fitness: 0.830000, Max fitness: 0.920000, Mean fitness: 0.886700
+main.cpp:35 INFO: Generation 240, Min fitness: 0.830000, Max fitness: 0.920000, Mean fitness: 0.887700
+main.cpp:35 INFO: Generation 241, Min fitness: 0.830000, Max fitness: 0.920000, Mean fitness: 0.888000
+main.cpp:35 INFO: Generation 242, Min fitness: 0.830000, Max fitness: 0.920000, Mean fitness: 0.889600
+main.cpp:35 INFO: Generation 243, Min fitness: 0.820000, Max fitness: 0.920000, Mean fitness: 0.890700
+main.cpp:35 INFO: Generation 244, Min fitness: 0.820000, Max fitness: 0.920000, Mean fitness: 0.892400
+main.cpp:35 INFO: Generation 245, Min fitness: 0.820000, Max fitness: 0.930000, Mean fitness: 0.891400
+main.cpp:35 INFO: Generation 246, Min fitness: 0.820000, Max fitness: 0.930000, Mean fitness: 0.891300
+main.cpp:35 INFO: Generation 247, Min fitness: 0.820000, Max fitness: 0.930000, Mean fitness: 0.893600
+main.cpp:35 INFO: Generation 248, Min fitness: 0.830000, Max fitness: 0.930000, Mean fitness: 0.896800
+main.cpp:35 INFO: Generation 249, Min fitness: 0.830000, Max fitness: 0.930000, Mean fitness: 0.895400
+main.cpp:35 INFO: Generation 250, Min fitness: 0.830000, Max fitness: 0.930000, Mean fitness: 0.898100
+main.cpp:35 INFO: Generation 251, Min fitness: 0.830000, Max fitness: 0.930000, Mean fitness: 0.892700
+main.cpp:35 INFO: Generation 252, Min fitness: 0.840000, Max fitness: 0.930000, Mean fitness: 0.897400
+main.cpp:35 INFO: Generation 253, Min fitness: 0.850000, Max fitness: 0.930000, Mean fitness: 0.895500
+main.cpp:35 INFO: Generation 254, Min fitness: 0.850000, Max fitness: 0.930000, Mean fitness: 0.898300
+main.cpp:35 INFO: Generation 255, Min fitness: 0.860000, Max fitness: 0.930000, Mean fitness: 0.902700
+main.cpp:35 INFO: Generation 256, Min fitness: 0.860000, Max fitness: 0.930000, Mean fitness: 0.901000
+main.cpp:35 INFO: Generation 257, Min fitness: 0.860000, Max fitness: 0.940000, Mean fitness: 0.900900
+main.cpp:35 INFO: Generation 258, Min fitness: 0.850000, Max fitness: 0.940000, Mean fitness: 0.901600
+main.cpp:35 INFO: Generation 259, Min fitness: 0.860000, Max fitness: 0.940000, Mean fitness: 0.904000
+main.cpp:35 INFO: Generation 260, Min fitness: 0.860000, Max fitness: 0.940000, Mean fitness: 0.902900
+main.cpp:35 INFO: Generation 261, Min fitness: 0.870000, Max fitness: 0.940000, Mean fitness: 0.903800
+main.cpp:35 INFO: Generation 262, Min fitness: 0.870000, Max fitness: 0.940000, Mean fitness: 0.903900
+main.cpp:35 INFO: Generation 263, Min fitness: 0.860000, Max fitness: 0.940000, Mean fitness: 0.901600
+main.cpp:35 INFO: Generation 264, Min fitness: 0.860000, Max fitness: 0.940000, Mean fitness: 0.901700
+main.cpp:35 INFO: Generation 265, Min fitness: 0.860000, Max fitness: 0.940000, Mean fitness: 0.905600
+main.cpp:35 INFO: Generation 266, Min fitness: 0.860000, Max fitness: 0.940000, Mean fitness: 0.906100
+main.cpp:35 INFO: Generation 267, Min fitness: 0.860000, Max fitness: 0.940000, Mean fitness: 0.904300
+main.cpp:35 INFO: Generation 268, Min fitness: 0.860000, Max fitness: 0.940000, Mean fitness: 0.904200
+main.cpp:35 INFO: Generation 269, Min fitness: 0.850000, Max fitness: 0.940000, Mean fitness: 0.903700
+main.cpp:35 INFO: Generation 270, Min fitness: 0.850000, Max fitness: 0.940000, Mean fitness: 0.903600
+main.cpp:35 INFO: Generation 271, Min fitness: 0.850000, Max fitness: 0.940000, Mean fitness: 0.902300
+main.cpp:35 INFO: Generation 272, Min fitness: 0.840000, Max fitness: 0.940000, Mean fitness: 0.899100
+main.cpp:35 INFO: Generation 273, Min fitness: 0.840000, Max fitness: 0.940000, Mean fitness: 0.899100
+main.cpp:35 INFO: Generation 274, Min fitness: 0.840000, Max fitness: 0.940000, Mean fitness: 0.895200
+main.cpp:35 INFO: Generation 275, Min fitness: 0.850000, Max fitness: 0.940000, Mean fitness: 0.892700
+main.cpp:35 INFO: Generation 276, Min fitness: 0.850000, Max fitness: 0.940000, Mean fitness: 0.890800
+main.cpp:35 INFO: Generation 277, Min fitness: 0.850000, Max fitness: 0.940000, Mean fitness: 0.891900
+main.cpp:35 INFO: Generation 278, Min fitness: 0.840000, Max fitness: 0.940000, Mean fitness: 0.891500
+main.cpp:35 INFO: Generation 279, Min fitness: 0.850000, Max fitness: 0.940000, Mean fitness: 0.893900
+main.cpp:35 INFO: Generation 280, Min fitness: 0.840000, Max fitness: 0.940000, Mean fitness: 0.890900
+main.cpp:35 INFO: Generation 281, Min fitness: 0.840000, Max fitness: 0.940000, Mean fitness: 0.889200
+main.cpp:35 INFO: Generation 282, Min fitness: 0.830000, Max fitness: 0.940000, Mean fitness: 0.889400
+main.cpp:35 INFO: Generation 283, Min fitness: 0.840000, Max fitness: 0.940000, Mean fitness: 0.891000
+main.cpp:35 INFO: Generation 284, Min fitness: 0.840000, Max fitness: 0.940000, Mean fitness: 0.895400
+main.cpp:35 INFO: Generation 285, Min fitness: 0.840000, Max fitness: 0.940000, Mean fitness: 0.900100
+main.cpp:35 INFO: Generation 286, Min fitness: 0.860000, Max fitness: 0.950000, Mean fitness: 0.903500
+main.cpp:35 INFO: Generation 287, Min fitness: 0.860000, Max fitness: 0.950000, Mean fitness: 0.901100
+main.cpp:35 INFO: Generation 288, Min fitness: 0.850000, Max fitness: 0.950000, Mean fitness: 0.902800
+main.cpp:35 INFO: Generation 289, Min fitness: 0.850000, Max fitness: 0.950000, Mean fitness: 0.906900
+main.cpp:35 INFO: Generation 290, Min fitness: 0.850000, Max fitness: 0.950000, Mean fitness: 0.905600
+main.cpp:35 INFO: Generation 291, Min fitness: 0.850000, Max fitness: 0.950000, Mean fitness: 0.908200
+main.cpp:35 INFO: Generation 292, Min fitness: 0.850000, Max fitness: 0.950000, Mean fitness: 0.907300
+main.cpp:35 INFO: Generation 293, Min fitness: 0.860000, Max fitness: 0.950000, Mean fitness: 0.910600
+main.cpp:35 INFO: Generation 294, Min fitness: 0.860000, Max fitness: 0.950000, Mean fitness: 0.910700
+main.cpp:35 INFO: Generation 295, Min fitness: 0.860000, Max fitness: 0.950000, Mean fitness: 0.907900
+main.cpp:35 INFO: Generation 296, Min fitness: 0.860000, Max fitness: 0.950000, Mean fitness: 0.908800
+main.cpp:35 INFO: Generation 297, Min fitness: 0.850000, Max fitness: 0.950000, Mean fitness: 0.911300
+main.cpp:35 INFO: Generation 298, Min fitness: 0.850000, Max fitness: 0.950000, Mean fitness: 0.914700
+main.cpp:35 INFO: Generation 299, Min fitness: 0.850000, Max fitness: 0.950000, Mean fitness: 0.918500
+main.cpp:35 INFO: Generation 300, Min fitness: 0.860000, Max fitness: 0.950000, Mean fitness: 0.923300
+main.cpp:35 INFO: Generation 301, Min fitness: 0.880000, Max fitness: 0.950000, Mean fitness: 0.923600
+main.cpp:35 INFO: Generation 302, Min fitness: 0.880000, Max fitness: 0.950000, Mean fitness: 0.921300
+main.cpp:35 INFO: Generation 303, Min fitness: 0.870000, Max fitness: 0.950000, Mean fitness: 0.920800
+main.cpp:35 INFO: Generation 304, Min fitness: 0.870000, Max fitness: 0.950000, Mean fitness: 0.920600
+main.cpp:35 INFO: Generation 305, Min fitness: 0.870000, Max fitness: 0.950000, Mean fitness: 0.922400
+main.cpp:35 INFO: Generation 306, Min fitness: 0.880000, Max fitness: 0.950000, Mean fitness: 0.920300
+main.cpp:35 INFO: Generation 307, Min fitness: 0.880000, Max fitness: 0.950000, Mean fitness: 0.919200
+main.cpp:35 INFO: Generation 308, Min fitness: 0.880000, Max fitness: 0.950000, Mean fitness: 0.922900
+main.cpp:35 INFO: Generation 309, Min fitness: 0.870000, Max fitness: 0.950000, Mean fitness: 0.924500
+main.cpp:35 INFO: Generation 310, Min fitness: 0.880000, Max fitness: 0.950000, Mean fitness: 0.923300
+main.cpp:35 INFO: Generation 311, Min fitness: 0.880000, Max fitness: 0.950000, Mean fitness: 0.923900
+main.cpp:35 INFO: Generation 312, Min fitness: 0.870000, Max fitness: 0.950000, Mean fitness: 0.923400
+main.cpp:35 INFO: Generation 313, Min fitness: 0.870000, Max fitness: 0.950000, Mean fitness: 0.923700
+main.cpp:35 INFO: Generation 314, Min fitness: 0.870000, Max fitness: 0.950000, Mean fitness: 0.924400
+main.cpp:35 INFO: Generation 315, Min fitness: 0.870000, Max fitness: 0.950000, Mean fitness: 0.925100
+main.cpp:35 INFO: Generation 316, Min fitness: 0.880000, Max fitness: 0.950000, Mean fitness: 0.925100
+main.cpp:35 INFO: Generation 317, Min fitness: 0.880000, Max fitness: 0.950000, Mean fitness: 0.926400
+main.cpp:35 INFO: Generation 318, Min fitness: 0.880000, Max fitness: 0.950000, Mean fitness: 0.926200
+main.cpp:35 INFO: Generation 319, Min fitness: 0.880000, Max fitness: 0.950000, Mean fitness: 0.927500
+main.cpp:35 INFO: Generation 320, Min fitness: 0.890000, Max fitness: 0.950000, Mean fitness: 0.924300
+main.cpp:35 INFO: Generation 321, Min fitness: 0.890000, Max fitness: 0.950000, Mean fitness: 0.924700
+main.cpp:35 INFO: Generation 322, Min fitness: 0.890000, Max fitness: 0.950000, Mean fitness: 0.924300
+main.cpp:35 INFO: Generation 323, Min fitness: 0.890000, Max fitness: 0.950000, Mean fitness: 0.923000
+main.cpp:35 INFO: Generation 324, Min fitness: 0.880000, Max fitness: 0.950000, Mean fitness: 0.921600
+main.cpp:35 INFO: Generation 325, Min fitness: 0.880000, Max fitness: 0.950000, Mean fitness: 0.919900
+main.cpp:35 INFO: Generation 326, Min fitness: 0.880000, Max fitness: 0.950000, Mean fitness: 0.920400
+main.cpp:35 INFO: Generation 327, Min fitness: 0.880000, Max fitness: 0.950000, Mean fitness: 0.918300
+main.cpp:35 INFO: Generation 328, Min fitness: 0.880000, Max fitness: 0.950000, Mean fitness: 0.917900
+main.cpp:35 INFO: Generation 329, Min fitness: 0.880000, Max fitness: 0.950000, Mean fitness: 0.918000
+main.cpp:35 INFO: Generation 330, Min fitness: 0.880000, Max fitness: 0.950000, Mean fitness: 0.921600
+main.cpp:35 INFO: Generation 331, Min fitness: 0.880000, Max fitness: 0.950000, Mean fitness: 0.922200
+main.cpp:35 INFO: Generation 332, Min fitness: 0.880000, Max fitness: 0.950000, Mean fitness: 0.922500
+main.cpp:35 INFO: Generation 333, Min fitness: 0.880000, Max fitness: 0.950000, Mean fitness: 0.922300
+main.cpp:35 INFO: Generation 334, Min fitness: 0.880000, Max fitness: 0.950000, Mean fitness: 0.924700
+main.cpp:35 INFO: Generation 335, Min fitness: 0.880000, Max fitness: 0.950000, Mean fitness: 0.925900
+main.cpp:35 INFO: Generation 336, Min fitness: 0.880000, Max fitness: 0.950000, Mean fitness: 0.927900
+main.cpp:35 INFO: Generation 337, Min fitness: 0.880000, Max fitness: 0.950000, Mean fitness: 0.926300
+main.cpp:35 INFO: Generation 338, Min fitness: 0.880000, Max fitness: 0.950000, Mean fitness: 0.926100
+main.cpp:35 INFO: Generation 339, Min fitness: 0.900000, Max fitness: 0.950000, Mean fitness: 0.925900
+main.cpp:35 INFO: Generation 340, Min fitness: 0.890000, Max fitness: 0.950000, Mean fitness: 0.923900
+main.cpp:35 INFO: Generation 341, Min fitness: 0.890000, Max fitness: 0.950000, Mean fitness: 0.925500
+main.cpp:35 INFO: Generation 342, Min fitness: 0.890000, Max fitness: 0.950000, Mean fitness: 0.922900
+main.cpp:35 INFO: Generation 343, Min fitness: 0.880000, Max fitness: 0.950000, Mean fitness: 0.920500
+main.cpp:35 INFO: Generation 344, Min fitness: 0.870000, Max fitness: 0.950000, Mean fitness: 0.922100
+main.cpp:35 INFO: Generation 345, Min fitness: 0.870000, Max fitness: 0.950000, Mean fitness: 0.919300
+main.cpp:35 INFO: Generation 346, Min fitness: 0.860000, Max fitness: 0.950000, Mean fitness: 0.919100
+main.cpp:35 INFO: Generation 347, Min fitness: 0.870000, Max fitness: 0.950000, Mean fitness: 0.912700
+main.cpp:35 INFO: Generation 348, Min fitness: 0.860000, Max fitness: 0.950000, Mean fitness: 0.912000
+main.cpp:35 INFO: Generation 349, Min fitness: 0.860000, Max fitness: 0.950000, Mean fitness: 0.909000
+main.cpp:35 INFO: Generation 350, Min fitness: 0.860000, Max fitness: 0.950000, Mean fitness: 0.912300
+main.cpp:35 INFO: Generation 351, Min fitness: 0.860000, Max fitness: 0.950000, Mean fitness: 0.916000
+main.cpp:35 INFO: Generation 352, Min fitness: 0.850000, Max fitness: 0.950000, Mean fitness: 0.919200
+main.cpp:35 INFO: Generation 353, Min fitness: 0.850000, Max fitness: 0.950000, Mean fitness: 0.918300
+main.cpp:35 INFO: Generation 354, Min fitness: 0.850000, Max fitness: 0.950000, Mean fitness: 0.916200
+main.cpp:35 INFO: Generation 355, Min fitness: 0.850000, Max fitness: 0.950000, Mean fitness: 0.915000
+main.cpp:35 INFO: Generation 356, Min fitness: 0.860000, Max fitness: 0.950000, Mean fitness: 0.919800
+main.cpp:35 INFO: Generation 357, Min fitness: 0.860000, Max fitness: 0.950000, Mean fitness: 0.921500
+main.cpp:35 INFO: Generation 358, Min fitness: 0.860000, Max fitness: 0.950000, Mean fitness: 0.923000
+main.cpp:35 INFO: Generation 359, Min fitness: 0.880000, Max fitness: 0.950000, Mean fitness: 0.921100
+main.cpp:35 INFO: Generation 360, Min fitness: 0.880000, Max fitness: 0.950000, Mean fitness: 0.921100
+main.cpp:35 INFO: Generation 361, Min fitness: 0.880000, Max fitness: 0.950000, Mean fitness: 0.922500
+main.cpp:35 INFO: Generation 362, Min fitness: 0.880000, Max fitness: 0.950000, Mean fitness: 0.921000
+main.cpp:35 INFO: Generation 363, Min fitness: 0.880000, Max fitness: 0.950000, Mean fitness: 0.919900
+main.cpp:35 INFO: Generation 364, Min fitness: 0.880000, Max fitness: 0.950000, Mean fitness: 0.917900
+main.cpp:35 INFO: Generation 365, Min fitness: 0.880000, Max fitness: 0.960000, Mean fitness: 0.921200
+main.cpp:35 INFO: Generation 366, Min fitness: 0.860000, Max fitness: 0.960000, Mean fitness: 0.922800
+main.cpp:35 INFO: Generation 367, Min fitness: 0.870000, Max fitness: 0.960000, Mean fitness: 0.923200
+main.cpp:35 INFO: Generation 368, Min fitness: 0.870000, Max fitness: 0.960000, Mean fitness: 0.923300
+main.cpp:35 INFO: Generation 369, Min fitness: 0.880000, Max fitness: 0.960000, Mean fitness: 0.923400
+main.cpp:35 INFO: Generation 370, Min fitness: 0.870000, Max fitness: 0.960000, Mean fitness: 0.922600
+main.cpp:35 INFO: Generation 371, Min fitness: 0.870000, Max fitness: 0.960000, Mean fitness: 0.921000
+main.cpp:35 INFO: Generation 372, Min fitness: 0.870000, Max fitness: 0.960000, Mean fitness: 0.920200
+main.cpp:35 INFO: Generation 373, Min fitness: 0.870000, Max fitness: 0.960000, Mean fitness: 0.915500
+main.cpp:35 INFO: Generation 374, Min fitness: 0.870000, Max fitness: 0.960000, Mean fitness: 0.918700
+main.cpp:35 INFO: Generation 375, Min fitness: 0.870000, Max fitness: 0.960000, Mean fitness: 0.920100
+main.cpp:35 INFO: Generation 376, Min fitness: 0.870000, Max fitness: 0.960000, Mean fitness: 0.922400
+main.cpp:35 INFO: Generation 377, Min fitness: 0.860000, Max fitness: 0.960000, Mean fitness: 0.919500
+main.cpp:35 INFO: Generation 378, Min fitness: 0.850000, Max fitness: 0.960000, Mean fitness: 0.919000
+main.cpp:35 INFO: Generation 379, Min fitness: 0.880000, Max fitness: 0.960000, Mean fitness: 0.922200
+main.cpp:35 INFO: Generation 380, Min fitness: 0.880000, Max fitness: 0.960000, Mean fitness: 0.921700
+main.cpp:35 INFO: Generation 381, Min fitness: 0.880000, Max fitness: 0.960000, Mean fitness: 0.926700
+main.cpp:35 INFO: Generation 382, Min fitness: 0.880000, Max fitness: 0.960000, Mean fitness: 0.927500
+main.cpp:35 INFO: Generation 383, Min fitness: 0.880000, Max fitness: 0.960000, Mean fitness: 0.924900
+main.cpp:35 INFO: Generation 384, Min fitness: 0.900000, Max fitness: 0.960000, Mean fitness: 0.925500
+main.cpp:35 INFO: Generation 385, Min fitness: 0.900000, Max fitness: 0.960000, Mean fitness: 0.922700
+main.cpp:35 INFO: Generation 386, Min fitness: 0.890000, Max fitness: 0.960000, Mean fitness: 0.922600
+main.cpp:35 INFO: Generation 387, Min fitness: 0.880000, Max fitness: 0.960000, Mean fitness: 0.920000
+main.cpp:35 INFO: Generation 388, Min fitness: 0.880000, Max fitness: 0.960000, Mean fitness: 0.922200
+main.cpp:35 INFO: Generation 389, Min fitness: 0.880000, Max fitness: 0.960000, Mean fitness: 0.921300
+main.cpp:35 INFO: Generation 390, Min fitness: 0.880000, Max fitness: 0.960000, Mean fitness: 0.921100
+main.cpp:35 INFO: Generation 391, Min fitness: 0.880000, Max fitness: 0.960000, Mean fitness: 0.919700
+main.cpp:35 INFO: Generation 392, Min fitness: 0.880000, Max fitness: 0.960000, Mean fitness: 0.917300
+main.cpp:35 INFO: Generation 393, Min fitness: 0.880000, Max fitness: 0.960000, Mean fitness: 0.913000
+main.cpp:35 INFO: Generation 394, Min fitness: 0.880000, Max fitness: 0.960000, Mean fitness: 0.910400
+main.cpp:35 INFO: Generation 395, Min fitness: 0.880000, Max fitness: 0.960000, Mean fitness: 0.911100
+main.cpp:35 INFO: Generation 396, Min fitness: 0.870000, Max fitness: 0.960000, Mean fitness: 0.910100
+main.cpp:35 INFO: Generation 397, Min fitness: 0.870000, Max fitness: 0.960000, Mean fitness: 0.907300
+main.cpp:35 INFO: Generation 398, Min fitness: 0.870000, Max fitness: 0.960000, Mean fitness: 0.908800
+main.cpp:35 INFO: Generation 399, Min fitness: 0.870000, Max fitness: 0.960000, Mean fitness: 0.916100
+main.cpp:35 INFO: Generation 400, Min fitness: 0.870000, Max fitness: 0.960000, Mean fitness: 0.918200
+main.cpp:35 INFO: Generation 401, Min fitness: 0.870000, Max fitness: 0.960000, Mean fitness: 0.924400
+main.cpp:35 INFO: Generation 402, Min fitness: 0.870000, Max fitness: 0.960000, Mean fitness: 0.920300
+main.cpp:35 INFO: Generation 403, Min fitness: 0.860000, Max fitness: 0.960000, Mean fitness: 0.918100
+main.cpp:35 INFO: Generation 404, Min fitness: 0.850000, Max fitness: 0.960000, Mean fitness: 0.913600
+main.cpp:35 INFO: Generation 405, Min fitness: 0.860000, Max fitness: 0.960000, Mean fitness: 0.916000
+main.cpp:35 INFO: Generation 406, Min fitness: 0.870000, Max fitness: 0.960000, Mean fitness: 0.918400
+main.cpp:35 INFO: Generation 407, Min fitness: 0.860000, Max fitness: 0.960000, Mean fitness: 0.910900
+main.cpp:35 INFO: Generation 408, Min fitness: 0.860000, Max fitness: 0.960000, Mean fitness: 0.912000
+main.cpp:35 INFO: Generation 409, Min fitness: 0.860000, Max fitness: 0.960000, Mean fitness: 0.909100
+main.cpp:35 INFO: Generation 410, Min fitness: 0.850000, Max fitness: 0.960000, Mean fitness: 0.905800
+main.cpp:35 INFO: Generation 411, Min fitness: 0.850000, Max fitness: 0.960000, Mean fitness: 0.908900
+main.cpp:35 INFO: Generation 412, Min fitness: 0.850000, Max fitness: 0.960000, Mean fitness: 0.911100
+main.cpp:35 INFO: Generation 413, Min fitness: 0.860000, Max fitness: 0.960000, Mean fitness: 0.912200
+main.cpp:35 INFO: Generation 414, Min fitness: 0.860000, Max fitness: 0.960000, Mean fitness: 0.912000
+main.cpp:35 INFO: Generation 415, Min fitness: 0.860000, Max fitness: 0.970000, Mean fitness: 0.913800
+main.cpp:35 INFO: Generation 416, Min fitness: 0.860000, Max fitness: 0.970000, Mean fitness: 0.912200
+main.cpp:35 INFO: Generation 417, Min fitness: 0.860000, Max fitness: 0.970000, Mean fitness: 0.918000
+main.cpp:35 INFO: Generation 418, Min fitness: 0.850000, Max fitness: 0.970000, Mean fitness: 0.922200
+main.cpp:35 INFO: Generation 419, Min fitness: 0.870000, Max fitness: 0.970000, Mean fitness: 0.921300
+main.cpp:35 INFO: Generation 420, Min fitness: 0.860000, Max fitness: 0.970000, Mean fitness: 0.921100
+main.cpp:35 INFO: Generation 421, Min fitness: 0.860000, Max fitness: 0.970000, Mean fitness: 0.922500
+main.cpp:35 INFO: Generation 422, Min fitness: 0.860000, Max fitness: 0.970000, Mean fitness: 0.921300
+main.cpp:35 INFO: Generation 423, Min fitness: 0.860000, Max fitness: 0.970000, Mean fitness: 0.921400
+main.cpp:35 INFO: Generation 424, Min fitness: 0.860000, Max fitness: 0.970000, Mean fitness: 0.922400
+main.cpp:35 INFO: Generation 425, Min fitness: 0.860000, Max fitness: 0.970000, Mean fitness: 0.918100
+main.cpp:35 INFO: Generation 426, Min fitness: 0.860000, Max fitness: 0.970000, Mean fitness: 0.916000
+main.cpp:35 INFO: Generation 427, Min fitness: 0.870000, Max fitness: 0.970000, Mean fitness: 0.919100
+main.cpp:35 INFO: Generation 428, Min fitness: 0.860000, Max fitness: 0.970000, Mean fitness: 0.921900
+main.cpp:35 INFO: Generation 429, Min fitness: 0.850000, Max fitness: 0.970000, Mean fitness: 0.921500
+main.cpp:35 INFO: Generation 430, Min fitness: 0.880000, Max fitness: 0.970000, Mean fitness: 0.921700
+main.cpp:35 INFO: Generation 431, Min fitness: 0.880000, Max fitness: 0.970000, Mean fitness: 0.923100
+main.cpp:35 INFO: Generation 432, Min fitness: 0.870000, Max fitness: 0.970000, Mean fitness: 0.926900
+main.cpp:35 INFO: Generation 433, Min fitness: 0.870000, Max fitness: 0.970000, Mean fitness: 0.924600
+main.cpp:35 INFO: Generation 434, Min fitness: 0.870000, Max fitness: 0.970000, Mean fitness: 0.921500
+main.cpp:35 INFO: Generation 435, Min fitness: 0.870000, Max fitness: 0.970000, Mean fitness: 0.925800
+main.cpp:35 INFO: Generation 436, Min fitness: 0.880000, Max fitness: 0.980000, Mean fitness: 0.931600
+main.cpp:35 INFO: Generation 437, Min fitness: 0.880000, Max fitness: 0.980000, Mean fitness: 0.931100
+main.cpp:35 INFO: Generation 438, Min fitness: 0.880000, Max fitness: 0.980000, Mean fitness: 0.931200
+main.cpp:35 INFO: Generation 439, Min fitness: 0.880000, Max fitness: 0.980000, Mean fitness: 0.932400
+main.cpp:35 INFO: Generation 440, Min fitness: 0.880000, Max fitness: 0.980000, Mean fitness: 0.933700
+main.cpp:35 INFO: Generation 441, Min fitness: 0.870000, Max fitness: 0.980000, Mean fitness: 0.929700
+main.cpp:35 INFO: Generation 442, Min fitness: 0.870000, Max fitness: 0.980000, Mean fitness: 0.928800
+main.cpp:35 INFO: Generation 443, Min fitness: 0.870000, Max fitness: 0.980000, Mean fitness: 0.930900
+main.cpp:35 INFO: Generation 444, Min fitness: 0.880000, Max fitness: 0.980000, Mean fitness: 0.939700
+main.cpp:35 INFO: Generation 445, Min fitness: 0.880000, Max fitness: 0.980000, Mean fitness: 0.939700
+main.cpp:35 INFO: Generation 446, Min fitness: 0.880000, Max fitness: 0.980000, Mean fitness: 0.942900
+main.cpp:35 INFO: Generation 447, Min fitness: 0.870000, Max fitness: 0.980000, Mean fitness: 0.941400
+main.cpp:35 INFO: Generation 448, Min fitness: 0.870000, Max fitness: 0.980000, Mean fitness: 0.943400
+main.cpp:35 INFO: Generation 449, Min fitness: 0.870000, Max fitness: 0.980000, Mean fitness: 0.943200
+main.cpp:35 INFO: Generation 450, Min fitness: 0.870000, Max fitness: 0.980000, Mean fitness: 0.945500
+main.cpp:35 INFO: Generation 451, Min fitness: 0.870000, Max fitness: 0.990000, Mean fitness: 0.939800
+main.cpp:35 INFO: Generation 452, Min fitness: 0.860000, Max fitness: 0.990000, Mean fitness: 0.942100
+main.cpp:35 INFO: Generation 453, Min fitness: 0.860000, Max fitness: 0.990000, Mean fitness: 0.942500
+main.cpp:35 INFO: Generation 454, Min fitness: 0.860000, Max fitness: 0.990000, Mean fitness: 0.942100
+main.cpp:35 INFO: Generation 455, Min fitness: 0.870000, Max fitness: 0.990000, Mean fitness: 0.940500
+main.cpp:35 INFO: Generation 456, Min fitness: 0.890000, Max fitness: 0.990000, Mean fitness: 0.941900
+main.cpp:35 INFO: Generation 457, Min fitness: 0.890000, Max fitness: 0.990000, Mean fitness: 0.941200
+main.cpp:35 INFO: Generation 458, Min fitness: 0.890000, Max fitness: 0.990000, Mean fitness: 0.941000
+main.cpp:35 INFO: Generation 459, Min fitness: 0.890000, Max fitness: 0.990000, Mean fitness: 0.941800
+main.cpp:35 INFO: Generation 460, Min fitness: 0.890000, Max fitness: 0.990000, Mean fitness: 0.941100
+main.cpp:35 INFO: Generation 461, Min fitness: 0.890000, Max fitness: 0.990000, Mean fitness: 0.941700
+main.cpp:35 INFO: Generation 462, Min fitness: 0.880000, Max fitness: 0.990000, Mean fitness: 0.942000
+main.cpp:35 INFO: Generation 463, Min fitness: 0.880000, Max fitness: 0.990000, Mean fitness: 0.941400
+main.cpp:35 INFO: Generation 464, Min fitness: 0.880000, Max fitness: 0.990000, Mean fitness: 0.942400
+main.cpp:35 INFO: Generation 465, Min fitness: 0.880000, Max fitness: 0.990000, Mean fitness: 0.942200
+main.cpp:35 INFO: Generation 466, Min fitness: 0.890000, Max fitness: 0.990000, Mean fitness: 0.945800
+main.cpp:35 INFO: Generation 467, Min fitness: 0.890000, Max fitness: 0.990000, Mean fitness: 0.946200
+main.cpp:35 INFO: Generation 468, Min fitness: 0.890000, Max fitness: 0.990000, Mean fitness: 0.946600
+main.cpp:35 INFO: Generation 469, Min fitness: 0.900000, Max fitness: 0.990000, Mean fitness: 0.946400
+main.cpp:35 INFO: Generation 470, Min fitness: 0.900000, Max fitness: 0.990000, Mean fitness: 0.948500
+main.cpp:35 INFO: Generation 471, Min fitness: 0.900000, Max fitness: 0.990000, Mean fitness: 0.950100
+main.cpp:35 INFO: Generation 472, Min fitness: 0.900000, Max fitness: 0.990000, Mean fitness: 0.949500
+main.cpp:35 INFO: Generation 473, Min fitness: 0.910000, Max fitness: 0.990000, Mean fitness: 0.951900
+main.cpp:35 INFO: Generation 474, Min fitness: 0.910000, Max fitness: 0.990000, Mean fitness: 0.951600
+main.cpp:35 INFO: Generation 475, Min fitness: 0.910000, Max fitness: 0.990000, Mean fitness: 0.953000
+main.cpp:35 INFO: Generation 476, Min fitness: 0.900000, Max fitness: 0.990000, Mean fitness: 0.952300
+main.cpp:35 INFO: Generation 477, Min fitness: 0.910000, Max fitness: 0.990000, Mean fitness: 0.950400
+main.cpp:35 INFO: Generation 478, Min fitness: 0.900000, Max fitness: 0.990000, Mean fitness: 0.949800
+main.cpp:35 INFO: Generation 479, Min fitness: 0.900000, Max fitness: 0.990000, Mean fitness: 0.946900
+main.cpp:35 INFO: Generation 480, Min fitness: 0.890000, Max fitness: 0.990000, Mean fitness: 0.943900
+main.cpp:35 INFO: Generation 481, Min fitness: 0.890000, Max fitness: 0.990000, Mean fitness: 0.941100
+main.cpp:35 INFO: Generation 482, Min fitness: 0.890000, Max fitness: 0.990000, Mean fitness: 0.938000
+main.cpp:35 INFO: Generation 483, Min fitness: 0.890000, Max fitness: 0.990000, Mean fitness: 0.938900
+main.cpp:35 INFO: Generation 484, Min fitness: 0.900000, Max fitness: 0.990000, Mean fitness: 0.940300
+main.cpp:35 INFO: Generation 485, Min fitness: 0.890000, Max fitness: 0.990000, Mean fitness: 0.939300
+main.cpp:35 INFO: Generation 486, Min fitness: 0.890000, Max fitness: 0.990000, Mean fitness: 0.937900
+main.cpp:35 INFO: Generation 487, Min fitness: 0.890000, Max fitness: 0.990000, Mean fitness: 0.932000
+main.cpp:35 INFO: Generation 488, Min fitness: 0.890000, Max fitness: 0.990000, Mean fitness: 0.933400
+main.cpp:35 INFO: Generation 489, Min fitness: 0.890000, Max fitness: 0.990000, Mean fitness: 0.932500
+main.cpp:35 INFO: Generation 490, Min fitness: 0.890000, Max fitness: 0.990000, Mean fitness: 0.933300
+main.cpp:35 INFO: Generation 491, Min fitness: 0.890000, Max fitness: 0.990000, Mean fitness: 0.933100
+main.cpp:35 INFO: Generation 492, Min fitness: 0.880000, Max fitness: 0.990000, Mean fitness: 0.936700
+main.cpp:35 INFO: Generation 493, Min fitness: 0.890000, Max fitness: 0.990000, Mean fitness: 0.941700
+main.cpp:35 INFO: Generation 494, Min fitness: 0.890000, Max fitness: 0.990000, Mean fitness: 0.937800
+main.cpp:35 INFO: Generation 495, Min fitness: 0.890000, Max fitness: 0.990000, Mean fitness: 0.935400
+main.cpp:35 INFO: Generation 496, Min fitness: 0.890000, Max fitness: 0.990000, Mean fitness: 0.934500
+main.cpp:35 INFO: Generation 497, Min fitness: 0.890000, Max fitness: 0.990000, Mean fitness: 0.936300
+main.cpp:35 INFO: Generation 498, Min fitness: 0.890000, Max fitness: 0.990000, Mean fitness: 0.939400
+main.cpp:35 INFO: Generation 499, Min fitness: 0.890000, Max fitness: 0.990000, Mean fitness: 0.940400
+main.cpp:35 INFO: Generation 500, Min fitness: 0.890000, Max fitness: 0.990000, Mean fitness: 0.940100
+main.cpp:35 INFO: Generation 501, Min fitness: 0.890000, Max fitness: 0.990000, Mean fitness: 0.940300
+main.cpp:35 INFO: Generation 502, Min fitness: 0.900000, Max fitness: 0.990000, Mean fitness: 0.936800
+main.cpp:35 INFO: Generation 503, Min fitness: 0.900000, Max fitness: 0.990000, Mean fitness: 0.938900
+main.cpp:35 INFO: Generation 504, Min fitness: 0.910000, Max fitness: 0.990000, Mean fitness: 0.937400
+main.cpp:35 INFO: Generation 505, Min fitness: 0.900000, Max fitness: 0.990000, Mean fitness: 0.938100
+main.cpp:35 INFO: Generation 506, Min fitness: 0.890000, Max fitness: 0.990000, Mean fitness: 0.938400
+main.cpp:35 INFO: Generation 507, Min fitness: 0.900000, Max fitness: 0.990000, Mean fitness: 0.940800
+main.cpp:35 INFO: Generation 508, Min fitness: 0.900000, Max fitness: 0.990000, Mean fitness: 0.942900
+main.cpp:35 INFO: Generation 509, Min fitness: 0.900000, Max fitness: 0.990000, Mean fitness: 0.946800
+main.cpp:35 INFO: Generation 510, Min fitness: 0.900000, Max fitness: 0.990000, Mean fitness: 0.949400
+main.cpp:35 INFO: Generation 511, Min fitness: 0.890000, Max fitness: 0.990000, Mean fitness: 0.948200
+main.cpp:35 INFO: Generation 512, Min fitness: 0.890000, Max fitness: 0.990000, Mean fitness: 0.946100
+main.cpp:35 INFO: Generation 513, Min fitness: 0.890000, Max fitness: 0.990000, Mean fitness: 0.945100
+main.cpp:35 INFO: Generation 514, Min fitness: 0.890000, Max fitness: 0.990000, Mean fitness: 0.946400
+main.cpp:35 INFO: Generation 515, Min fitness: 0.890000, Max fitness: 0.990000, Mean fitness: 0.943000
+main.cpp:35 INFO: Generation 516, Min fitness: 0.880000, Max fitness: 0.990000, Mean fitness: 0.940000
+main.cpp:35 INFO: Generation 517, Min fitness: 0.880000, Max fitness: 0.990000, Mean fitness: 0.948200
+main.cpp:35 INFO: Generation 518, Min fitness: 0.880000, Max fitness: 0.990000, Mean fitness: 0.947000
+main.cpp:35 INFO: Generation 519, Min fitness: 0.880000, Max fitness: 0.990000, Mean fitness: 0.939000
+main.cpp:35 INFO: Generation 520, Min fitness: 0.880000, Max fitness: 0.990000, Mean fitness: 0.939900
+main.cpp:35 INFO: Generation 521, Min fitness: 0.880000, Max fitness: 0.990000, Mean fitness: 0.939500
+main.cpp:35 INFO: Generation 522, Min fitness: 0.880000, Max fitness: 0.990000, Mean fitness: 0.941700
+main.cpp:35 INFO: Generation 523, Min fitness: 0.880000, Max fitness: 0.990000, Mean fitness: 0.942500
+main.cpp:35 INFO: Generation 524, Min fitness: 0.870000, Max fitness: 0.990000, Mean fitness: 0.935700
+main.cpp:35 INFO: Generation 525, Min fitness: 0.870000, Max fitness: 0.990000, Mean fitness: 0.935900
+main.cpp:35 INFO: Generation 526, Min fitness: 0.880000, Max fitness: 0.990000, Mean fitness: 0.940700
+main.cpp:35 INFO: Generation 527, Min fitness: 0.880000, Max fitness: 0.990000, Mean fitness: 0.942400
+main.cpp:35 INFO: Generation 528, Min fitness: 0.880000, Max fitness: 0.990000, Mean fitness: 0.945400
+main.cpp:35 INFO: Generation 529, Min fitness: 0.880000, Max fitness: 0.990000, Mean fitness: 0.950800
+main.cpp:35 INFO: Generation 530, Min fitness: 0.870000, Max fitness: 0.990000, Mean fitness: 0.953200
+main.cpp:35 INFO: Generation 531, Min fitness: 0.870000, Max fitness: 0.990000, Mean fitness: 0.953200
+main.cpp:35 INFO: Generation 532, Min fitness: 0.870000, Max fitness: 0.990000, Mean fitness: 0.953500
+main.cpp:35 INFO: Generation 533, Min fitness: 0.870000, Max fitness: 0.990000, Mean fitness: 0.954000
+main.cpp:35 INFO: Generation 534, Min fitness: 0.870000, Max fitness: 0.990000, Mean fitness: 0.954300
+main.cpp:35 INFO: Generation 535, Min fitness: 0.860000, Max fitness: 0.990000, Mean fitness: 0.960400
+main.cpp:35 INFO: Generation 536, Min fitness: 0.860000, Max fitness: 0.990000, Mean fitness: 0.963100
+main.cpp:35 INFO: Generation 537, Min fitness: 0.860000, Max fitness: 0.990000, Mean fitness: 0.960800
+main.cpp:35 INFO: Generation 538, Min fitness: 0.850000, Max fitness: 0.990000, Mean fitness: 0.958700
+main.cpp:35 INFO: Generation 539, Min fitness: 0.850000, Max fitness: 0.990000, Mean fitness: 0.955900
+main.cpp:35 INFO: Generation 540, Min fitness: 0.850000, Max fitness: 0.990000, Mean fitness: 0.952500
+main.cpp:35 INFO: Generation 541, Min fitness: 0.850000, Max fitness: 0.990000, Mean fitness: 0.951500
+main.cpp:35 INFO: Generation 542, Min fitness: 0.840000, Max fitness: 0.990000, Mean fitness: 0.953200
+main.cpp:35 INFO: Generation 543, Min fitness: 0.830000, Max fitness: 0.990000, Mean fitness: 0.954400
+main.cpp:35 INFO: Generation 544, Min fitness: 0.850000, Max fitness: 0.990000, Mean fitness: 0.959200
+main.cpp:35 INFO: Generation 545, Min fitness: 0.850000, Max fitness: 0.990000, Mean fitness: 0.960400
+main.cpp:35 INFO: Generation 546, Min fitness: 0.860000, Max fitness: 0.990000, Mean fitness: 0.962300
+main.cpp:35 INFO: Generation 547, Min fitness: 0.850000, Max fitness: 0.990000, Mean fitness: 0.958600
+main.cpp:35 INFO: Generation 548, Min fitness: 0.910000, Max fitness: 0.990000, Mean fitness: 0.960100
+main.cpp:35 INFO: Generation 549, Min fitness: 0.900000, Max fitness: 0.990000, Mean fitness: 0.960300
+main.cpp:35 INFO: Generation 550, Min fitness: 0.900000, Max fitness: 0.990000, Mean fitness: 0.958200
+main.cpp:35 INFO: Generation 551, Min fitness: 0.890000, Max fitness: 0.990000, Mean fitness: 0.955400
+main.cpp:35 INFO: Generation 552, Min fitness: 0.890000, Max fitness: 0.990000, Mean fitness: 0.960600
+main.cpp:35 INFO: Generation 553, Min fitness: 0.910000, Max fitness: 0.990000, Mean fitness: 0.960700
+main.cpp:35 INFO: Generation 554, Min fitness: 0.900000, Max fitness: 0.990000, Mean fitness: 0.961800
+main.cpp:35 INFO: Generation 555, Min fitness: 0.900000, Max fitness: 0.990000, Mean fitness: 0.960800
+main.cpp:35 INFO: Generation 556, Min fitness: 0.900000, Max fitness: 0.990000, Mean fitness: 0.958500
+main.cpp:35 INFO: Generation 557, Min fitness: 0.900000, Max fitness: 0.990000, Mean fitness: 0.962200
+main.cpp:35 INFO: Generation 558, Min fitness: 0.900000, Max fitness: 0.990000, Mean fitness: 0.964300
+main.cpp:35 INFO: Generation 559, Min fitness: 0.910000, Max fitness: 0.990000, Mean fitness: 0.964400
+main.cpp:35 INFO: Generation 560, Min fitness: 0.900000, Max fitness: 0.990000, Mean fitness: 0.962100
+main.cpp:35 INFO: Generation 561, Min fitness: 0.890000, Max fitness: 0.990000, Mean fitness: 0.959200
+main.cpp:35 INFO: Generation 562, Min fitness: 0.890000, Max fitness: 0.990000, Mean fitness: 0.962300
+main.cpp:35 INFO: Generation 563, Min fitness: 0.900000, Max fitness: 0.990000, Mean fitness: 0.959500
+main.cpp:35 INFO: Generation 564, Min fitness: 0.900000, Max fitness: 0.990000, Mean fitness: 0.959900
+main.cpp:35 INFO: Generation 565, Min fitness: 0.900000, Max fitness: 0.990000, Mean fitness: 0.961000
+main.cpp:35 INFO: Generation 566, Min fitness: 0.900000, Max fitness: 0.990000, Mean fitness: 0.960200
+main.cpp:35 INFO: Generation 567, Min fitness: 0.900000, Max fitness: 0.990000, Mean fitness: 0.959700
+main.cpp:35 INFO: Generation 568, Min fitness: 0.900000, Max fitness: 0.990000, Mean fitness: 0.958000
+main.cpp:35 INFO: Generation 569, Min fitness: 0.890000, Max fitness: 0.990000, Mean fitness: 0.960300
+main.cpp:35 INFO: Generation 570, Min fitness: 0.900000, Max fitness: 0.990000, Mean fitness: 0.962800
+main.cpp:35 INFO: Generation 571, Min fitness: 0.890000, Max fitness: 0.990000, Mean fitness: 0.959500
+main.cpp:35 INFO: Generation 572, Min fitness: 0.890000, Max fitness: 0.990000, Mean fitness: 0.956800
+main.cpp:35 INFO: Generation 573, Min fitness: 0.890000, Max fitness: 0.990000, Mean fitness: 0.959300
+main.cpp:35 INFO: Generation 574, Min fitness: 0.880000, Max fitness: 0.990000, Mean fitness: 0.957700
+main.cpp:39 INFO: Final: Generation 575, Min fitness: 0.880000, Max fitness: 1.000000, Mean fitness: 0.958900

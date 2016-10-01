@@ -17,6 +17,7 @@ void ion::EvaluateMembers(ion::GeneticAlgorithm* algo)
 		}
 		algo->fitness_[member_it - algo->population_.begin()] = fitness;
 	}
+	algo->num_evaluations_++;
 }
 
 int main(int argc, char* argv[])
@@ -26,7 +27,7 @@ int main(int argc, char* argv[])
 	//open a file for logging results
 	std::ofstream fout;
 	fout.open("ga.log");
-	fout << "Generation,Min,Max,Mean";
+	fout << "Generation,Min,Max,Mean"<<std::endl;
 	ion::GeneticAlgorithm algo(100,100,0.001,0.67);
 	uint32_t generation;
 	for (generation = 0; generation < 5000 && algo.GetMaxFitness() < 0.99999999;  ++generation)
