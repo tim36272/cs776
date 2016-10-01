@@ -68,7 +68,7 @@
     <ClCompile Include="..\..\src\hill-climber.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\src\eval.o">
+    <ClCompile Include="..\..\..\..\doc\assignment 1\eval.o">
       <RemoteCopyFile Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</RemoteCopyFile>
       <RemoteCopyToOutputDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</RemoteCopyToOutputDir>
       <RemoteFile Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">projects/$(ProjectName)/obj/$(Platform)/$(Configuration)/%(Filename)%(Extension)</RemoteFile>
@@ -103,6 +103,24 @@
       <RemoteFile Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">projects/$(ProjectName)/obj/$(Platform)/$(Configuration)/%(Filename)%(Extension)</RemoteFile>
       <RemoteCopyFile Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</RemoteCopyFile>
       <RemoteCopyToOutputDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</RemoteCopyToOutputDir>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\..\doc\assignment 2\f0.o">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+      <DeploymentContent Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</DeploymentContent>
+      <FileType>Document</FileType>
+      <RemoteCopyFile Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</RemoteCopyFile>
+      <RemoteCopyToOutputDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</RemoteCopyToOutputDir>
+      <RemoteFile Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">projects/$(ProjectName)/obj/$(Platform)/$(Configuration)/%(Filename)%(Extension)</RemoteFile>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\doc\assignment 2\f1.o">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+      <DeploymentContent Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</DeploymentContent>
+      <FileType>Document</FileType>
+      <RemoteCopyFile Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</RemoteCopyFile>
+      <RemoteCopyToOutputDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</RemoteCopyToOutputDir>
+      <RemoteFile Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">projects/$(ProjectName)/obj/$(Platform)/$(Configuration)/%(Filename)%(Extension)</RemoteFile>
     </ClCompile>
   </ItemGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">

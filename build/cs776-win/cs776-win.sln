@@ -14,6 +14,11 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "hill-climber-win", "..\..\a
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "hill-climber-linux", "..\..\app\hill-climber\prj\hill-climber-linux\hill-climber-linux.vcxproj", "{EA77C898-5EC5-418C-AD1F-06EC30D2663C}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "genetic-algorithm-win", "..\..\app\genetic-algorithm\prj\genetic-algorithm-win\genetic-algorithm-win.vcxproj", "{D21FE3E1-B301-4BEE-9F8E-449FA313A14F}"
+	ProjectSection(ProjectDependencies) = postProject
+		{473E809F-98A8-4A92-A204-8A40775C3875} = {473E809F-98A8-4A92-A204-8A40775C3875}
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|ARM = Debug|ARM
@@ -66,6 +71,16 @@ Global
 		{EA77C898-5EC5-418C-AD1F-06EC30D2663C}.Release|x64.Build.0 = Release|x64
 		{EA77C898-5EC5-418C-AD1F-06EC30D2663C}.Release|x86.ActiveCfg = Release|x86
 		{EA77C898-5EC5-418C-AD1F-06EC30D2663C}.Release|x86.Build.0 = Release|x86
+		{D21FE3E1-B301-4BEE-9F8E-449FA313A14F}.Debug|ARM.ActiveCfg = Debug|Win32
+		{D21FE3E1-B301-4BEE-9F8E-449FA313A14F}.Debug|x64.ActiveCfg = Debug|x64
+		{D21FE3E1-B301-4BEE-9F8E-449FA313A14F}.Debug|x64.Build.0 = Debug|x64
+		{D21FE3E1-B301-4BEE-9F8E-449FA313A14F}.Debug|x86.ActiveCfg = Debug|Win32
+		{D21FE3E1-B301-4BEE-9F8E-449FA313A14F}.Debug|x86.Build.0 = Debug|Win32
+		{D21FE3E1-B301-4BEE-9F8E-449FA313A14F}.Release|ARM.ActiveCfg = Release|Win32
+		{D21FE3E1-B301-4BEE-9F8E-449FA313A14F}.Release|x64.ActiveCfg = Release|x64
+		{D21FE3E1-B301-4BEE-9F8E-449FA313A14F}.Release|x64.Build.0 = Release|x64
+		{D21FE3E1-B301-4BEE-9F8E-449FA313A14F}.Release|x86.ActiveCfg = Release|Win32
+		{D21FE3E1-B301-4BEE-9F8E-449FA313A14F}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

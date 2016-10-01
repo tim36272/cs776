@@ -9,10 +9,22 @@
     <ClCompile Include="..\..\src\hill-climber.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\src\eval.o">
+    <ClCompile Include="..\..\..\..\doc\assignment 1\eval.o">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="..\..\..\..\doc\assignment 1\eval1.o">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\doc\assignment 2\evalCPP.o">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\doc\assignment 2\evalCPP1.o">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\doc\assignment 2\f0.o">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\doc\assignment 2\f1.o">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
