@@ -180,11 +180,6 @@ public:
 	}
 };
 
-//double gauss(double x, double mean, double var)
-//{
-//	return 1.0 / (sqrt(2 * var*ion::PI))*pow(NATURAL_NUMBER, -pow(x - mean, 2.0) / (2 * var));
-//}
-
 double dejong4(double x[30])
 {
 	double result = 0.0;
@@ -240,20 +235,15 @@ public:
 	}
 };
 
-int main(int argc, char* argv[])
+void ExecuteGa(uint32_t population_size, double mutation_rate, double crossover_rate)
 {
-	ion::Error result = ion::InitSockets();
-	ion::LogInit("genetic_algorithm");
-	//open a file for logging results
+
 	std::ofstream fout;
-	uint32_t population_size = 5;
-	uint32_t dejong_num = 1;
-	double mutation_rate = 0.01;
-	double crossover_rate = 0.67;
+	uint32_t dejong_num = 4;
 	std::stringstream filename;
 	filename << "DJ" << dejong_num << "_pop" << population_size << "_mut" << mutation_rate << "_xover" << crossover_rate << ".csv";
 	fout.open(filename.str());
-	fout << "Generation,Min,Max,Mean,Evals"<<std::endl;
+	fout << "Generation,Min,Max,Mean,Evals" << std::endl;
 	double max_fitness[5000] = { 0 };
 	double min_fitness[5000] = { 0 };
 	double avg_fitness[5000] = { 0 };
@@ -261,17 +251,16 @@ int main(int argc, char* argv[])
 	double num_hits[5000] = { 0 };
 	for (uint32_t trial = 0; trial < 30; ++trial)
 	{
-		GADejong1 algo(population_size, mutation_rate, crossover_rate);
+		//Change this next line to switch between functions
+		GADejong4 algo(population_size, mutation_rate, crossover_rate);
 		uint32_t generation = 0;
 		max_fitness[generation] += algo.GetMaxFitness();
 		min_fitness[generation] += algo.GetMinFitness();
 		avg_fitness[generation] += algo.GetAverageFitness();
 		num_evals[generation] += algo.GetNumEvals();
 		num_hits[generation]++;
-		for (generation = 1; /*algo.GetNumEvals() < 100000 && */algo.GetMaxFitness() < 0.99999999 && generation < 2000; ++generation)
+		for (generation = 1; algo.GetMaxFitness() < 0.99999999 && generation < 5000; ++generation)
 		{
-			//LOGINFO("Generation %d, Min fitness: %lf, Max fitness: %lf, Mean fitness: %lf", generation, algo.GetMinFitness(), algo.GetMaxFitness(), algo.GetAverageFitness());
-			//fout << generation << "," << algo.GetMinFitness() << "," << algo.GetMaxFitness() << "," << algo.GetAverageFitness() << std::endl;
 			algo.NextGeneration();
 			max_fitness[generation] += algo.GetMaxFitness();
 			min_fitness[generation] += algo.GetMinFitness();
@@ -294,19 +283,27 @@ int main(int argc, char* argv[])
 		num_evals[generation_index] /= num_hits[generation_index];
 		fout << generation_index << "," << min_fitness[generation_index] << "," << max_fitness[generation_index] << "," << avg_fitness[generation_index] << "," << num_evals[generation_index] << std::endl;
 	}
-	//LOGINFO("Final: Generation %d, Min fitness: %lf, Max fitness: %lf, Mean fitness: %lf, Num Evals: %u", generation, algo.GetMinFitness(), algo.GetMaxFitness(), algo.GetAverageFitness(), algo.GetNumEvals());
-	//std::vector<bool> elite_member = algo.GetEliteMember();
-	//std::stringstream elite_member_string;
-	//for (std::vector<bool>::iterator it = elite_member.begin(); it != elite_member.end(); ++it)
-	//{
-	//	elite_member_string << (*it ? "1" : "0");
-	//	if ((it - elite_member.begin()) % algo.chromosome_length_ == (algo.chromosome_length_ - 1)) elite_member_string << ",";
-	//}
-	//LOGINFO("Elite member (base 2): %s", elite_member_string.str().c_str());
-	//double x[algo.num_chromosomes_];
-	//algo.to_val(elite_member, x);
-	//LOGINFO("Elite member (base 10): %lf %lf %lf", x[0], x[1], x[2]);
-	//print to file
+	fout.close();
+}
 
+int main(int argc, char* argv[])
+{
+	ion::Error result = ion::InitSockets();
+	ion::LogInit("genetic_algorithm");
+	//open a file for logging results
+	uint32_t population_set[3] = { 50, 100, 150 };
+	double mutation_set[3] = { 0.0001, 0.001, 0.01 };
+	double crossover_set[3] = { 0.2, 0.67, 0.99 };
+	for (uint32_t pop_choice = 0; pop_choice < 3; ++pop_choice)
+	{
+		for (uint32_t mutation_choice = 0; mutation_choice < 3; ++mutation_choice)
+		{
+			for (uint32_t crossover_choice = 0; crossover_choice < 3; ++crossover_choice)
+			{
+				ExecuteGa(population_set[pop_choice], mutation_set[mutation_choice], crossover_set[crossover_choice]);
+				LOGINFO("Completed pop %d, mutation %d, crossover %d", pop_choice, mutation_choice, crossover_choice);
+			}
+		}
+	}
 	return 0;
 }
