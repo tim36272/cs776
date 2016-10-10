@@ -1,4 +1,4 @@
-NAME : eil51
+NAME: eil51
 COMMENT : 51-city problem (Christofides/Eilon)
 TYPE : TSP
 DIMENSION : 51

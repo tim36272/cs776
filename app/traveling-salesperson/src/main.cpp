@@ -7,6 +7,7 @@
 #include <fstream>
 #include <string>
 #include <set>
+#include <sstream>
 typedef std::vector<uint32_t> route_t;
 
 typedef struct tsp_s
@@ -53,6 +54,7 @@ public:
 			//mutate by swapping cities
 			for (route_t::iterator city_it = member_it->begin(); city_it != member_it->end(); ++city_it)
 			{
+				//note this line consumes about 66% of the CPU time, I could optimize it to make the program run much faster
 				double random_number = ion::randlf(0.0, 1.0);
 				if (random_number < mutation_probability_)
 				{
@@ -140,9 +142,12 @@ public:
 			double tour_length = 0.0;
 			for (route_t::iterator city_it = member_it->begin(); city_it != member_it->end(); ++city_it)
 			{
-				tour_length += last_city.norm2(tsp_.cities[*city_it]);
+				ion::Point2<double> city_coord = tsp_.cities[*city_it];
+				tour_length += last_city.distance(city_coord);
+				last_city = city_coord;
 			}
-			fitness_[member_it - population_.begin()] = std::round(tour_length);
+			//I use the 1/distance method to compute fitness knowing that the tour length will never be 0
+			fitness_[member_it - population_.begin()] = 1.0/std::round(tour_length);
 		}
 
 	}
@@ -186,29 +191,37 @@ tsp_t ReadTspInput(std::string filename)
 
 int main(int argc, char* argv[])
 {
-	ion::LogInit("app");
 	if (argc < 2)
 	{
-		LOGINFO("Usage: traveling-salesperson-win-x64-Debug.exe input_file.tsp");
+		printf("Usage: traveling-salesperson-win-x64-Debug.exe input_file.tsp");
+		fflush(stdout);
 		return -1;
 	}
 	tsp_t tsp = ReadTspInput(argv[1]);
+	if (tsp.cities.size() == 0)
+	{
+		LOGFATAL("Failed to load TSP info");
+	}
+	std::stringstream log_name;
+	log_name << "TSP_" << tsp.name <<".log";
+	ion::LogInit(log_name.str().c_str());
 	
 	uint32_t generation = 0;
-	double max_fitness[5000] = { 0 };
-	double min_fitness[5000] = { 0 };
-	double avg_fitness[5000] = { 0 };
-	double num_evals[5000] = { 0 };
-	double num_hits[5000] = { 0 };
-	for (uint32_t trial = 0; trial < 30; ++trial)
+	static double max_fitness[500000] = { 0 };
+	static double min_fitness[500000] = { 0 };
+	static double avg_fitness[500000] = { 0 };
+	static double num_evals[500000] = { 0 };
+	static double num_hits[500000] = { 0 };
+	for (uint32_t trial = 0; trial < 3000; ++trial)
 	{
-		TravelingSalespersonGA ga(10, tsp.cities.size(), 0.0001, 0.67, tsp);
+		LOGINFO("Starting trail %u", trial);
+		TravelingSalespersonGA ga(500, tsp.cities.size(), 0.0001, 0.67, tsp);
 		max_fitness[generation] += ga.GetMaxFitness();
 		min_fitness[generation] += ga.GetMinFitness();
 		avg_fitness[generation] += ga.GetAverageFitness();
 		num_evals[generation] += ga.GetNumEvals();
 		num_hits[generation]++;
-		for (generation = 1; ga.GetMaxFitness() < 0.99999999 && generation < 5000; ++generation)
+		for (generation = 1; ga.GetMaxFitness() < 0.99999999 && generation < 500000; ++generation)
 		{
 			ga.NextGeneration();
 			max_fitness[generation] += ga.GetMaxFitness();
@@ -216,6 +229,18 @@ int main(int argc, char* argv[])
 			avg_fitness[generation] += ga.GetAverageFitness();
 			num_evals[generation] += ga.GetNumEvals();
 			num_hits[generation]++;
+			if (generation % 5000 == 0)
+			{
+				LOGINFO("Generation %u, shortest path: %lf", generation, 1.0 / ga.GetMaxFitness());
+				std::stringstream path;
+				path << "Shortest path: ";
+				route_t elite_member = ga.GetEliteMember();
+				for (route_t::iterator city_it = elite_member.begin(); city_it != elite_member.end(); ++city_it)
+				{
+					path << *city_it << ", ";
+				}
+				LOGDEBUG("%s", path.str().c_str());
+			}
 		}
 	}
 	return 0;

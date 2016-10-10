@@ -20,6 +20,9 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "genetic-algorithm-win", "..
 	EndProjectSection
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "traveling-salesperson-win", "..\..\app\traveling-salesperson\prj\traveling-salesperson-win\traveling-salesperson-win.vcxproj", "{CD3CBD66-0930-4DF8-9AFD-D972033D45F3}"
+	ProjectSection(ProjectDependencies) = postProject
+		{473E809F-98A8-4A92-A204-8A40775C3875} = {473E809F-98A8-4A92-A204-8A40775C3875}
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

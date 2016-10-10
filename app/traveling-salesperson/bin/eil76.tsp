@@ -1,4 +1,4 @@
-NAME : eil76
+NAME: eil76
 COMMENT : 76-city problem (Christofides/Eilon)
 TYPE : TSP
 DIMENSION : 76
