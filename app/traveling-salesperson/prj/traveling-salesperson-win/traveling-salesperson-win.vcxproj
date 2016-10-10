@@ -19,7 +19,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{21C7F04D-BA7B-44B3-A4D4-E321CF56327C}</ProjectGuid>
+    <ProjectGuid>{CD3CBD66-0930-4DF8-9AFD-D972033D45F3}</ProjectGuid>
     <RootNamespace>appwin</RootNamespace>
     <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
   </PropertyGroup>

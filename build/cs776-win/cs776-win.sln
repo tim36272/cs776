@@ -19,6 +19,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "genetic-algorithm-win", "..
 		{473E809F-98A8-4A92-A204-8A40775C3875} = {473E809F-98A8-4A92-A204-8A40775C3875}
 	EndProjectSection
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "traveling-salesperson-win", "..\..\app\traveling-salesperson\prj\traveling-salesperson-win\traveling-salesperson-win.vcxproj", "{CD3CBD66-0930-4DF8-9AFD-D972033D45F3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|ARM = Debug|ARM
@@ -81,6 +83,16 @@ Global
 		{D21FE3E1-B301-4BEE-9F8E-449FA313A14F}.Release|x64.Build.0 = Release|x64
 		{D21FE3E1-B301-4BEE-9F8E-449FA313A14F}.Release|x86.ActiveCfg = Release|Win32
 		{D21FE3E1-B301-4BEE-9F8E-449FA313A14F}.Release|x86.Build.0 = Release|Win32
+		{CD3CBD66-0930-4DF8-9AFD-D972033D45F3}.Debug|ARM.ActiveCfg = Debug|Win32
+		{CD3CBD66-0930-4DF8-9AFD-D972033D45F3}.Debug|x64.ActiveCfg = Debug|x64
+		{CD3CBD66-0930-4DF8-9AFD-D972033D45F3}.Debug|x64.Build.0 = Debug|x64
+		{CD3CBD66-0930-4DF8-9AFD-D972033D45F3}.Debug|x86.ActiveCfg = Debug|Win32
+		{CD3CBD66-0930-4DF8-9AFD-D972033D45F3}.Debug|x86.Build.0 = Debug|Win32
+		{CD3CBD66-0930-4DF8-9AFD-D972033D45F3}.Release|ARM.ActiveCfg = Release|Win32
+		{CD3CBD66-0930-4DF8-9AFD-D972033D45F3}.Release|x64.ActiveCfg = Release|x64
+		{CD3CBD66-0930-4DF8-9AFD-D972033D45F3}.Release|x64.Build.0 = Release|x64
+		{CD3CBD66-0930-4DF8-9AFD-D972033D45F3}.Release|x86.ActiveCfg = Release|Win32
+		{CD3CBD66-0930-4DF8-9AFD-D972033D45F3}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

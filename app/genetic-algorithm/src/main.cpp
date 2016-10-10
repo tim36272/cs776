@@ -20,11 +20,11 @@ int32_t signed_vector_to_int(std::vector<bool>::iterator first, std::vector<bool
 	int32_t sign = (*(end-1)) ? -1 : 1;
 	return sign * (int32_t)result;
 }
-class GANumOnes : public ion::GeneticAlgorithm
+class GANumOnes : public ion::GeneticAlgorithm<std::vector<bool>>
 {
 public:
 	GANumOnes() = delete;
-	GANumOnes(size_t num_members, size_t chromosome_length, double mutation_probability, double crossover_probability) : ion::GeneticAlgorithm(num_members, chromosome_length, mutation_probability, crossover_probability)
+	GANumOnes(size_t num_members, size_t chromosome_length, double mutation_probability, double crossover_probability) : ion::GeneticAlgorithm<std::vector<bool>>(num_members, chromosome_length, mutation_probability, crossover_probability)
 	{
 		EvaluateMembers();
 	}
@@ -51,11 +51,11 @@ double dejong1(double x[3])
 	return x[0]*x[0] + x[1]*x[1] + x[2]*x[2];
 }
 
-class GADejong1 : public ion::GeneticAlgorithm
+class GADejong1 : public ion::GeneticAlgorithm<std::vector<bool>>
 {
 public:
 	GADejong1() = delete;
-	GADejong1(size_t num_members, double mutation_probability, double crossover_probability) : ion::GeneticAlgorithm(num_members, num_chromosomes_*chromosome_length_, mutation_probability, crossover_probability)
+	GADejong1(size_t num_members, double mutation_probability, double crossover_probability) : ion::GeneticAlgorithm<std::vector<bool>>(num_members, num_chromosomes_*chromosome_length_, mutation_probability, crossover_probability)
 	{
 		double worst_x[3];
 		worst_x[0] = worst_x[1] = worst_x[2] = -5.12;
@@ -95,11 +95,11 @@ double dejong2(double x[2])
 	return 100 * pow(x[0]*x[0] - x[1], 2.0) + pow(1 - x[0], 2.0);
 }
 
-class GADejong2 : public ion::GeneticAlgorithm
+class GADejong2 : public ion::GeneticAlgorithm<std::vector<bool>>
 {
 public:
 	GADejong2() = delete;
-	GADejong2(size_t num_members, double mutation_probability, double crossover_probability) : ion::GeneticAlgorithm(num_members, num_chromosomes_*chromosome_length_, mutation_probability, crossover_probability)
+	GADejong2(size_t num_members, double mutation_probability, double crossover_probability) : ion::GeneticAlgorithm<std::vector<bool>>(num_members, num_chromosomes_*chromosome_length_, mutation_probability, crossover_probability)
 	{
 		double worst_x[2];
 		worst_x[0] = worst_x[1] = -2.048;
@@ -140,11 +140,11 @@ double dejong3(double x[5])
 	return (double)((int32_t)x[0] + (int32_t)x[1] + (int32_t)x[2] + (int32_t)x[3] + (int32_t)x[4]);
 }
 
-class GADejong3 : public ion::GeneticAlgorithm
+class GADejong3 : public ion::GeneticAlgorithm<std::vector<bool>>
 {
 public:
 	GADejong3() = delete;
-	GADejong3(size_t num_members, double mutation_probability, double crossover_probability) : ion::GeneticAlgorithm(num_members, num_chromosomes_*chromosome_length_, mutation_probability, crossover_probability)
+	GADejong3(size_t num_members, double mutation_probability, double crossover_probability) : ion::GeneticAlgorithm<std::vector<bool>>(num_members, num_chromosomes_*chromosome_length_, mutation_probability, crossover_probability)
 	{
 		double worst_x[5];
 		worst_x[0] = worst_x[1] = worst_x[2] = worst_x[3] = worst_x[4] = 5.12;
@@ -191,11 +191,11 @@ double dejong4(double x[30])
 	return result;
 }
 
-class GADejong4 : public ion::GeneticAlgorithm
+class GADejong4 : public ion::GeneticAlgorithm<std::vector<bool>>
 {
 public:
 	GADejong4() = delete;
-	GADejong4(size_t num_members, double mutation_probability, double crossover_probability) : ion::GeneticAlgorithm(num_members, num_chromosomes_*chromosome_length_, mutation_probability, crossover_probability)
+	GADejong4(size_t num_members, double mutation_probability, double crossover_probability) : ion::GeneticAlgorithm<std::vector<bool>>(num_members, num_chromosomes_*chromosome_length_, mutation_probability, crossover_probability)
 	{
 		//note that we can't actually define a worst X for this function since it is random, however it is extremely unlikey we would exceed this value
 		double worst_x[30];
