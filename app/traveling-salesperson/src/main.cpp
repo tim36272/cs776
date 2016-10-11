@@ -8,6 +8,10 @@
 #include <string>
 #include <set>
 #include <sstream>
+#include <map>
+#include <time.h>
+#define MIDPOINT_MUTATION
+#define RANK_PROPORTIONAL_SELECTION
 typedef std::vector<uint32_t> route_t;
 
 typedef struct tsp_s
@@ -66,8 +70,73 @@ public:
 				double random_number = ion::randlf(0.0, 1.0);
 				if (random_number < mutation_probability_)
 				{
+#ifndef MIDPOINT_MUTATION
 					size_t city_to_swap = ion::randull(0, member_it->size() - 1);
 					std::iter_swap(city_it, member_it->begin() + city_to_swap);
+#elif defined(MIDPOINT_MUTATION)
+					//find the city closest to the midpoint between these neighbors
+					uint32_t neighbor_left, neighbor_right;
+					neighbor_left = *city_it;
+					if (member_it->end() - city_it == 1)
+					{
+						neighbor_right = 0;
+					} else
+					{
+						neighbor_right = *(city_it + 1);
+					}
+					//instead of blindly selecting the closest city to the midpoint, probabilistically select a nearby city by partitioning the space in half repeatedly
+					random_number = ion::randlf(0.0, 1.0);
+					//subdivide the space until that number is found
+					double partition = 0.5;
+					size_t partition_iteration = 0;
+					random_number -= partition;
+					//don't allow the city to stay the same
+					while (random_number > 0 && partition_iteration < (member_it->size()-3))
+					{
+						partition = partition / 2.0;
+						random_number -= partition;
+						partition_iteration++;
+					}
+					//now find the partition_iteration'th closest city
+					ion::Point2<double> left_location, right_location;
+					left_location = tsp_.cities[neighbor_left];
+					right_location = tsp_.cities[neighbor_right];
+
+
+					std::multimap<double, uint64_t> city_distance;
+					for(uint32_t city_index = 1; city_index < member_it->size(); ++city_index) {
+						if (city_index == neighbor_left || city_index == neighbor_right)
+						{
+							continue;
+						}
+						//compute the distance between these cities
+						double distance = left_location.distance(tsp_.cities[city_index]) + right_location.distance(tsp_.cities[city_index]);
+						city_distance.insert(std::pair<double, uint64_t>(distance, city_index));
+					}
+					//get the n'th element
+					std::map<double, uint64_t>::iterator nearby_city = city_distance.begin();
+					while (partition_iteration != 0)
+					{
+						partition_iteration--;
+						nearby_city++;
+					}
+					//find this city in the route
+					route_t::iterator city_to_swap_1 = std::find(member_it->begin(), member_it->end(), nearby_city->second);
+					route_t::iterator city_to_swap_2;
+					//swap the left city with this city, unless this is the last city
+					if (neighbor_right == 0)
+					{
+						city_to_swap_2 = city_it;
+					} else
+					{
+						city_to_swap_2 = city_it + 1;
+					}
+					std::iter_swap(city_to_swap_1, city_to_swap_2);
+
+
+#else
+#error No mutation method selected
+#endif
 				}
 			}
 		}
@@ -78,7 +147,27 @@ public:
 
 		//note that the fitnesses must already be set
 		//get the total fitness
+#if defined(FITNESS_PROPORTIONAL_SELECTION)
 		double fitness_sum = std::accumulate(fitness_.begin(), fitness_.end(), 0.0);
+#elif defined(RANK_PROPORTIONAL_SELECTION)
+		//compute the maximum rank sum
+		size_t rank_sum = 0;
+		size_t num_cities = population_[0].size();
+		size_t index = num_cities;
+		while (index != 0)
+		{
+			rank_sum += index;
+			index--;
+		}
+		//make a map of fitnesses (maps are ordered)
+		std::multimap<double, uint32_t> fitness_map;
+		for (std::vector<double>::iterator fitness_it = fitness_.begin(); fitness_it != fitness_.end(); ++fitness_it)
+		{
+			fitness_map.insert(std::pair<double,uint32_t>(*fitness_it, (uint32_t)(fitness_it - fitness_.begin())));
+		}
+#else
+#error No selection method enabled
+#endif
 		//create a temporary population
 		std::vector<route_t> temp_population;
 		temp_population.reserve(population_.size());
@@ -87,6 +176,7 @@ public:
 		//start selecting elements by treating the fitness as cumulative density function
 		for (uint32_t member_index = 1; member_index < population_.size(); ++member_index)
 		{
+#if defined(FITNESS_PROPORTIONAL_SELECTION)
 			//get a number between 0 and fitness_sum
 			double selected_individual = ion::randlf(0.0, fitness_sum);
 			//traverse the CDF until selected_individual is found
@@ -101,6 +191,22 @@ public:
 				}
 			}
 			LOGASSERT(selected_individual <= 0.0000000001);
+#elif defined(RANK_PROPORTIONAL_SELECTION)
+			int32_t selected_offset = (int32_t)ion::randull(1, rank_sum);
+			size_t rank_index = 0;
+			std::multimap<double, uint32_t>::iterator selected_pair = fitness_map.begin();
+			while (selected_offset > 1)
+			{
+				selected_offset -= (int32_t)(num_cities - rank_index);
+				rank_index++;
+				selected_pair++;
+			}
+			LOGASSERT(selected_pair != fitness_map.end());
+			//now selected_pair has the city to select
+			uint32_t parent_index = selected_pair->second;
+#else
+#error No selection method enabled
+#endif
 			//now parent_it is the member that is getting propogated to the next generation
 			temp_population.push_back(*(population_.begin() + parent_index));
 			//if this iteration is an odd number (that is, we have pushed an even number of elements onto the queue) attempt crossover on these two members
@@ -259,10 +365,11 @@ int main(int argc, char* argv[])
 	static double avg_fitness[500000] = { 0 };
 	static double num_evals[500000] = { 0 };
 	static double num_hits[500000] = { 0 };
+	std::srand((uint32_t)time(NULL));
 	for (uint32_t trial = 0; trial < 3000; ++trial)
 	{
 		LOGINFO("Starting trial %u", trial);
-		TravelingSalespersonGA ga(1000, tsp.cities.size(), 0.01, 0.67, tsp);
+		TravelingSalespersonGA ga(100, tsp.cities.size(), 0.01, 0.67, tsp);
 		LOGINFO("The optimal fitness is %lf, the optimal length is %lf", ga.optimal_fitness_, ga.optimal_length_);
 		max_fitness[generation] += ga.GetMaxFitness();
 		min_fitness[generation] += ga.GetMinFitness();
