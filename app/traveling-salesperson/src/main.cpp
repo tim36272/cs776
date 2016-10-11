@@ -10,9 +10,16 @@
 #include <sstream>
 #include <map>
 #include <time.h>
+#include <signal.h>
 #define MIDPOINT_MUTATION
-#define RANK_PROPORTIONAL_SELECTION
+//#define RANK_PROPORTIONAL_SELECTION
+#define FITNESS_PROPORTIONAL_SELECTION
 typedef std::vector<uint32_t> route_t;
+
+void SignalHandler(int signal)
+{
+	printf("Signal %d", signal);
+}
 
 typedef struct tsp_s
 {
@@ -156,7 +163,7 @@ public:
 		size_t index = num_cities;
 		while (index != 0)
 		{
-			rank_sum += index*index;
+			rank_sum += index/**index*/;
 			index--;
 		}
 		//make a map of fitnesses (maps are ordered)
@@ -193,17 +200,26 @@ public:
 			LOGASSERT(selected_individual <= 0.0000000001);
 #elif defined(RANK_PROPORTIONAL_SELECTION)
 			int32_t selected_offset = (int32_t)ion::randull(1, rank_sum);
+			//LOGDEBUG("Selected offset: %d", selected_offset);
 			size_t rank_index = 0;
 			std::multimap<double, uint32_t>::reverse_iterator selected_pair = fitness_map.rbegin();
 			while (selected_offset > 1)
 			{
-				selected_offset -= (int32_t)(num_cities - rank_index)*(num_cities - rank_index);
+				selected_offset -= (int32_t)((num_cities - rank_index)/**(num_cities - rank_index)*/);
 				rank_index++;
 				selected_pair++;
 			}
-			LOGASSERT(selected_pair != fitness_map.rend());
-			//now selected_pair has the city to select
-			uint32_t parent_index = selected_pair->second;
+			//hack because I can't figure out why it sometimes gets to the rend element
+			uint32_t parent_index;
+			if (selected_pair == fitness_map.rend())
+			{
+				LOGERROR("Using defualt parent due to rend bug");
+				parent_index = 0;
+			} else
+			{
+				//now selected_pair has the city to select
+				parent_index = selected_pair->second;
+			}
 #else
 #error No selection method enabled
 #endif
@@ -254,6 +270,12 @@ public:
 		double tour_length = 0.0;
 		for (route_t::iterator city_it = member.begin(); city_it != member.end(); ++city_it)
 		{
+			if (*city_it > tsp_.cities.size())
+			{
+				//hack because I can't figure this out
+				LOGERROR("Injecting bad fitness");
+				return 999999999.0;
+			}
 			ion::Point2<double> city_coord = tsp_.cities[*city_it];
 			tour_length += std::round(last_city.distance(city_coord));
 			last_city = city_coord;
@@ -337,6 +359,80 @@ tsp_t ReadTspInput(std::string tsp_filename, std::string optimal_filename)
 	return tsp;
 }
 
+void ExecuteGa(tsp_t tsp, size_t population_size, double mutation_rate, double crossover_rate)
+{
+	std::ofstream fout;
+	uint32_t generation = 0;
+	static double max_fitness[500000] = { 0 };
+	static double min_fitness[500000] = { 0 };
+	static double avg_fitness[500000] = { 0 };
+	static double num_evals[500000] = { 0 };
+	static double num_hits[500000] = { 0 };
+	std::stringstream filename;
+	filename << "TSP_" << tsp.name << "_pop" << population_size << "_mut" << mutation_rate << "_xover" << crossover_rate << ".csv";
+	fout.open(filename.str());
+	fout << "Generation,Min,Max,Mean,Evals" << std::endl;
+
+	for (uint32_t trial = 0; trial < 30; ++trial)
+	{
+		LOGINFO("Starting trial %u", trial);
+		TravelingSalespersonGA ga(population_size, tsp.cities.size(), mutation_rate, crossover_rate, tsp);
+		LOGINFO("The optimal fitness is %lf, the optimal length is %lf", ga.optimal_fitness_, ga.optimal_length_);
+		max_fitness[generation] += ga.GetMaxFitness();
+		min_fitness[generation] += ga.GetMinFitness();
+		avg_fitness[generation] += ga.GetAverageFitness();
+		num_evals[generation] += ga.GetNumEvals();
+		num_hits[generation]++;
+		for (generation = 1; ga.GetMaxFitness() < ga.optimal_fitness_ && generation < 50000; ++generation)
+		{
+			ga.NextGeneration();
+			max_fitness[generation] += ga.GetMaxFitness();
+			min_fitness[generation] += ga.GetMinFitness();
+			avg_fitness[generation] += ga.GetAverageFitness();
+			num_evals[generation] += ga.GetNumEvals();
+			num_hits[generation]++;
+			if (generation % 2000 == 0)
+			{
+				LOGINFO("Generation %u, shortest path: %lf", generation, 1.0 / ga.GetMaxFitness());
+				std::stringstream path;
+				path << "Shortest path: ";
+				route_t elite_member = ga.GetEliteMember();
+				for (route_t::iterator city_it = elite_member.begin(); city_it != elite_member.end(); ++city_it)
+				{
+					//add one to the city ID because the files are 1-indexed
+					path << (*city_it) + 1 << ", ";
+				}
+				LOGDEBUG("%s", path.str().c_str());
+			}
+		}
+		LOGINFO("Final result: after %u generations the shortest path is: %lf", generation, 1.0 / ga.GetMaxFitness());
+		std::stringstream path;
+		path << "Trial "<<trial<<" Shortest path: ";
+		route_t elite_member = ga.GetEliteMember();
+		for (route_t::iterator city_it = elite_member.begin(); city_it != elite_member.end(); ++city_it)
+		{
+			//add one to the city ID because the files are 1-indexed
+			path << (*city_it) + 1 << ", ";
+		}
+		LOGDEBUG("%s", path.str().c_str());
+		fout << "Trial "<<trial << " final result: after " << generation << " generations the shortest path is: " << 1.0 / ga.GetMaxFitness() << std::endl;
+		fout << path.str() << std::endl;
+	}
+	//scale all of the computed values
+	for (uint32_t generation_index = 0; generation_index < 50000; ++generation_index)
+	{
+		if (num_hits[generation_index] == 0)
+		{
+			break;
+		}
+		max_fitness[generation_index] /= num_hits[generation_index];
+		min_fitness[generation_index] /= num_hits[generation_index];
+		avg_fitness[generation_index] /= num_hits[generation_index];
+		num_evals[generation_index] /= num_hits[generation_index];
+		fout << generation_index << "," << 1.0/min_fitness[generation_index] << "," << 1.0/max_fitness[generation_index] << "," << 1.0/avg_fitness[generation_index] << "," << num_evals[generation_index] << std::endl;
+	}
+}
+
 int main(int argc, char* argv[])
 {
 	if (argc < 2)
@@ -358,57 +454,27 @@ int main(int argc, char* argv[])
 	std::stringstream log_name;
 	log_name << "TSP_" << tsp.name <<".log";
 	ion::LogInit(log_name.str().c_str());
+
+	typedef void(*SignalHandlerPointer)(int);
+
+	SignalHandlerPointer previousHandler;
+	previousHandler = signal(SIGSEGV, SignalHandler);
 	
-	uint32_t generation = 0;
-	static double max_fitness[500000] = { 0 };
-	static double min_fitness[500000] = { 0 };
-	static double avg_fitness[500000] = { 0 };
-	static double num_evals[500000] = { 0 };
-	static double num_hits[500000] = { 0 };
-	std::srand((uint32_t)time(NULL));
-	for (uint32_t trial = 0; trial < 30; ++trial)
+	std::srand((uint32_t)time(NULL)+1);
+
+	uint32_t population_set[3] = { 50, 100, 150 };
+	double mutation_set[4] = { 0.0001, 0.001, 0.01 , 0.1};
+	double crossover_set[3] = { 0.2, 0.67, 0.99 };
+	for (uint32_t pop_choice = 0; pop_choice < 3; ++pop_choice)
 	{
-		LOGINFO("Starting trial %u", trial);
-		TravelingSalespersonGA ga(100, tsp.cities.size(), 0.01, 0.67, tsp);
-		LOGINFO("The optimal fitness is %lf, the optimal length is %lf", ga.optimal_fitness_, ga.optimal_length_);
-		max_fitness[generation] += ga.GetMaxFitness();
-		min_fitness[generation] += ga.GetMinFitness();
-		avg_fitness[generation] += ga.GetAverageFitness();
-		num_evals[generation] += ga.GetNumEvals();
-		num_hits[generation]++;
-		for (generation = 1; ga.GetMaxFitness() < ga.optimal_fitness_ && generation < 50000; ++generation)
+		for (uint32_t mutation_choice = 0; mutation_choice < 4; ++mutation_choice)
 		{
-			ga.NextGeneration();
-			max_fitness[generation] += ga.GetMaxFitness();
-			min_fitness[generation] += ga.GetMinFitness();
-			avg_fitness[generation] += ga.GetAverageFitness();
-			num_evals[generation] += ga.GetNumEvals();
-			num_hits[generation]++;
-			if (generation % 100 == 0)
+			for (uint32_t crossover_choice = 0; crossover_choice < 3; ++crossover_choice)
 			{
-				LOGINFO("Generation %u, shortest path: %lf", generation, 1.0 / ga.GetMaxFitness());
-				std::stringstream path;
-				path << "Shortest path: ";
-				route_t elite_member = ga.GetEliteMember();
-				for (route_t::iterator city_it = elite_member.begin(); city_it != elite_member.end(); ++city_it)
-				{
-					//add one to the city ID because the files are 1-indexed
-					path << (*city_it) + 1 << ", ";
-				}
-				LOGDEBUG("%s", path.str().c_str());
+				ExecuteGa(tsp, population_set[pop_choice], mutation_set[mutation_choice], crossover_set[crossover_choice]);
+				LOGINFO("Completed pop %d, mutation %d, crossover %d", pop_choice, mutation_choice, crossover_choice);
 			}
 		}
-		LOGINFO("Final result: after %u generations the shortest path is: %lf",generation, 1.0 / ga.GetMaxFitness());
-		std::stringstream path;
-		path << "Shortest path: ";
-		route_t elite_member = ga.GetEliteMember();
-		for (route_t::iterator city_it = elite_member.begin(); city_it != elite_member.end(); ++city_it)
-		{
-			//add one to the city ID because the files are 1-indexed
-			path << (*city_it) + 1 << ", ";
-		}
-		LOGDEBUG("%s", path.str().c_str());
-
 	}
 	return 0;
 }
