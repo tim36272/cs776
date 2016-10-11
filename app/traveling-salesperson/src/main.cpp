@@ -24,6 +24,8 @@ public:
 	{
 		//according to the problem definition, the salesperson must start at city 1, thus note that all of this class ignores city one except for computing distance
 		tsp_ = tsp;
+		optimal_length_ = 0.0;
+		optimal_fitness_ = 1.0;
 		//setup the members
 		if (num_citites > RAND_MAX || num_members > RAND_MAX)
 		{
@@ -45,6 +47,11 @@ public:
 			}
 		}
 		EvaluateMembers();
+		if (tsp.optimal_route.size() > 0)
+		{
+			optimal_length_ = GetRouteLength(tsp.optimal_route);
+			optimal_fitness_ = 1.0 / std::round(optimal_length_);
+		}
 	}
 	virtual void Mutate()
 	{
@@ -128,30 +135,40 @@ public:
 		}
 		population_.swap(temp_population);
 	}
+	double GetRouteLength(route_t member)
+	{
+#ifdef _DEBUG
+		//first, as a debug step, validate all members
+		//convert the vector to a set (i.e. container with unique members) and if the lenghts differ there was an issue
+		std::set<uint32_t> set(member.begin(), member.end());
+		LOGASSERT(set.size() == member.size());
+#endif
+		ion::Point2<double> last_city = tsp_.cities[0];
+		//evaluate their lengths
+		double tour_length = 0.0;
+		for (route_t::iterator city_it = member.begin(); city_it != member.end(); ++city_it)
+		{
+			ion::Point2<double> city_coord = tsp_.cities[*city_it];
+			tour_length += std::round(last_city.distance(city_coord));
+			last_city = city_coord;
+		}
+		//the tour ends at city 1
+		tour_length += std::round(last_city.distance(tsp_.cities[0]));
+		return tour_length;
+	}
 	virtual void EvaluateMembers()
 	{
 		for (std::vector<route_t>::iterator member_it = population_.begin(); member_it < population_.end(); ++member_it)
 		{
-#ifdef _DEBUG
-			//first, as a debug step, validate all members
-			//convert the vector to a set (i.e. container with unique members) and if the lenghts differ there was an issue
-			std::set<uint32_t> set(member_it->begin(), member_it->end());
-			LOGASSERT(set.size() == member_it->size());
-#endif
-			ion::Point2<double> last_city = tsp_.cities[0];
-			//evaluate their lengths
-			double tour_length = 0.0;
-			for (route_t::iterator city_it = member_it->begin(); city_it != member_it->end(); ++city_it)
-			{
-				ion::Point2<double> city_coord = tsp_.cities[*city_it];
-				tour_length += last_city.distance(city_coord);
-				last_city = city_coord;
-			}
+			double tour_length = GetRouteLength(*member_it);
+
 			//I use the 1/distance method to compute fitness knowing that the tour length will never be 0
-			fitness_[member_it - population_.begin()] = 1.0/std::round(tour_length);
+			fitness_[member_it - population_.begin()] = 1.0 / tour_length;
 		}
 
 	}
+	double optimal_length_;
+	double optimal_fitness_;
 private:
 	tsp_t tsp_;
 };
@@ -199,6 +216,17 @@ tsp_t ReadTspInput(std::string tsp_filename, std::string optimal_filename)
 				break;
 			}
 		}
+		while (fin.good())
+		{
+			int64_t city_id;
+			fin >> city_id;
+			if (city_id == -1)
+			{
+				break;
+			}
+			//my cities are 0-indexed
+			tsp.optimal_route.push_back((uint32_t)city_id-1);
+		}
 	}
 	return tsp;
 }
@@ -207,11 +235,16 @@ int main(int argc, char* argv[])
 {
 	if (argc < 2)
 	{
-		printf("Usage: traveling-salesperson-win-x64-Debug.exe input_file.tsp");
+		printf("Usage: traveling-salesperson-win-x64-Debug.exe input_file.tsp optimal_file.tsp");
 		fflush(stdout);
 		return -1;
 	}
-	tsp_t tsp = ReadTspInput(argv[1]);
+	std::string optimal_filename;
+	if (argc == 3)
+	{
+		optimal_filename = argv[2];
+	}
+	tsp_t tsp = ReadTspInput(argv[1], optimal_filename);
 	if (tsp.cities.size() == 0)
 	{
 		LOGFATAL("Failed to load TSP info");
@@ -228,14 +261,15 @@ int main(int argc, char* argv[])
 	static double num_hits[500000] = { 0 };
 	for (uint32_t trial = 0; trial < 3000; ++trial)
 	{
-		LOGINFO("Starting trail %u", trial);
-		TravelingSalespersonGA ga(500, tsp.cities.size(), 0.0001, 0.67, tsp);
+		LOGINFO("Starting trial %u", trial);
+		TravelingSalespersonGA ga(1000, tsp.cities.size(), 0.01, 0.67, tsp);
+		LOGINFO("The optimal fitness is %lf, the optimal length is %lf", ga.optimal_fitness_, ga.optimal_length_);
 		max_fitness[generation] += ga.GetMaxFitness();
 		min_fitness[generation] += ga.GetMinFitness();
 		avg_fitness[generation] += ga.GetAverageFitness();
 		num_evals[generation] += ga.GetNumEvals();
 		num_hits[generation]++;
-		for (generation = 1; ga.GetMaxFitness() < 0.99999999 && generation < 500000; ++generation)
+		for (generation = 1; ga.GetMaxFitness() < ga.optimal_fitness_ && generation < 500000; ++generation)
 		{
 			ga.NextGeneration();
 			max_fitness[generation] += ga.GetMaxFitness();
@@ -243,7 +277,7 @@ int main(int argc, char* argv[])
 			avg_fitness[generation] += ga.GetAverageFitness();
 			num_evals[generation] += ga.GetNumEvals();
 			num_hits[generation]++;
-			if (generation % 5000 == 0)
+			if (generation % 100 == 0)
 			{
 				LOGINFO("Generation %u, shortest path: %lf", generation, 1.0 / ga.GetMaxFitness());
 				std::stringstream path;
@@ -251,11 +285,23 @@ int main(int argc, char* argv[])
 				route_t elite_member = ga.GetEliteMember();
 				for (route_t::iterator city_it = elite_member.begin(); city_it != elite_member.end(); ++city_it)
 				{
-					path << *city_it << ", ";
+					//add one to the city ID because the files are 1-indexed
+					path << (*city_it) + 1 << ", ";
 				}
 				LOGDEBUG("%s", path.str().c_str());
 			}
 		}
+		LOGINFO("Final result: after %u generations the shortest path is: %lf",generation, 1.0 / ga.GetMaxFitness());
+		std::stringstream path;
+		path << "Shortest path: ";
+		route_t elite_member = ga.GetEliteMember();
+		for (route_t::iterator city_it = elite_member.begin(); city_it != elite_member.end(); ++city_it)
+		{
+			//add one to the city ID because the files are 1-indexed
+			path << (*city_it) + 1 << ", ";
+		}
+		LOGDEBUG("%s", path.str().c_str());
+
 	}
 	return 0;
 }
