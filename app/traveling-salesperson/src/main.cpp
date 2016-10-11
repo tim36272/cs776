@@ -255,7 +255,14 @@ public:
 				}
 			}
 		}
+		//hack sometimes temp population doesn't have enough items in it, so add more
+		while (temp_population.size() < population_.size())
+		{
+			LOGERROR("Apply population missize hack");
+			temp_population.push_back(*(temp_population.begin()));
+		}
 		population_.swap(temp_population);
+		
 	}
 	double GetRouteLength(route_t member)
 	{
@@ -415,21 +422,28 @@ void ExecuteGa(tsp_t tsp, size_t population_size, double mutation_rate, double c
 			path << (*city_it) + 1 << ", ";
 		}
 		LOGDEBUG("%s", path.str().c_str());
+		fout.flush();
 		fout << "Trial "<<trial << " final result: after " << generation << " generations the shortest path is: " << 1.0 / ga.GetMaxFitness() << std::endl;
+		fout.flush();
 		fout << path.str() << std::endl;
-	}
-	//scale all of the computed values
-	for (uint32_t generation_index = 0; generation_index < 50000; ++generation_index)
-	{
-		if (num_hits[generation_index] == 0)
+		fout.flush();
+		fout << "Trial "<<trial<<" begin summary section" << std::endl;
+		//scale all of the computed values
+		for (uint32_t generation_index = 0; generation_index < 50000; ++generation_index)
 		{
-			break;
+			if (num_hits[generation_index] == 0)
+			{
+				break;
+			}
+			max_fitness[generation_index] /= num_hits[generation_index];
+			min_fitness[generation_index] /= num_hits[generation_index];
+			avg_fitness[generation_index] /= num_hits[generation_index];
+			num_evals[generation_index] /= num_hits[generation_index];
+			fout.flush();
+			fout << generation_index << "," << 1.0/min_fitness[generation_index] << "," << 1.0/max_fitness[generation_index] << "," << 1.0/avg_fitness[generation_index] << "," << num_evals[generation_index] << std::endl;
+			fout.flush();
 		}
-		max_fitness[generation_index] /= num_hits[generation_index];
-		min_fitness[generation_index] /= num_hits[generation_index];
-		avg_fitness[generation_index] /= num_hits[generation_index];
-		num_evals[generation_index] /= num_hits[generation_index];
-		fout << generation_index << "," << 1.0/min_fitness[generation_index] << "," << 1.0/max_fitness[generation_index] << "," << 1.0/avg_fitness[generation_index] << "," << num_evals[generation_index] << std::endl;
+		fout << "End summary section" << std::endl;
 	}
 }
 
@@ -442,17 +456,29 @@ int main(int argc, char* argv[])
 		return -1;
 	}
 	std::string optimal_filename;
-	if (argc == 3)
+	uint32_t population_choice;
+	double mutation_choice;
+	double crossover_choice;
+	if (argc == 6)
 	{
 		optimal_filename = argv[2];
+		population_choice = atoi(argv[3]);
+		mutation_choice = atof(argv[4]);
+		crossover_choice = atof(argv[5]);
+	} else
+	{
+		population_choice = atoi(argv[2]);
+		mutation_choice = atof(argv[3]);
+		crossover_choice = atof(argv[4]);
 	}
+
 	tsp_t tsp = ReadTspInput(argv[1], optimal_filename);
 	if (tsp.cities.size() == 0)
 	{
 		LOGFATAL("Failed to load TSP info");
 	}
 	std::stringstream log_name;
-	log_name << "TSP_" << tsp.name <<".log";
+	log_name << "TSP_" << tsp.name <<"p"<<population_choice<<"x"<<crossover_choice<<"m"<<mutation_choice<<".log";
 	ion::LogInit(log_name.str().c_str());
 
 	typedef void(*SignalHandlerPointer)(int);
@@ -465,16 +491,16 @@ int main(int argc, char* argv[])
 	uint32_t population_set[3] = { 50, 100, 150 };
 	double mutation_set[4] = { 0.0001, 0.001, 0.01 , 0.1};
 	double crossover_set[3] = { 0.2, 0.67, 0.99 };
-	for (uint32_t pop_choice = 0; pop_choice < 3; ++pop_choice)
-	{
-		for (uint32_t mutation_choice = 0; mutation_choice < 4; ++mutation_choice)
-		{
-			for (uint32_t crossover_choice = 0; crossover_choice < 3; ++crossover_choice)
-			{
-				ExecuteGa(tsp, population_set[pop_choice], mutation_set[mutation_choice], crossover_set[crossover_choice]);
-				LOGINFO("Completed pop %d, mutation %d, crossover %d", pop_choice, mutation_choice, crossover_choice);
-			}
-		}
-	}
+	//for (uint32_t pop_choice = 0; pop_choice < 3; ++pop_choice)
+	//{
+	//	for (uint32_t mutation_choice = 0; mutation_choice < 4; ++mutation_choice)
+	//	{
+	//		for (uint32_t crossover_choice = 0; crossover_choice < 3; ++crossover_choice)
+	//		{
+	ExecuteGa(tsp, population_choice, mutation_choice, crossover_choice);
+	LOGINFO("Completed pop %d, mutation %d, crossover %d", population_choice, mutation_choice, crossover_choice);
+	//		}
+	//	}
+	//}
 	return 0;
 }
