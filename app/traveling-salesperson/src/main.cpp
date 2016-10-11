@@ -156,7 +156,7 @@ public:
 		size_t index = num_cities;
 		while (index != 0)
 		{
-			rank_sum += index;
+			rank_sum += index*index;
 			index--;
 		}
 		//make a map of fitnesses (maps are ordered)
@@ -194,14 +194,14 @@ public:
 #elif defined(RANK_PROPORTIONAL_SELECTION)
 			int32_t selected_offset = (int32_t)ion::randull(1, rank_sum);
 			size_t rank_index = 0;
-			std::multimap<double, uint32_t>::iterator selected_pair = fitness_map.begin();
+			std::multimap<double, uint32_t>::reverse_iterator selected_pair = fitness_map.rbegin();
 			while (selected_offset > 1)
 			{
-				selected_offset -= (int32_t)(num_cities - rank_index);
+				selected_offset -= (int32_t)(num_cities - rank_index)*(num_cities - rank_index);
 				rank_index++;
 				selected_pair++;
 			}
-			LOGASSERT(selected_pair != fitness_map.end());
+			LOGASSERT(selected_pair != fitness_map.rend());
 			//now selected_pair has the city to select
 			uint32_t parent_index = selected_pair->second;
 #else
@@ -366,7 +366,7 @@ int main(int argc, char* argv[])
 	static double num_evals[500000] = { 0 };
 	static double num_hits[500000] = { 0 };
 	std::srand((uint32_t)time(NULL));
-	for (uint32_t trial = 0; trial < 3000; ++trial)
+	for (uint32_t trial = 0; trial < 30; ++trial)
 	{
 		LOGINFO("Starting trial %u", trial);
 		TravelingSalespersonGA ga(100, tsp.cities.size(), 0.01, 0.67, tsp);
@@ -376,7 +376,7 @@ int main(int argc, char* argv[])
 		avg_fitness[generation] += ga.GetAverageFitness();
 		num_evals[generation] += ga.GetNumEvals();
 		num_hits[generation]++;
-		for (generation = 1; ga.GetMaxFitness() < ga.optimal_fitness_ && generation < 500000; ++generation)
+		for (generation = 1; ga.GetMaxFitness() < ga.optimal_fitness_ && generation < 50000; ++generation)
 		{
 			ga.NextGeneration();
 			max_fitness[generation] += ga.GetMaxFitness();
