@@ -14,6 +14,7 @@ typedef struct tsp_s
 {
 	std::string name;
 	std::vector<ion::Point2<double>> cities;
+	route_t optimal_route;
 } tsp_t;
 
 class TravelingSalespersonGA : public ion::GeneticAlgorithm<route_t>
@@ -155,11 +156,11 @@ private:
 	tsp_t tsp_;
 };
 
-tsp_t ReadTspInput(std::string filename)
+tsp_t ReadTspInput(std::string tsp_filename, std::string optimal_filename)
 {
 	std::ifstream fin;
 	tsp_t tsp;
-	fin.open(filename);
+	fin.open(tsp_filename);
 	//read the header
 	std::string dummy;
 	fin >> dummy >> tsp.name;
@@ -185,6 +186,19 @@ tsp_t ReadTspInput(std::string filename)
 		fin >> point.x1_;
 		fin >> point.x2_;
 		tsp.cities.push_back(point);
+	}
+	fin.close();
+	if (optimal_filename != "")
+	{
+		fin.open(optimal_filename);
+		while (fin.good())
+		{
+			fin >> dummy;
+			if (dummy == "TOUR_SECTION")
+			{
+				break;
+			}
+		}
 	}
 	return tsp;
 }
